@@ -110,7 +110,29 @@ Tools:
 
 ## 🏆 Certification
 
-Data Analytics Certification — DataMites Bengaluru
+## 🏆 Certifications & Professional Recognition
+
+### 🎓 Certified Data Analyst — IABAC (International Association of Business Analytics Certification)
+
+✔ Achieved Certified Data Analyst credential  
+✔ Industry-recognized analytics certification  
+✔ Demonstrated expertise in data analysis, business insights, and analytics workflows
+
+---
+
+### 💼 Data Analyst Internship Experience — Rubixe Technologies
+
+✔ Successfully completed Data Analyst Internship  
+✔ Worked on real-world POC projects and client assignments  
+✔ Applied theoretical knowledge to practical data analytics challenges  
+✔ Delivered analytical insights and demonstrated strong work ethic
+
+---
+
+### 🎯 Data Analytics Certification — DataMites Bengaluru
+
+✔ Industry-focused data analytics training  
+✔ Hands-on experience with SQL, Python, Excel, and Power BI
 
 ---
 

@@ -2,7 +2,7 @@
 <tr>
 <td width="35%" align="center">
 
-<img src="pphoto.jpg" width="220" style="border-radius:50%;" />
+<img src="profile.jpg" width="220" style="border-radius:50%;" />
 
 </td>
 
@@ -25,33 +25,9 @@ Passionate Data Analyst focused on transforming raw data into meaningful busines
 </tr>
 </table>
 
-👉 Scroll down
-👉 Commit changes.
 
-🎉 RESULT
 
-Now your portfolio looks like:
 
-✅ Personal website
-✅ Professional layout
-✅ Photo + details aligned
-✅ Modern premium style
-
-😎 ULTRA PRO UPGRADE (Highly Recommended)
-
-I can make it look EVEN more elite:
-
-🔥 Gradient color header like Google portfolio
-🔥 Skills icon badges (Python, SQL logos)
-🔥 GitHub stats dashboard (looks advanced)
-🔥 Animated contribution snake 🐍
-🔥 Recruiter attention layout
-
-Just say:
-
-👉 "Make my portfolio ULTRA PREMIUM" 🚀.
-
----
 
 ## 🌟 About Me
 

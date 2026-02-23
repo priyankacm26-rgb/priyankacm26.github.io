@@ -2,14 +2,16 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=38&duration=2500&pause=800&color=00BFFF&center=true&vCenter=true&width=750&lines=Hi+I'm+Priyanka+C+Meti;Data+Analyst+%7C+SQL+%7C+Python+%7C+Power+BI;Building+Insightful+Dashboards;Turning+Data+Into+Business+Impact+🚀" />
 </h1>
 
-<p align="center">
-<img src="profile.jpg" width="220"
-style="
-border-radius:50%;
-padding:6px;
-background: linear-gradient(45deg,#00BFFF,#FF00FF,#00FFAA);
-box-shadow: 0 0 25px #00BFFF;
-"/>
+p align="center">
+  <div style="
+      display:inline-block;
+      padding:15px;
+      border-radius:50%;
+      background: radial-gradient(circle at top left, #00BFFF, #7B68EE, #FF69B4);
+      box-shadow: 0 0 40px rgba(0,191,255,0.6);
+  ">
+    <img src="profile.jpg" width="220" style="border-radius:50%;" />
+  </div>
 </p>
 
 <h3 align="center">🚀 Data Analyst | Data Storytelling | Business Intelligence</h3>

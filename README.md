@@ -3,32 +3,35 @@
 
 <td width="35%" align="center">
 
-<img src="pphoto.jpg" width="250" style="border-radius:20px; box-shadow:0px 0px 25px #00BFFF;" />
+<img src="profile.jpg" width="250" style="border-radius:20px; box-shadow:0px 0px 25px #00BFFF;" />
 
 </td>
 
 <td width="65%">
 
-<h1>👩‍💻 Priyanka C Meti</h1>
+<h1>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=32&duration=2500&pause=700&color=00BFFF&vCenter=true&width=500&lines=Hi+I'm+Priyanka+C+Meti;Data+Analyst;SQL+%7C+Python+%7C+Power+BI;Turning+Data+Into+Insights+🚀" />
+</h1>
 
 <h3>🚀 Data Analyst | Data Storytelling | Business Intelligence</h3>
-
-<p>
 
 📍 Bangalore, India <br>
 📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a> <br>
 🔗 <a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a> |
 💻 <a href="https://github.com/priyankacm26-rgb">GitHub</a>
 
-</p>
-
-<p>
+<br><br>
 
 Passionate Data Analyst focused on transforming raw data into meaningful insights and business decisions.
 
 ✔ SQL | Python | Power BI <br>
 ✔ Dashboard development & KPI analysis <br>
 ✔ Data storytelling & visualization
+
+</td>
+
+</tr>
+</table>
 
 </p>
 

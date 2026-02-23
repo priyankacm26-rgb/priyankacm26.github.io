@@ -1,140 +1,110 @@
-# priyankacm26.github.io
-# 👋 PRIYANKA C METI
+<h1 align="center">👩‍💻 Priyanka C Meti</h1>
 
-## Data Analyst | SQL | Python | Power BI
+<h3 align="center">🚀 Data Analyst | SQL | Python | Power BI | Data Storytelling</h3>
 
-📍 Bangalore, India  
-📧 priyankacm26@gmail.com  
-🔗 LinkedIn: https://linkedin.com/in/priyanka-meti  
-🔗 GitHub: https://github.com/priyankacm26-rgb  
-
----
-
-## 🚀 ABOUT ME
-
-Entry-level Data Analyst with hands-on experience analyzing customer, sales, and operational data to generate business insights. Skilled in SQL, Python, Excel, and Power BI with strong focus on dashboard development, KPI tracking, and exploratory data analysis. Passionate about transforming raw data into actionable business decisions.
+<p align="center">
+📍 Bangalore, India |
+📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a> |
+<a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a> |
+<a href="https://github.com/priyankacm26-rgb">GitHub</a>
+</p>
 
 ---
 
-## ⭐ CORE SKILLS
+## 👋 About Me
 
-✅ Data Cleaning & Preprocessing  
-✅ Exploratory Data Analysis (EDA)  
-✅ SQL Analytics (Joins, Aggregations, Window Functions)  
-✅ Power BI Dashboard Development  
-✅ KPI Tracking & Business Reporting  
+Data Analyst passionate about transforming raw data into meaningful business insights. Experienced in SQL, Python, Excel, and Power BI with strong skills in dashboard creation, exploratory analysis, KPI tracking, and data storytelling.
+
+I focus on solving real-world business problems using data-driven decision making.
 
 ---
 
-## 🔥 FEATURED DATA PROJECTS
+## 🧠 Technical Skills
+
+✅ SQL (Joins, Window Functions, Aggregations)  
+✅ Python (Pandas, NumPy, Matplotlib)  
+✅ Power BI & Excel Dashboards  
+✅ Data Cleaning & Exploratory Data Analysis (EDA)  
+✅ KPI Analysis & Data Visualization  
+
+---
+
+## 🔥 Featured Case Studies
 
 ---
 
 ### 📊 Purchase Pattern Analysis
 
-**Business Problem:**  
-Identify customer purchase behavior and high-value customers.
+**Problem:** Identify customer purchasing behavior.
 
-**Tools:**  
-Python, SQL, Power BI
+**Tools:** SQL, Python, Power BI
 
-**Approach:**  
-- Data extraction using SQL  
-- Data cleaning and analysis using Python  
-- Built interactive dashboards
+✔ Built KPI dashboards  
+✔ Identified high-value customers  
+✔ Revealed seasonal trends
 
-**Key Insights:**  
-- High-value customers generate major revenue  
-- Seasonal trends identified
-
-**Business Impact:**  
-Supports targeted marketing strategies.
+👉 **Business Impact:** Supports targeted marketing strategies.
 
 ---
 
 ### 🏬 Customer Data Analysis — Shopping Malls
 
-**Business Problem:**  
-Understand customer behavior across multiple locations.
+**Problem:** Compare performance across multiple locations.
 
-**Tools:**  
-Power BI, Power Query, DAX
+✔ Data transformation using Power Query  
+✔ Created DAX KPIs  
+✔ Interactive dashboards
 
-**Approach:**  
-- Data transformation  
-- KPI creation  
-- Dashboard visualization
-
-**Key Insights:**  
-- Location-wise performance differences  
-- Peak customer activity times
-
-**Business Impact:**  
-Helps optimize operations and marketing decisions.
+👉 **Business Impact:** Improves decision-making and performance tracking.
 
 ---
 
-### 🎬 Movie Database Analysis (SQL)
+### 🎬 Movie Database Analysis
 
-**Business Problem:**  
-Analyze movie performance trends.
+**Problem:** Analyze movie performance trends.
 
-**Tools:**  
-SQL
+✔ Advanced SQL queries  
+✔ Window functions & aggregations
 
-**Approach:**  
-- Advanced SQL queries
-- Aggregations and window functions
-
-**Key Insights:**  
-- Top performing genres and directors identified.
-
-**Business Impact:**  
-Supports entertainment industry analysis.
+👉 **Business Impact:** Identified top-performing genres and trends.
 
 ---
 
-## 💼 EXPERIENCE
+## 💼 Experience
 
 ### Data Analyst Intern — Rubixe
 
-- Worked with real-world datasets
-- Performed data cleaning and exploratory analysis
-- Created Power BI dashboards for KPI tracking
+- Data cleaning and exploratory analysis  
+- Built Power BI dashboards  
+- Delivered business insights  
 
 ### Data Analyst Intern — Canaan Ed & Tech
 
-- Completed analytics tasks
-- Built reports and dashboards
-- Improved business analysis skills
+- Analytics projects  
+- Reporting dashboards  
 
 ---
 
-## 🧠 TECH STACK
-
-SQL | Python | Power BI | Excel  
-PostgreSQL | MySQL | MongoDB | Snowflake  
-Data Visualization | KPI Analysis | Git/GitHub  
-
----
-
-## ⚙️ MY DATA ANALYSIS WORKFLOW
+## ⚙️ My Data Analysis Workflow
 
 1️⃣ Understand business problem  
-2️⃣ Data cleaning and preparation  
+2️⃣ Data cleaning & preparation  
 3️⃣ Exploratory analysis  
-4️⃣ Visualization and dashboard building  
+4️⃣ Dashboard creation  
 5️⃣ Insight communication  
 
 ---
 
-## 🎓 CERTIFICATION
+## 🏆 Certification
 
 Data Analytics Certification — DataMites Bengaluru
 
 ---
 
-## 📬 CONTACT
+## 📬 Connect With Me
 
-📧 priyankacm26@gmail.com  
-🔗 LinkedIn: https://linkedin.com/in/priyanka-meti
+📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a>  
+
+🔗 <a href="https://linkedin.com/in/priyanka-meti">LinkedIn Profile</a>  
+
+💻 <a href="https://github.com/priyankacm26-rgb">GitHub Profile</a>

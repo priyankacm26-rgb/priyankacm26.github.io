@@ -72,51 +72,81 @@ I enjoy solving real-world problems using data-driven strategies.
 
 <hr>
 
-<!-- PURCHASE PATTERN -->
+<!-- PROJECT 1 -->
 
 <h3>📊 Purchase Pattern Analytics</h3>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/priyankacm26-rgb/Purchase_pattern_analytics/main/dashboard.png" width="750">
-</p>
+🔗 GitHub Repository:
+https://github.com/priyankacm26-rgb/Purchase_pattern_analytics
 
-🔗 https://github.com/priyankacm26-rgb/Purchase_pattern_analytics
+📄 Dashboard Preview:
+https://github.com/priyankacm26-rgb/Purchase_pattern_analytics/blob/main/dashboard.pdf.pdf
+
+<strong>Tools Used:</strong> SQL, Python, Power BI
+
+<strong>Key Insights:</strong>
+<ul>
+<li>Market basket analysis using Apriori algorithm</li>
+<li>Identified frequent purchase combinations</li>
+<li>Improved product recommendation strategy</li>
+</ul>
 
 <hr>
 
-<!-- CUSTOMER DATA -->
+<!-- PROJECT 2 -->
 
 <h3>🏬 Customer Data Analysis — Power BI Dashboard</h3>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/priyankacm26-rgb/Customer_data/main/dashboard.png" width="750">
-</p>
+🔗 GitHub Repository:
+https://github.com/priyankacm26-rgb/Customer_data
 
-🔗 https://github.com/priyankacm26-rgb/Customer_data
+📄 Dashboard Preview:
+https://github.com/priyankacm26-rgb/Customer_data/blob/main/power_bi%20dashboard.pdf
+
+<strong>Tools Used:</strong> Power BI, SQL
+
+<strong>Key Insights:</strong>
+<ul>
+<li>Customer segmentation analysis</li>
+<li>Revenue trend insights</li>
+<li>KPI-based business performance tracking</li>
+</ul>
 
 <hr>
 
-<!-- STOCK MARKET -->
+<!-- PROJECT 3 -->
 
 <h3>📈 Stock Market Prediction</h3>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/priyankacm26-rgb/stock_market_prediction/main/dashboard.png" width="750">
-</p>
+🔗 GitHub Repository:
+https://github.com/priyankacm26-rgb/stock_market_prediction
 
-🔗 https://github.com/priyankacm26-rgb/stock_market_prediction
+<strong>Tools Used:</strong> Python, Data Analysis
+
+<strong>Key Insights:</strong>
+<ul>
+<li>Stock trend analysis using historical data</li>
+<li>Data-driven forecasting</li>
+<li>Visualization of market patterns</li>
+</ul>
 
 <hr>
 
-<!-- PIZZA SALES -->
+<!-- PROJECT 4 -->
 
 <h3>🍕 Pizza Sales Dashboard</h3>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/priyankacm26-rgb/Pizza-Sale-Dashboard/main/dashboard.png" width="750">
-</p>
+🔗 GitHub Repository:
+https://github.com/priyankacm26-rgb/Pizza-Sale-Dashboard
 
-🔗 https://github.com/priyankacm26-rgb/Pizza-Sale-Dashboard
+<strong>Tools Used:</strong> Power BI
+
+<strong>Key Insights:</strong>
+<ul>
+<li>Revenue and sales performance analysis</li>
+<li>Top-selling pizza categories identified</li>
+<li>Customer purchase behavior insights</li>
+</ul>
 
 <hr>
 

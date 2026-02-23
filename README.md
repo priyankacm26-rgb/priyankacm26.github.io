@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img src="pphoto.jpg" width="180" style="border-radius:50%;" />
+<img src="pphoto.jpg" width="180">
 </p>
 
 <h1 align="center">👩‍💻 Priyanka C Meti</h1>

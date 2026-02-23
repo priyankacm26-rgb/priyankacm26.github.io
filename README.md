@@ -1,5 +1,9 @@
+<h1 align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=38&duration=2500&pause=800&color=00BFFF&center=true&vCenter=true&width=750&lines=Hi+I'm+Priyanka+C+Meti;Data+Analyst+%7C+SQL+%7C+Python+%7C+Power+BI;Building+Insightful+Dashboards;Turning+Data+Into+Business+Impact+🚀" />
+</h1>
+
 <p align="center">
-<img src="profile.jpg" width="220"
+<img src="pphoto.jpg" width="220"
 style="
 border-radius:50%;
 padding:6px;
@@ -7,52 +11,44 @@ background: linear-gradient(45deg,#00BFFF,#FF00FF,#00FFAA);
 box-shadow: 0 0 25px #00BFFF;
 "/>
 </p>
-</style>
-<h1>👩‍💻 Priyanka C Meti</h1>
 
-<h3>🚀 Data Analyst | SQL | Python | Power BI | Data Storytelling</h3>
+<h3 align="center">🚀 Data Analyst | Data Storytelling | Business Intelligence</h3>
 
-📍 Bangalore, India  
-📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a>  
-🔗 <a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a>  
-💻 <a href="https://github.com/priyankacm26-rgb">GitHub</a>
+<p align="center">
+📍 Bangalore, India |
+📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a> |
+<a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a> |
+<a href="https://github.com/priyankacm26-rgb">GitHub</a>
+</p>
 
-<br>
-
-Passionate Data Analyst focused on transforming raw data into meaningful business insights. Skilled in SQL, Python, Power BI, and data storytelling.
-
-</td>
-</tr>
-</table>
-
-
-
-
+---
 
 ## 🌟 About Me
 
-🔵 Passionate Data Analyst focused on transforming raw data into meaningful insights.  
-🟢 Skilled in SQL, Python, Power BI, and Excel dashboards.  
-🟣 Strong background in data cleaning, KPI analysis, and business storytelling.  
-🟡 I enjoy solving real-world problems using data-driven decision making.
+Passionate Data Analyst focused on transforming raw data into meaningful insights and business decisions.
+
+✔ SQL, Python, Power BI specialist  
+✔ Dashboard development & KPI analysis  
+✔ Exploratory data analysis (EDA)  
+✔ Data storytelling and visualization  
+
+I enjoy solving real-world problems using data-driven strategies.
 
 ---
 
-## 🧠 Technical Skills
+## 🚀 Tech Stack
 
-🟦 SQL (Joins, Window Functions, Aggregations)  
-🟩 Python (Pandas, NumPy, Matplotlib)  
-🟪 Power BI & Excel Dashboards  
-🟨 Data Cleaning & Exploratory Data Analysis (EDA)  
-🟥 KPI Analysis & Visualization  
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,mysql,postgres,github,vscode" />
+</p>
 
 ---
 
-## 🔥 Featured Projects
+## 🔥 Featured Case Studies
 
 ### 📊 Purchase Pattern Analysis
 
-⭐ Identified customer purchasing behaviour.
+**Problem:** Identify customer purchasing behaviour.
 
 Tools:
 
@@ -70,10 +66,8 @@ Tools:
 
 ### 🏬 Customer Data Analysis — Shopping Malls
 
-⭐ Compared performance across locations.
-
 ✔ Power Query transformations  
-✔ DAX KPIs  
+✔ DAX KPI creation  
 ✔ Interactive dashboards  
 
 👉 Business Impact: Improved business decision visibility.
@@ -82,11 +76,8 @@ Tools:
 
 ### 🎬 Movie Database Analysis
 
-⭐ SQL-based movie performance insights.
-
 ✔ Advanced SQL queries  
-✔ Window functions  
-✔ Revenue analysis  
+✔ Window functions & aggregations  
 
 👉 Business Impact: Identified top-performing genres.
 
@@ -107,13 +98,13 @@ Tools:
 
 ---
 
-## ⚙️ My Data Analysis Workflow
+## ⚙️ My Data Workflow
 
-🔹 Understand Business Problem  
-🔹 Data Cleaning & Preparation  
-🔹 Exploratory Analysis  
-🔹 Dashboard Creation  
-🔹 Insight Communication
+1️⃣ Understand business problem  
+2️⃣ Data cleaning & preparation  
+3️⃣ Exploratory analysis  
+4️⃣ Dashboard creation  
+5️⃣ Insight communication
 
 ---
 

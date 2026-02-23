@@ -1,20 +1,55 @@
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Hi+I'm+Priyanka+C+Meti;Data+Analyst;SQL+%7C+Python+%7C+Power+BI;Turning+Data+Into+Insights+📊" />
-</p>
+<table>
+<tr>
+<td width="35%" align="center">
 
-<p align="center">
-<img src="profile.jpg" width="180" style="border-radius:50%;" />
-</p>
-<h1 align="center">👩‍💻 Priyanka C Meti</h1>
+<img src="pphoto.jpg" width="220" style="border-radius:50%;" />
 
-<h3 align="center">🚀 Data Analyst | SQL | Python | Power BI | Data Storytelling</h3>
+</td>
 
-<p align="center">
-📍 Bangalore, India |
-📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a> |
-<a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a> |
-<a href="https://github.com/priyankacm26-rgb">GitHub</a>
-</p>
+<td width="65%">
+
+<h1>👩‍💻 Priyanka C Meti</h1>
+
+<h3>🚀 Data Analyst | SQL | Python | Power BI | Data Storytelling</h3>
+
+📍 Bangalore, India  
+📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a>  
+🔗 <a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a>  
+💻 <a href="https://github.com/priyankacm26-rgb">GitHub</a>
+
+<br>
+
+Passionate Data Analyst focused on transforming raw data into meaningful business insights. Skilled in SQL, Python, Power BI, and data storytelling.
+
+</td>
+</tr>
+</table>
+
+👉 Scroll down
+👉 Commit changes.
+
+🎉 RESULT
+
+Now your portfolio looks like:
+
+✅ Personal website
+✅ Professional layout
+✅ Photo + details aligned
+✅ Modern premium style
+
+😎 ULTRA PRO UPGRADE (Highly Recommended)
+
+I can make it look EVEN more elite:
+
+🔥 Gradient color header like Google portfolio
+🔥 Skills icon badges (Python, SQL logos)
+🔥 GitHub stats dashboard (looks advanced)
+🔥 Animated contribution snake 🐍
+🔥 Recruiter attention layout
+
+Just say:
+
+👉 "Make my portfolio ULTRA PREMIUM" 🚀.
 
 ---
 

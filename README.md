@@ -33,12 +33,7 @@ Passionate Data Analyst focused on transforming raw data into meaningful insight
 </tr>
 </table>
 
-</p>
 
-</td>
-
-</tr>
-</table>
 
 <p align="center">
 📍 Bangalore, India |

@@ -66,43 +66,89 @@ I enjoy solving real-world problems using data-driven strategies.
 ---
 
 ## 🔥 Featured Case Studies
+<hr>
 
-### 📊 Purchase Pattern Analysis
+<h2 align="center">🚀 Featured Projects & Dashboards</h2>
 
-**Problem:** Identify customer purchasing behaviour.
+<hr>
 
-Tools:
+<!-- PROJECT 1 -->
 
-- SQL
-- Python
-- Power BI
+<h3>📊 Purchase Pattern Analytics</h3>
 
-✔ Built KPI dashboards  
-✔ Identified high-value customers  
-✔ Revealed seasonal trends  
+🔗 GitHub Repository:
+https://github.com/priyankacm26-rgb/Purchase_pattern_analytics
 
-👉 Business Impact: Supports targeted marketing strategies.
+📄 Dashboard Preview:
+https://github.com/priyankacm26-rgb/Purchase_pattern_analytics/blob/main/dashboard.pdf.pdf
 
----
+<strong>Tools Used:</strong> SQL, Python, Power BI
 
-### 🏬 Customer Data Analysis — Shopping Malls
+<strong>Key Insights:</strong>
+<ul>
+<li>Market basket analysis using Apriori algorithm</li>
+<li>Identified frequent purchase combinations</li>
+<li>Improved product recommendation strategy</li>
+</ul>
 
-✔ Power Query transformations  
-✔ DAX KPI creation  
-✔ Interactive dashboards  
+<hr>
 
-👉 Business Impact: Improved business decision visibility.
+<!-- PROJECT 2 -->
 
----
+<h3>🏬 Customer Data Analysis — Power BI Dashboard</h3>
 
-### 🎬 Movie Database Analysis
+🔗 GitHub Repository:
+https://github.com/priyankacm26-rgb/Customer_data
 
-✔ Advanced SQL queries  
-✔ Window functions & aggregations  
+📄 Dashboard Preview:
+https://github.com/priyankacm26-rgb/Customer_data/blob/main/power_bi%20dashboard.pdf
 
-👉 Business Impact: Identified top-performing genres.
+<strong>Tools Used:</strong> Power BI, SQL
 
----
+<strong>Key Insights:</strong>
+<ul>
+<li>Customer segmentation analysis</li>
+<li>Revenue trend insights</li>
+<li>KPI-based business performance tracking</li>
+</ul>
+
+<hr>
+
+<!-- PROJECT 3 -->
+
+<h3>📈 Stock Market Prediction</h3>
+
+🔗 GitHub Repository:
+https://github.com/priyankacm26-rgb/stock_market_prediction
+
+<strong>Tools Used:</strong> Python, Data Analysis
+
+<strong>Key Insights:</strong>
+<ul>
+<li>Stock trend analysis using historical data</li>
+<li>Data-driven forecasting</li>
+<li>Visualization of market patterns</li>
+</ul>
+
+<hr>
+
+<!-- PROJECT 4 -->
+
+<h3>🍕 Pizza Sales Dashboard</h3>
+
+🔗 GitHub Repository:
+https://github.com/priyankacm26-rgb/Pizza-Sale-Dashboard
+
+<strong>Tools Used:</strong> Power BI
+
+<strong>Key Insights:</strong>
+<ul>
+<li>Revenue and sales performance analysis</li>
+<li>Top-selling pizza categories identified</li>
+<li>Customer purchase behavior insights</li>
+</ul>
+
+<hr>
 
 ## 💼 Experience
 

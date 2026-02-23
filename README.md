@@ -1,3 +1,11 @@
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Hi+I'm+Priyanka+C+Meti;Data+Analyst;SQL+%7C+Python+%7C+Power+BI;Turning+Data+Into+Insights+📊" />
+</p>
+
+<p align="center">
+  <img src="profile.jpg" width="180" style="border-radius:50%; border:4px solid #00BFFF;" />
+</p>
+
 <h1 align="center">👩‍💻 Priyanka C Meti</h1>
 
 <h3 align="center">🚀 Data Analyst | SQL | Python | Power BI | Data Storytelling</h3>
@@ -11,62 +19,66 @@
 
 ---
 
-## 👋 About Me
+## 🌟 About Me
 
-Data Analyst passionate about transforming raw data into meaningful business insights. Experienced in SQL, Python, Excel, and Power BI with strong skills in dashboard creation, exploratory analysis, KPI tracking, and data storytelling.
-
-I focus on solving real-world business problems using data-driven decision making.
+🔵 Passionate Data Analyst focused on transforming raw data into meaningful insights.  
+🟢 Skilled in SQL, Python, Power BI, and Excel dashboards.  
+🟣 Strong background in data cleaning, KPI analysis, and business storytelling.  
+🟡 I enjoy solving real-world problems using data-driven decision making.
 
 ---
 
 ## 🧠 Technical Skills
 
-✅ SQL (Joins, Window Functions, Aggregations)  
-✅ Python (Pandas, NumPy, Matplotlib)  
-✅ Power BI & Excel Dashboards  
-✅ Data Cleaning & Exploratory Data Analysis (EDA)  
-✅ KPI Analysis & Data Visualization  
+🟦 SQL (Joins, Window Functions, Aggregations)  
+🟩 Python (Pandas, NumPy, Matplotlib)  
+🟪 Power BI & Excel Dashboards  
+🟨 Data Cleaning & Exploratory Data Analysis (EDA)  
+🟥 KPI Analysis & Visualization  
 
 ---
 
-## 🔥 Featured Case Studies
-
----
+## 🔥 Featured Projects
 
 ### 📊 Purchase Pattern Analysis
 
-**Problem:** Identify customer purchasing behavior.
+⭐ Identified customer purchasing behaviour.
 
-**Tools:** SQL, Python, Power BI
+Tools:
+
+- SQL
+- Python
+- Power BI
 
 ✔ Built KPI dashboards  
 ✔ Identified high-value customers  
-✔ Revealed seasonal trends
+✔ Revealed seasonal trends  
 
-👉 **Business Impact:** Supports targeted marketing strategies.
+👉 Business Impact: Supports targeted marketing strategies.
 
 ---
 
 ### 🏬 Customer Data Analysis — Shopping Malls
 
-**Problem:** Compare performance across multiple locations.
+⭐ Compared performance across locations.
 
-✔ Data transformation using Power Query  
-✔ Created DAX KPIs  
-✔ Interactive dashboards
+✔ Power Query transformations  
+✔ DAX KPIs  
+✔ Interactive dashboards  
 
-👉 **Business Impact:** Improves decision-making and performance tracking.
+👉 Business Impact: Improved business decision visibility.
 
 ---
 
 ### 🎬 Movie Database Analysis
 
-**Problem:** Analyze movie performance trends.
+⭐ SQL-based movie performance insights.
 
 ✔ Advanced SQL queries  
-✔ Window functions & aggregations
+✔ Window functions  
+✔ Revenue analysis  
 
-👉 **Business Impact:** Identified top-performing genres and trends.
+👉 Business Impact: Identified top-performing genres.
 
 ---
 
@@ -74,24 +86,24 @@ I focus on solving real-world business problems using data-driven decision makin
 
 ### Data Analyst Intern — Rubixe
 
-- Data cleaning and exploratory analysis  
+- Data cleaning & EDA  
 - Built Power BI dashboards  
-- Delivered business insights  
+- Delivered actionable insights
 
 ### Data Analyst Intern — Canaan Ed & Tech
 
 - Analytics projects  
-- Reporting dashboards  
+- Reporting dashboards
 
 ---
 
 ## ⚙️ My Data Analysis Workflow
 
-1️⃣ Understand business problem  
-2️⃣ Data cleaning & preparation  
-3️⃣ Exploratory analysis  
-4️⃣ Dashboard creation  
-5️⃣ Insight communication  
+🔹 Understand Business Problem  
+🔹 Data Cleaning & Preparation  
+🔹 Exploratory Analysis  
+🔹 Dashboard Creation  
+🔹 Insight Communication
 
 ---
 

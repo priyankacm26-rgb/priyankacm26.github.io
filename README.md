@@ -2,9 +2,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Hi+I'm+Priyanka+C+Meti;Data+Analyst;SQL+%7C+Python+%7C+Power+BI;Turning+Data+Into+Insights+📊" />
 </p>
 
-<p align="center">
-<img src="pphoto.jpg" width="180">
-</p>
+<img src="profile.jpg" width="180" style="border-radius:50%; border:4px solid #00BFFF;" />
 
 <h1 align="center">👩‍💻 Priyanka C Meti</h1>
 

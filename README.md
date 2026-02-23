@@ -2,7 +2,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=38&duration=2500&pause=800&color=00BFFF&center=true&vCenter=true&width=750&lines=Hi+I'm+Priyanka+C+Meti;Data+Analyst+%7C+SQL+%7C+Python+%7C+Power+BI;Building+Insightful+Dashboards;Turning+Data+Into+Business+Impact+🚀" />
 </h1>
 
-p align="center">
+<p align="center">
   <div style="
       display:inline-block;
       padding:15px;

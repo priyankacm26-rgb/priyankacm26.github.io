@@ -1,212 +1,145 @@
-<table>
-<tr>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Priyanka C Meti | Data Analyst</title>
 
-<td width="35%" align="center">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<img src="profile.jpg" width="250" style="border-radius:20px; box-shadow:0px 0px 25px #00BFFF;" />
+<style>
 
-</td>
+/* ===== CUSTOM BACKGROUND ===== */
 
-<td width="65%">
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:white;
+    background: linear-gradient(135deg,#0f172a,#020617,#1e293b);
+}
 
-<h1>
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=32&duration=2500&pause=700&color=00BFFF&vCenter=true&width=500&lines=Hi+I'm+Priyanka+C+Meti;Data+Analyst;SQL+%7C+Python+%7C+Power+BI;Turning+Data+Into+Insights+🚀" />
-</h1>
+/* ===== HEADER ===== */
 
-<h3>🚀 Data Analyst | Data Storytelling | Business Intelligence</h3>
+.header {
+    text-align:center;
+    padding:40px;
+    background: linear-gradient(90deg,#00BFFF,#8A2BE2);
+}
 
-📍 Bangalore, India <br>
-📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a> <br>
-🔗 <a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a> |
-💻 <a href="https://github.com/priyankacm26-rgb">GitHub</a>
+/* ===== HERO SECTION ===== */
 
-<br><br>
+.hero {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:50px;
+}
 
-Passionate Data Analyst focused on transforming raw data into meaningful insights and business decisions.
+.hero img {
+    width:250px;
+    border-radius:20px;
+    box-shadow:0px 0px 30px #00BFFF;
+}
 
-✔ SQL | Python | Power BI <br>
-✔ Dashboard development & KPI analysis <br>
-✔ Data storytelling & visualization
+.hero-text {
+    margin-left:40px;
+}
 
-</td>
+/* ===== SECTIONS ===== */
 
-</tr>
-</table>
+.section {
+    padding:40px;
+    margin:20px;
+    background:#111827;
+    border-radius:10px;
+}
 
+/* ===== PROJECT CARDS ===== */
 
+.project {
+    background:#1f2937;
+    padding:20px;
+    border-radius:8px;
+    margin-top:20px;
+}
 
-<p align="center">
-📍 Bangalore, India |
-📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a> |
-<a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a> |
-<a href="https://github.com/priyankacm26-rgb">GitHub</a>
+a {
+    color:#00BFFF;
+    text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>👩‍💻 Priyanka C Meti</h1>
+<h3>🚀 Data Analyst | SQL | Python | Power BI</h3>
+</div>
+
+<div class="hero">
+
+<img src="pphoto.jpg">
+
+<div class="hero-text">
+
+<p>📍 Bangalore, India</p>
+
+<p>
+Motivated Data Analyst focused on transforming raw data into meaningful insights and business decisions.
 </p>
 
----
+</div>
 
-## 🌟 About Me
+</div>
 
-Passionate Data Analyst focused on transforming raw data into meaningful insights and business decisions.
+<div class="section">
 
-✔ SQL, Python, Power BI specialist  
-✔ Dashboard development & KPI analysis  
-✔ Exploratory data analysis (EDA)  
-✔ Data storytelling and visualization  
+<h2>🌟 About Me</h2>
 
+<p>
+Skilled in SQL, Python, Excel and Power BI dashboards.
 I enjoy solving real-world problems using data-driven strategies.
-
----
-
-## 🚀 Tech Stack
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,mysql,postgres,github,vscode" />
 </p>
 
----
+</div>
 
-## 🔥 Featured Case Studies
-<hr>
+<div class="section">
 
-<h2 align="center">🚀 Featured Projects & Dashboards</h2>
+<h2>🚀 Featured Projects</h2>
 
-<hr>
-
-<!-- PROJECT 1 -->
+<div class="project">
 
 <h3>📊 Purchase Pattern Analytics</h3>
 
-🔗 GitHub Repository:
-https://github.com/priyankacm26-rgb/Purchase_pattern_analytics
+<a href="https://github.com/priyankacm26-rgb/Purchase_pattern_analytics">View Project</a>
 
-📄 Dashboard Preview:
-https://github.com/priyankacm26-rgb/Purchase_pattern_analytics/blob/main/dashboard.pdf.pdf
+</div>
 
-<strong>Tools Used:</strong> SQL, Python, Power BI
+<div class="project">
 
-<strong>Key Insights:</strong>
-<ul>
-<li>Market basket analysis using Apriori algorithm</li>
-<li>Identified frequent purchase combinations</li>
-<li>Improved product recommendation strategy</li>
-</ul>
+<h3>🏬 Customer Data Analysis</h3>
 
-<hr>
+<a href="https://github.com/priyankacm26-rgb/Customer_data">View Project</a>
 
-<!-- PROJECT 2 -->
+</div>
 
-<h3>🏬 Customer Data Analysis — Power BI Dashboard</h3>
-
-🔗 GitHub Repository:
-https://github.com/priyankacm26-rgb/Customer_data
-
-📄 Dashboard Preview:
-https://github.com/priyankacm26-rgb/Customer_data/blob/main/power_bi%20dashboard.pdf
-
-<strong>Tools Used:</strong> Power BI, SQL
-
-<strong>Key Insights:</strong>
-<ul>
-<li>Customer segmentation analysis</li>
-<li>Revenue trend insights</li>
-<li>KPI-based business performance tracking</li>
-</ul>
-
-<hr>
-
-<!-- PROJECT 3 -->
+<div class="project">
 
 <h3>📈 Stock Market Prediction</h3>
 
-🔗 GitHub Repository:
-https://github.com/priyankacm26-rgb/stock_market_prediction
+<a href="https://github.com/priyankacm26-rgb/stock_market_prediction">View Project</a>
 
-<strong>Tools Used:</strong> Python, Data Analysis
+</div>
 
-<strong>Key Insights:</strong>
-<ul>
-<li>Stock trend analysis using historical data</li>
-<li>Data-driven forecasting</li>
-<li>Visualization of market patterns</li>
-</ul>
+</div>
 
-<hr>
+<div class="section">
 
-<!-- PROJECT 4 -->
+<h2>📬 Contact</h2>
 
-<h3>🍕 Pizza Sales Dashboard</h3>
+<p>Email: priyankacm26@gmail.com</p>
 
-🔗 GitHub Repository:
-https://github.com/priyankacm26-rgb/Pizza-Sale-Dashboard
+</div>
 
-<strong>Tools Used:</strong> Power BI
-
-<strong>Key Insights:</strong>
-<ul>
-<li>Revenue and sales performance analysis</li>
-<li>Top-selling pizza categories identified</li>
-<li>Customer purchase behavior insights</li>
-</ul>
-
-<hr>
-
-## 💼 Experience
-
-### Data Analyst Intern — Rubixe
-
-- Data cleaning & EDA  
-- Built Power BI dashboards  
-- Delivered actionable insights
-
-### Data Analyst Intern — Canaan Ed & Tech
-
-- Analytics projects  
-- Reporting dashboards
-
----
-
-## ⚙️ My Data Workflow
-
-1️⃣ Understand business problem  
-2️⃣ Data cleaning & preparation  
-3️⃣ Exploratory analysis  
-4️⃣ Dashboard creation  
-5️⃣ Insight communication
-
----
-
-## 🏆 Certification
-
-## 🏆 Certifications & Professional Recognition
-
-### 🎓 Certified Data Analyst — IABAC (International Association of Business Analytics Certification)
-
-✔ Achieved Certified Data Analyst credential  
-✔ Industry-recognized analytics certification  
-✔ Demonstrated expertise in data analysis, business insights, and analytics workflows
-
----
-
-### 💼 Data Analyst Internship Experience — Rubixe Technologies
-
-✔ Successfully completed Data Analyst Internship  
-✔ Worked on real-world POC projects and client assignments  
-✔ Applied theoretical knowledge to practical data analytics challenges  
-✔ Delivered analytical insights and demonstrated strong work ethic
-
----
-
-### 🎯 Data Analytics Certification — DataMites Bengaluru
-
-✔ Industry-focused data analytics training  
-✔ Hands-on experience with SQL, Python, Excel, and Power BI
-
----
-
-## 📬 Connect With Me
-
-📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a>  
-
-🔗 <a href="https://linkedin.com/in/priyanka-meti">LinkedIn Profile</a>  
-
-💻 <a href="https://github.com/priyankacm26-rgb">GitHub Profile</a>
+</body>
+</html>

@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-<img src="pphoto.jpg" width="220"
+<img src="profile.jpg" width="220"
 style="
 border-radius:50%;
 padding:6px;

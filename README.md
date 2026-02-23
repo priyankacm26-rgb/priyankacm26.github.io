@@ -1,18 +1,12 @@
 <p align="center">
-<img src="pphoto.jpg" width="220"
+<img src="profile.jpg" width="220"
 style="
 border-radius:50%;
-border:4px solid #00BFFF;
-animation: float 3s ease-in-out infinite;
+padding:6px;
+background: linear-gradient(45deg,#00BFFF,#FF00FF,#00FFAA);
+box-shadow: 0 0 25px #00BFFF;
 "/>
 </p>
-
-<style>
-@keyframes float {
-  0% { transform: translateY(0px);}
-  50% { transform: translateY(-10px);}
-  100% { transform: translateY(0px);}
-}
 </style>
 <h1>👩‍💻 Priyanka C Meti</h1>
 

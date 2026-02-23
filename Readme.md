@@ -5,7 +5,7 @@
 
 <td width="35%" align="center">
 
-<img src="pphoto.jpg" width="250" style="border-radius:20px; box-shadow:0px 0px 25px #00BFFF;" />
+<img src="profile.jpg" width="250" style="border-radius:20px; box-shadow:0px 0px 25px #00BFFF;" />
 
 </td>
 

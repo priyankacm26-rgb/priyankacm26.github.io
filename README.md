@@ -1,13 +1,19 @@
-<table>
-<tr>
-<td width="35%" align="center">
+<p align="center">
+<img src="pphoto.jpg" width="220"
+style="
+border-radius:50%;
+border:4px solid #00BFFF;
+animation: float 3s ease-in-out infinite;
+"/>
+</p>
 
-<img src="profile.jpg" width="220" style="border-radius:50%;" />
-
-</td>
-
-<td width="65%">
-
+<style>
+@keyframes float {
+  0% { transform: translateY(0px);}
+  50% { transform: translateY(-10px);}
+  100% { transform: translateY(0px);}
+}
+</style>
 <h1>👩‍💻 Priyanka C Meti</h1>
 
 <h3>🚀 Data Analyst | SQL | Python | Power BI | Data Storytelling</h3>

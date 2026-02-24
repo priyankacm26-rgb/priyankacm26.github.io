@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- IMPORTANT FIX: fontawesome link must be separate -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 
@@ -27,7 +33,7 @@ margin:auto;
 }
 
 section{
-padding:40px 0; /* reduced spacing */
+padding:40px 0;
 }
 
 /* NAVBAR */
@@ -59,7 +65,7 @@ text-decoration:none;
 display:flex;
 align-items:center;
 justify-content:center;
-min-height:70vh; /* reduced */
+min-height:70vh;
 }
 
 .hero-wrapper{
@@ -71,7 +77,7 @@ flex-wrap:wrap;
 
 /* PROFILE IMAGE */
 
-.Profile-wrapper{
+.profile-wrapper{
 position:relative;
 width:240px;
 height:240px;
@@ -80,7 +86,7 @@ align-items:center;
 justify-content:center;
 }
 
-.Profile-wrapper::before{
+.profile-wrapper::before{
 content:'';
 position:absolute;
 width:100%;
@@ -95,7 +101,7 @@ z-index:-1;
 100%{transform:rotate(360deg);}
 }
 
-.Profile-img{
+.profile-img{
 width:220px;
 height:220px;
 border-radius:50%;
@@ -148,7 +154,7 @@ background:rgba(255,255,255,0.05);
 backdrop-filter:blur(12px);
 border-radius:15px;
 padding:18px;
-margin-bottom:12px; /* reduced gap */
+margin-bottom:12px;
 transition:0.3s;
 }
 
@@ -194,6 +200,7 @@ text-align:center;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -216,8 +223,8 @@ text-align:center;
 
 <div class="hero-wrapper">
 
-<div class="Profile-wrapper">
-<img src="Profile.jpg" class="Profile-img">
+<div class="profile-wrapper">
+<img src="profile.jpg" class="profile-img">
 </div>
 
 <div>
@@ -241,10 +248,8 @@ text-align:center;
 </div>
 
 <div class="card">
-<p>
 Entry-Level Data Analyst skilled in SQL, Python, Excel and Power BI.
 Experienced in data cleaning, EDA, dashboard building and extracting business insights.
-</p>
 </div>
 
 </section>
@@ -255,7 +260,6 @@ Experienced in data cleaning, EDA, dashboard building and extracting business in
 
 <div class="section-title">
 <h2>Technical Skills</h2>
-<p>Tools & Technologies</p>
 </div>
 
 <div class="card">
@@ -270,17 +274,14 @@ SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
 
 <div class="section-title">
 <h2>Featured Projects</h2>
-<p>Real-world analytics work</p>
 </div>
 
 <div class="card">
-<h3>Customer Data Analysis</h3>
-<p>Interactive Power BI dashboards with KPI tracking.</p>
+Customer Data Analysis — Power BI dashboards with KPI tracking.
 </div>
 
 <div class="card">
-<h3>Movie Database SQL Analysis</h3>
-<p>Advanced SQL joins and insights extraction.</p>
+Movie Database SQL Analysis — Advanced SQL joins and insights extraction.
 </div>
 
 </section>
@@ -291,7 +292,6 @@ SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
 
 <div class="section-title">
 <h2>Experience</h2>
-<p>Internship journey</p>
 </div>
 
 <div class="card">
@@ -299,13 +299,11 @@ SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
 <div class="timeline">
 
 <div class="timeline-item">
-<h4>Data Analyst Intern — Rubixe</h4>
-<p>EDA, dashboard creation and business analysis.</p>
+Data Analyst Intern — Rubixe
 </div>
 
 <div class="timeline-item">
-<h4>Data Analyst Intern — Canaan Ed & Tech</h4>
-<p>Data cleaning and analytics reporting.</p>
+Data Analyst Intern — Canaan Ed & Tech
 </div>
 
 </div>
@@ -320,7 +318,6 @@ SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
 
 <div class="section-title">
 <h2>Get In Touch</h2>
-<p>Let’s connect</p>
 </div>
 
 <div class="card">
@@ -337,8 +334,10 @@ SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
 </footer>
 
 <script>
+
 const text=["Data Analyst","SQL Specialist","Power BI Developer","Excel Expert"];
 let i=0,j=0,current="";
+
 function type(){
 current=text[i];
 document.getElementById("typing").textContent=current.substring(0,j);
@@ -346,7 +345,9 @@ j++;
 if(j>current.length){j=0;i=(i+1)%text.length;}
 setTimeout(type,100);
 }
+
 type();
+
 </script>
 
 </body>

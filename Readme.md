@@ -1,159 +1,247 @@
-<!-- ================= HERO SECTION ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<table>
-<tr>
+<title>Priyanka C Meti | Data Analyst</title>
 
-<td width="35%" align="center">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
 
-<img src="profile.jpg" width="250" style="border-radius:20px; box-shadow:0px 0px 25px #00BFFF;" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-</td>
+<style>
 
-<td width="65%">
+body{
+margin:0;
+font-family:Poppins;
+background:linear-gradient(135deg,#020617,#0f172a);
+color:white;
+scroll-behavior:smooth;
+}
 
-<h1>👩‍💻 Priyanka C Meti</h1>
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
 
-<h3>🚀 Data Analyst | SQL | Python | Power BI | Data Storytelling</h3>
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px;
+}
 
-📍 Bangalore, India <br>
-📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a> <br>
-🔗 <a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a> |
-💻 <a href="https://github.com/priyankacm26-rgb">GitHub</a>
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
 
-<br><br>
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+}
 
-Motivated Data Analyst with hands-on experience in SQL, Python, Excel, and Power BI. Skilled in building dashboards, defining KPIs, and transforming raw data into actionable business insights.
+.gradient-text{
+background:linear-gradient(90deg,#38bdf8,#a78bfa);
+-webkit-background-clip:text;
+color:transparent;
+}
 
-✔ SQL | Python | Power BI  
-✔ Dashboard Development & KPI Analysis  
-✔ Data Storytelling & Visualization  
+.glass{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(12px);
+border-radius:15px;
+padding:20px;
+border:1px solid rgba(255,255,255,0.1);
+margin-bottom:20px;
+}
 
-</td>
+.btn{
+background:#38bdf8;
+padding:10px 20px;
+border-radius:8px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
 
-</tr>
-</table>
+.btn:hover{
+box-shadow:0 0 20px #38bdf8;
+}
 
----
+.skills span{
+display:inline-block;
+background:#1e293b;
+padding:8px;
+margin:5px;
+border-radius:5px;
+}
 
-## 🌟 About Me
+.project-card{
+transition:0.4s;
+}
 
-Passionate about solving real-world business problems using data-driven decision making. I focus on turning complex datasets into meaningful insights that support strategic decisions.
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0px 10px 30px rgba(0,0,0,0.5);
+}
 
----
+footer{
+text-align:center;
+padding:20px;
+}
 
-## 🚀 Tech Stack
+</style>
+</head>
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,mysql,postgres,github,vscode" />
+<body>
+
+<!-- NAVBAR -->
+<nav class="container">
+<h2 class="gradient-text">Priyanka</h2>
+<div>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero container">
+
+<div>
+
+<h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
+
+<h2 id="typing"></h2>
+
+<p>Data Analyst skilled in SQL, Python, Power BI and Data Storytelling.</p>
+
+<a href="#" class="btn">View Resume</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container">
+
+<div class="glass" data-aos="fade-up">
+
+<h2>About Me</h2>
+
+<p>
+Motivated Data Analyst passionate about solving business problems using data-driven insights.
+Experienced in dashboards, KPIs, ETL pipelines and analytics.
 </p>
 
----
+</div>
 
-## 📊 Featured Projects & Dashboards
+</section>
 
-<hr>
+<!-- SKILLS -->
+<section class="container">
 
-<h2 align="center">🚀 Featured Projects & Dashboards</h2>
+<div class="glass" data-aos="fade-up">
 
-<hr>
+<h2>Skills</h2>
 
-<!-- PROJECT 1 -->
+<div class="skills">
 
-<h3>📊 Purchase Pattern Analytics</h3>
+<span>SQL</span>
+<span>Python</span>
+<span>Power BI</span>
+<span>Tableau</span>
+<span>Excel</span>
+<span>Data Visualization</span>
+<span>ETL Pipelines</span>
 
-🔗 GitHub Repository:
-https://github.com/priyankacm26-rgb/Purchase_pattern_analytics
+</div>
 
-📄 Dashboard Preview:
-https://github.com/priyankacm26-rgb/Purchase_pattern_analytics/blob/main/dashboard.pdf.pdf
+</div>
 
-<strong>Tools Used:</strong> SQL, Python, Power BI
+</section>
 
-<strong>Key Insights:</strong>
-<ul>
-<li>Market basket analysis using Apriori algorithm</li>
-<li>Identified frequent purchase combinations</li>
-<li>Improved product recommendation strategy</li>
-</ul>
+<!-- PROJECTS -->
+<section id="projects" class="container">
 
-<hr>
+<div class="glass project-card" data-aos="fade-up">
 
-<!-- PROJECT 2 -->
+<h3>Heart Attack Prediction ML</h3>
 
-<h3>🏬 Customer Data Analysis — Power BI Dashboard</h3>
+<p>Built predictive ML model using healthcare dataset and feature engineering.</p>
 
-🔗 GitHub Repository:
-https://github.com/priyankacm26-rgb/Customer_data
+</div>
 
-📄 Dashboard Preview:
-https://github.com/priyankacm26-rgb/Customer_data/blob/main/power_bi%20dashboard.pdf
+<div class="glass project-card" data-aos="fade-up">
 
-<strong>Tools Used:</strong> Power BI, SQL
+<h3>Local Farmer Marketplace</h3>
 
-<strong>Key Insights:</strong>
-<ul>
-<li>Customer segmentation analysis</li>
-<li>Revenue trend insights</li>
-<li>KPI-based business performance tracking</li>
-</ul>
+<p>Created analytics system with automated inventory and ETL pipelines.</p>
 
-<hr>
+</div>
 
-<!-- PROJECT 3 -->
+<div class="glass project-card" data-aos="fade-up">
 
-<h3>📈 Stock Market Prediction</h3>
+<h3>Voice Controlled Wheelchair</h3>
 
-🔗 GitHub Repository:
-https://github.com/priyankacm26-rgb/stock_market_prediction
+<p>IoT project improving mobility using voice automation.</p>
 
-<strong>Tools Used:</strong> Python, Data Analysis
+</div>
 
-<strong>Key Insights:</strong>
-<ul>
-<li>Stock trend analysis using historical data</li>
-<li>Data-driven forecasting</li>
-<li>Visualization of market patterns</li>
-</ul>
+</section>
 
-<hr>
+<!-- CONTACT -->
+<section id="contact" class="container">
 
-<!-- PROJECT 4 -->
+<div class="glass" data-aos="fade-up">
 
-<h3>🍕 Pizza Sales Dashboard</h3>
+<h2>Contact</h2>
 
-🔗 GitHub Repository:
-https://github.com/priyankacm26-rgb/Pizza-Sale-Dashboard
+<p>Email: priyankacm26@gmail.com</p>
+<p>Location: Bangalore, India</p>
 
-<strong>Tools Used:</strong> Power BI
+<a href="https://linkedin.com" class="btn">LinkedIn</a>
 
-<strong>Key Insights:</strong>
-<ul>
-<li>Revenue and sales performance analysis</li>
-<li>Top-selling pizza categories identified</li>
-<li>Customer purchase behavior insights</li>
-</ul>
+</div>
 
-<hr>
+</section>
 
-## 💼 Experience
+<footer>
 
-### Data Analyst Intern — Rubixe
+© 2026 Priyanka C Meti
 
-- Worked with real-world business datasets
-- Performed data cleaning and exploratory analysis
-- Built Power BI dashboards and KPIs
+</footer>
 
----
 
-## 🏆 Certifications
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-🎓 Certified Data Analyst — IABAC  
-🎯 Data Analytics Certification — DataMites Bengaluru
+<script>
+AOS.init();
+</script>
 
----
+<!-- TYPING ANIMATION -->
+<script>
 
-## 📬 Connect With Me
+const text = ["Data Analyst","SQL Expert","Power BI Developer","Python Analyst"];
+let i=0,j=0,current="";
 
-📧 <a href="mailto:priyankacm26@gmail.com">priyankacm26@gmail.com</a>  
-🔗 <a href="https://linkedin.com/in/priyanka-meti">LinkedIn</a>  
-💻 <a href="https://github.com/priyankacm26-rgb">GitHub</a>
+function type(){
+current = text[i];
+document.getElementById("typing").textContent=current.substring(0,j++);
+if(j>current.length){
+j=0;
+i=(i+1)%text.length;
+}
+setTimeout(type,100);
+}
+
+type();
+
+</script>
+
+</body>
+</html>

@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
@@ -15,13 +13,14 @@
 body{
 margin:0;
 font-family:Poppins;
-background:linear-gradient(-45deg,#020617,#0f172a,#020617,#1e293b);
+background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
 background-size:400% 400%;
-animation:bgmove 12s infinite linear;
+animation:gradientMove 12s ease infinite;
 color:white;
+scroll-behavior:smooth;
 }
 
-@keyframes bgmove{
+@keyframes gradientMove{
 0%{background-position:0% 50%;}
 50%{background-position:100% 50%;}
 100%{background-position:0% 50%;}
@@ -45,59 +44,88 @@ margin-left:20px;
 text-decoration:none;
 }
 
+nav a:hover{
+color:#00f5ff;
+}
+
 .hero{
-height:90vh;
+height:95vh;
 display:flex;
 align-items:center;
 }
 
 .gradient-text{
-background:linear-gradient(90deg,#38bdf8,#a78bfa);
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
 -webkit-background-clip:text;
 color:transparent;
 }
 
+.profile-img{
+width:260px;
+height:260px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #00f5ff;
+box-shadow:0 0 40px #00f5ff;
+animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
+}
+
 .glass{
 background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
+backdrop-filter:blur(15px);
 border-radius:20px;
 padding:25px;
 border:1px solid rgba(255,255,255,0.1);
 margin-bottom:20px;
 }
 
-.profile-img{
-width:260px;
-border-radius:25px;
-box-shadow:0 0 40px #38bdf8;
-animation:float 4s ease-in-out infinite;
-}
-
-@keyframes float{
-0%{transform:translateY(0px);}
-50%{transform:translateY(-15px);}
-100%{transform:translateY(0px);}
-}
-
 .btn{
-background:#38bdf8;
-padding:12px 22px;
-border-radius:10px;
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+padding:12px 25px;
+border-radius:30px;
 text-decoration:none;
-color:black;
+color:white;
 font-weight:bold;
+display:inline-block;
+margin-top:10px;
+transition:0.3s;
 }
 
 .btn:hover{
-box-shadow:0 0 20px #38bdf8;
+box-shadow:0 0 20px #ff00ff;
+transform:scale(1.05);
 }
 
-.skills span{
-display:inline-block;
+.skill-bar{
+margin-bottom:15px;
+}
+
+.skill-bar span{
+display:block;
+margin-bottom:5px;
+}
+
+.progress{
 background:#1e293b;
-padding:8px;
-margin:5px;
-border-radius:5px;
+border-radius:20px;
+overflow:hidden;
+}
+
+.progress div{
+height:8px;
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+width:0;
+animation:load 2s forwards;
+}
+
+@keyframes load{
+to{width:85%;}
 }
 
 .project-card{
@@ -106,12 +134,21 @@ transition:0.4s;
 
 .project-card:hover{
 transform:translateY(-10px);
-box-shadow:0px 10px 30px rgba(0,0,0,0.5);
+box-shadow:0 10px 30px rgba(0,255,255,0.3);
 }
 
 footer{
 text-align:center;
 padding:20px;
+}
+
+@media(max-width:768px){
+.hero{
+flex-direction:column;
+text-align:center;
+height:auto;
+padding:40px 0;
+}
 }
 
 </style>
@@ -120,33 +157,27 @@ padding:20px;
 <body>
 
 <nav class="container">
-
 <h2 class="gradient-text">Priyanka</h2>
-
 <div>
 <a href="#about">About</a>
+<a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
-<a href="#experience">Experience</a>
 <a href="#contact">Contact</a>
 </div>
-
 </nav>
-
-<!-- HERO -->
 
 <section class="hero container">
 
-<div style="display:flex;align-items:center;gap:50px;flex-wrap:wrap;">
+<div style="display:flex;align-items:center;gap:60px;flex-wrap:wrap;">
 
-<img src="profile.png" class="profile-img">
+<img src="profile.jpg" class="profile-img">
 
 <div>
 
 <h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
-
 <h2 id="typing"></h2>
 
-<p>Entry-Level Data Analyst skilled in SQL, Python, Excel & Power BI dashboards.</p>
+<p>Entry-Level Data Analyst | SQL | Python | Power BI | Business Insights</p>
 
 <a href="priyanka.pdf" class="btn">Download Resume</a>
 
@@ -156,113 +187,65 @@ padding:20px;
 
 </section>
 
-<!-- ABOUT -->
-
 <section id="about" class="container">
-
 <div class="glass" data-aos="fade-up">
-
 <h2>About Me</h2>
-
-<p>
-Entry-level Data Analyst with hands-on experience analyzing customer, sales and operational datasets. Skilled in dashboards, KPI tracking and data storytelling.
-</p>
-
+<p>Entry-level Data Analyst with hands-on experience analyzing customer, sales and operational datasets. Skilled in KPI dashboards and data storytelling.</p>
 </div>
-
 </section>
 
-<!-- SKILLS -->
-
-<section class="container">
-
+<section id="skills" class="container">
 <div class="glass" data-aos="fade-up">
-
 <h2>Skills</h2>
 
-<div class="skills">
-
+<div class="skill-bar">
 <span>SQL</span>
+<div class="progress"><div style="width:90%"></div></div>
+</div>
+
+<div class="skill-bar">
 <span>Python</span>
+<div class="progress"><div style="width:85%"></div></div>
+</div>
+
+<div class="skill-bar">
 <span>Power BI</span>
-<span>Excel</span>
-<span>PostgreSQL</span>
-<span>MySQL</span>
-<span>MongoDB</span>
-<span>Snowflake</span>
-
+<div class="progress"><div style="width:88%"></div></div>
 </div>
 
 </div>
-
 </section>
-
-<!-- PROJECTS -->
 
 <section id="projects" class="container">
 
 <div class="glass project-card">
-
 <h3>Purchase Pattern Analysis</h3>
-<p>Customer transaction analysis using SQL, Python and Power BI dashboards.</p>
-
+<p>Analyzed customer transaction data using SQL, Python and built interactive dashboards in Power BI.</p>
 </div>
 
 <div class="glass project-card">
-
-<h3>Customer Data Analysis — Shopping Malls</h3>
-<p>Created Power BI dashboards comparing performance across locations.</p>
-
+<h3>Customer Mall Data Analysis</h3>
+<p>Location-wise performance dashboard using Power Query and DAX.</p>
 </div>
 
 <div class="glass project-card">
-
 <h3>Movie Database SQL Analysis</h3>
-<p>Advanced SQL queries to analyze revenue trends and movie performance.</p>
-
+<p>Optimized SQL queries to analyze revenue trends and popularity metrics.</p>
 </div>
 
 </section>
-
-<!-- EXPERIENCE -->
-
-<section id="experience" class="container">
-
-<div class="glass">
-
-<h2>Internship Experience</h2>
-
-<p><b>Data Analyst Intern — Rubixe</b></p>
-<p>Worked on real-world business datasets and created KPI dashboards.</p>
-
-<p><b>Data Analyst Intern — Canaan Ed & Tech</b></p>
-<p>Performed data cleaning, analysis and reporting tasks.</p>
-
-</div>
-
-</section>
-
-<!-- CONTACT -->
 
 <section id="contact" class="container">
-
 <div class="glass">
-
 <h2>Contact</h2>
-
 <p>Email: priyankacm26@gmail.com</p>
 <p>Phone: +91 9148358436</p>
-
 <a href="https://linkedin.com/in/priyanka-meti" class="btn">LinkedIn</a>
-
 </div>
-
 </section>
 
 <footer>
-
 © 2026 Priyanka C Meti
-
 </footer>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -274,9 +257,7 @@ let i=0,j=0,current="";
 function type(){
 current=text[i];
 document.getElementById("typing").textContent=current.substring(0,j++);
-if(j>current.length){
-j=0;i=(i+1)%text.length;
-}
+if(j>current.length){j=0;i=(i+1)%text.length;}
 setTimeout(type,100);
 }
 type();

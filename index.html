@@ -3,31 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
-
-<!-- ICONS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 
-/* ===== GLOBAL ===== */
+/* GLOBAL */
 
 body{
 margin:0;
 font-family:Poppins;
-background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
-background-size:400% 400%;
-animation:bgMove 12s ease infinite;
+background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);
 color:white;
 scroll-behavior:smooth;
-}
-
-@keyframes bgMove{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
 }
 
 .container{
@@ -37,7 +28,7 @@ margin:auto;
 }
 
 section{
-padding:40px 0;
+padding:50px 0;
 }
 
 /* NAVBAR */
@@ -45,9 +36,8 @@ padding:40px 0;
 nav{
 display:flex;
 justify-content:space-between;
+align-items:center;
 padding:15px 0;
-background:rgba(0,0,0,0.3);
-backdrop-filter:blur(10px);
 }
 
 nav a{
@@ -56,29 +46,42 @@ margin-left:20px;
 text-decoration:none;
 }
 
+.logo{
+font-weight:700;
+font-size:22px;
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
 /* HERO */
 
 .hero{
-min-height:75vh;
 display:flex;
 align-items:center;
 justify-content:center;
+min-height:80vh;
 }
 
 .hero-wrapper{
 display:flex;
 align-items:center;
-gap:60px;
+gap:70px;
 flex-wrap:wrap;
 }
 
+/* PROFESSIONAL PROFILE IMAGE */
+
 .profile-img{
-width:260px;
-height:260px;
+width:240px;
+height:240px;
+border-radius:50%;
 object-fit:cover;
-border-radius:20px;
+border:5px solid #00f5ff;
 box-shadow:0 0 30px #00f5ff;
 }
+
+/* TEXT */
 
 .gradient-text{
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
@@ -96,29 +99,41 @@ display:inline-block;
 margin-top:15px;
 }
 
-/* GLASS CARD */
+/* GLASS CARDS */
 
-.glass{
+.card{
 background:rgba(255,255,255,0.06);
-backdrop-filter:blur(15px);
-border-radius:20px;
-padding:25px;
+backdrop-filter:blur(10px);
+border-radius:15px;
+padding:20px;
 margin-bottom:15px;
 transition:0.3s;
 }
 
-.glass:hover{
+.card:hover{
 transform:translateY(-5px);
 }
 
+/* ICON */
+
 .icon{
-margin-right:10px;
 color:#00f5ff;
+margin-right:8px;
 }
 
 footer{
 text-align:center;
 padding:20px;
+opacity:0.8;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+.hero-wrapper{
+flex-direction:column;
+text-align:center;
+}
 }
 
 </style>
@@ -126,8 +141,11 @@ padding:20px;
 
 <body>
 
+<!-- NAV -->
+
 <nav class="container">
-<h2 class="gradient-text">Priyanka</h2>
+<div class="logo">Priyanka</div>
+
 <div>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -147,9 +165,13 @@ padding:20px;
 
 <div>
 <h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
+
 <h2 id="typing"></h2>
-<p><i class="fa-solid fa-chart-line icon"></i>Data Analyst — SQL — Python — Power BI — Excel</p>
+
+<p><i class="fa-solid fa-chart-line icon"></i>Data Analyst | SQL | Python | Power BI | Excel</p>
+
 <a href="priyanka.pdf" class="btn"><i class="fa-solid fa-download"></i> Download Resume</a>
+
 </div>
 
 </div>
@@ -159,40 +181,49 @@ padding:20px;
 <!-- ABOUT -->
 
 <section id="about" class="container">
-<div class="glass">
+
+<div class="card">
 <h2><i class="fa-solid fa-user icon"></i>About Me</h2>
+
 <p>
-Entry-level Data Analyst skilled in SQL, Python, Excel, and Power BI. Experienced in analyzing customer, sales, occupancy and operational data to build dashboards and generate actionable insights.
+Entry-Level Data Analyst with hands-on experience analyzing business datasets using SQL, Python, Excel and Power BI.
+Passionate about transforming raw data into meaningful insights and building KPI dashboards.
 </p>
+
 </div>
+
 </section>
 
 <!-- SKILLS -->
 
 <section id="skills" class="container">
-<div class="glass">
+
+<div class="card">
 <h2><i class="fa-solid fa-code icon"></i>Technical Skills</h2>
-<p>SQL | Python | Power BI | Excel | PostgreSQL | MySQL | MongoDB | Snowflake | GitHub</p>
+
+<p>SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub</p>
+
 </div>
+
 </section>
 
 <!-- PROJECTS -->
 
 <section id="projects" class="container">
 
-<div class="glass">
+<div class="card">
 <h3>Purchase Pattern Analysis</h3>
-<p>Analyzed customer transaction data using SQL, Python, and Power BI dashboards.</p>
+<p>Customer behavior analysis using SQL, Python and Power BI dashboards.</p>
 </div>
 
-<div class="glass">
-<h3>Customer Data Analysis — Shopping Malls</h3>
-<p>Created Power BI dashboards with DAX KPIs to analyze location performance.</p>
+<div class="card">
+<h3>Customer Data Analysis</h3>
+<p>Built interactive dashboards with KPIs using Power BI.</p>
 </div>
 
-<div class="glass">
+<div class="card">
 <h3>Movie Database SQL Analysis</h3>
-<p>Advanced SQL analysis including joins, aggregations, and window functions.</p>
+<p>Advanced SQL joins, aggregations and insights extraction.</p>
 </div>
 
 </section>
@@ -201,14 +232,14 @@ Entry-level Data Analyst skilled in SQL, Python, Excel, and Power BI. Experience
 
 <section id="experience" class="container">
 
-<div class="glass">
+<div class="card">
 <h3>Data Analyst Intern — Rubixe</h3>
-<p>Worked with business datasets, built dashboards, performed EDA and KPI tracking.</p>
+<p>Performed data cleaning, EDA and dashboard development.</p>
 </div>
 
-<div class="glass">
+<div class="card">
 <h3>Data Analyst Intern — Canaan Ed & Tech</h3>
-<p>Completed analytics tasks including data cleaning, analysis and reporting.</p>
+<p>Worked on analytics projects and reporting.</p>
 </div>
 
 </section>
@@ -216,7 +247,8 @@ Entry-level Data Analyst skilled in SQL, Python, Excel, and Power BI. Experience
 <!-- CONTACT -->
 
 <section id="contact" class="container">
-<div class="glass">
+
+<div class="card">
 
 <h2><i class="fa-solid fa-envelope icon"></i>Contact</h2>
 
@@ -226,6 +258,7 @@ Entry-level Data Analyst skilled in SQL, Python, Excel, and Power BI. Experience
 <p><i class="fa-brands fa-github icon"></i> github.com/priyankacm26-rgb</p>
 
 </div>
+
 </section>
 
 <footer>
@@ -234,15 +267,17 @@ Entry-level Data Analyst skilled in SQL, Python, Excel, and Power BI. Experience
 
 <script>
 
-/* typing animation */
-
 const text=["Data Analyst","SQL Specialist","Power BI Developer","Excel Expert"];
 let i=0,j=0,current="";
+
 function type(){
 current=text[i];
 document.getElementById("typing").textContent=current.substring(0,j);
 j++;
-if(j>current.length){j=0;i=(i+1)%text.length;}
+if(j>current.length){
+j=0;
+i=(i+1)%text.length;
+}
 setTimeout(type,100);
 }
 type();

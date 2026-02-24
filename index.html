@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
@@ -28,7 +27,7 @@ margin:auto;
 }
 
 section{
-padding:60px 0;
+padding:40px 0; /* reduced spacing */
 }
 
 /* NAVBAR */
@@ -60,13 +59,13 @@ text-decoration:none;
 display:flex;
 align-items:center;
 justify-content:center;
-min-height:80vh;
+min-height:70vh; /* reduced */
 }
 
 .hero-wrapper{
 display:flex;
 align-items:center;
-gap:70px;
+gap:60px;
 flex-wrap:wrap;
 }
 
@@ -74,19 +73,22 @@ flex-wrap:wrap;
 
 .profile-wrapper{
 position:relative;
+width:240px;
+height:240px;
+display:flex;
+align-items:center;
+justify-content:center;
 }
 
 .profile-wrapper::before{
 content:'';
 position:absolute;
-top:-8px;
-left:-8px;
-right:-8px;
-bottom:-8px;
+width:100%;
+height:100%;
 border-radius:50%;
 background:linear-gradient(45deg,#00f5ff,#ff00ff);
-z-index:-1;
 animation:rotate 6s linear infinite;
+z-index:-1;
 }
 
 @keyframes rotate{
@@ -94,10 +96,11 @@ animation:rotate 6s linear infinite;
 }
 
 .profile-img{
-width:230px;
-height:230px;
+width:220px;
+height:220px;
 border-radius:50%;
 object-fit:cover;
+border:6px solid #1f1b3a;
 }
 
 /* TEXT */
@@ -118,32 +121,16 @@ display:inline-block;
 margin-top:15px;
 }
 
-/* CARDS */
-
-.card{
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
-border-radius:15px;
-padding:20px;
-margin-bottom:15px;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-}
-
-/* MODERN HEADINGS */
+/* SECTION TITLES */
 
 .section-title{
 text-align:center;
-margin-bottom:35px;
+margin-bottom:25px;
 }
 
 .section-title h2{
-font-size:34px;
-font-weight:600;
-margin-bottom:8px;
+font-size:30px;
+margin-bottom:6px;
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
 -webkit-background-clip:text;
 color:transparent;
@@ -154,6 +141,21 @@ opacity:0.7;
 font-size:14px;
 }
 
+/* CARDS */
+
+.card{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(12px);
+border-radius:15px;
+padding:18px;
+margin-bottom:12px; /* reduced gap */
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
 /* TIMELINE */
 
 .timeline{
@@ -162,7 +164,7 @@ padding-left:20px;
 }
 
 .timeline-item{
-margin-bottom:20px;
+margin-bottom:18px;
 position:relative;
 }
 
@@ -235,13 +237,13 @@ text-align:center;
 
 <div class="section-title">
 <h2>About Me</h2>
-<p>Professional summary and background</p>
+<p>Professional summary</p>
 </div>
 
 <div class="card">
 <p>
 Entry-Level Data Analyst skilled in SQL, Python, Excel and Power BI.
-Experienced in data cleaning, EDA, dashboards and business insights.
+Experienced in data cleaning, EDA, dashboard building and extracting business insights.
 </p>
 </div>
 
@@ -253,7 +255,7 @@ Experienced in data cleaning, EDA, dashboards and business insights.
 
 <div class="section-title">
 <h2>Technical Skills</h2>
-<p>Tools and technologies</p>
+<p>Tools & Technologies</p>
 </div>
 
 <div class="card">
@@ -268,12 +270,7 @@ SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
 
 <div class="section-title">
 <h2>Featured Projects</h2>
-<p>Real-world data analytics work</p>
-</div>
-
-<div class="card">
-<h3>Purchase Pattern Analysis</h3>
-<p>Customer transaction analysis using SQL, Python and Power BI.</p>
+<p>Real-world analytics work</p>
 </div>
 
 <div class="card">
@@ -323,7 +320,7 @@ SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
 
 <div class="section-title">
 <h2>Get In Touch</h2>
-<p>Let's connect</p>
+<p>Let’s connect</p>
 </div>
 
 <div class="card">
@@ -340,10 +337,8 @@ SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
 </footer>
 
 <script>
-
 const text=["Data Analyst","SQL Specialist","Power BI Developer","Excel Expert"];
 let i=0,j=0,current="";
-
 function type(){
 current=text[i];
 document.getElementById("typing").textContent=current.substring(0,j);
@@ -352,7 +347,6 @@ if(j>current.length){j=0;i=(i+1)%text.length;}
 setTimeout(type,100);
 }
 type();
-
 </script>
 
 </body>

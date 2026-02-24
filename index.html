@@ -4,12 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Priyanka C Meti | Data Analyst</title>
-
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
 
 <style>
-
-/* ===== BACKGROUND ===== */
 
 body{
 margin:0;
@@ -26,15 +23,11 @@ color:white;
 100%{background-position:0% 50%;}
 }
 
-/* ===== CONTAINER ===== */
-
 .container{
 width:90%;
 max-width:1200px;
 margin:auto;
 }
-
-/* ===== NAVBAR ===== */
 
 nav{
 display:flex;
@@ -55,14 +48,7 @@ nav a{
 color:white;
 margin-left:25px;
 text-decoration:none;
-transition:0.3s;
 }
-
-nav a:hover{
-color:#00f5ff;
-}
-
-/* ===== HERO SECTION ===== */
 
 .hero{
 min-height:90vh;
@@ -74,15 +60,8 @@ justify-content:center;
 .hero-wrapper{
 display:flex;
 align-items:center;
-justify-content:center;
 gap:80px;
 flex-wrap:wrap;
-}
-
-.photo-container{
-display:flex;
-justify-content:center;
-align-items:center;
 }
 
 .profile-img{
@@ -91,7 +70,7 @@ height:280px;
 border-radius:50%;
 object-fit:cover;
 border:5px solid #00f5ff;
-box-shadow:0 0 40px #00f5ff, 0 0 80px rgba(0,255,255,0.4);
+box-shadow:0 0 40px #00f5ff;
 animation:float 4s ease-in-out infinite;
 }
 
@@ -99,15 +78,6 @@ animation:float 4s ease-in-out infinite;
 0%{transform:translateY(0);}
 50%{transform:translateY(-15px);}
 100%{transform:translateY(0);}
-}
-
-.hero-text{
-max-width:500px;
-}
-
-.hero-text h1{
-font-size:42px;
-margin-bottom:10px;
 }
 
 .gradient-text{
@@ -125,15 +95,7 @@ color:white;
 font-weight:bold;
 display:inline-block;
 margin-top:20px;
-transition:0.3s;
 }
-
-.btn:hover{
-transform:scale(1.05);
-box-shadow:0 0 25px #ff00ff;
-}
-
-/* ===== SECTIONS ===== */
 
 section{
 padding:60px 0;
@@ -147,33 +109,15 @@ padding:30px;
 margin-bottom:30px;
 }
 
-/* ===== SKILLS ===== */
-
-.skill{
-margin-bottom:15px;
+ul{
+line-height:1.7;
 }
-
-.bar{
-height:8px;
-background:#1e293b;
-border-radius:20px;
-overflow:hidden;
-}
-
-.bar div{
-height:100%;
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
-}
-
-/* ===== FOOTER ===== */
 
 footer{
 text-align:center;
 padding:20px;
 opacity:0.7;
 }
-
-/* ===== MOBILE ===== */
 
 @media(max-width:768px){
 .hero-wrapper{
@@ -187,74 +131,115 @@ text-align:center;
 
 <body>
 
-<!-- NAVBAR -->
-
 <nav class="container">
 <h2>Priyanka</h2>
 <div>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#experience">Experience</a>
 <a href="#contact">Contact</a>
 </div>
 </nav>
 
-<!-- HERO -->
-
 <section class="hero container">
-
 <div class="hero-wrapper">
 
-<div class="photo-container">
-<img src="profile.jpg" alt="Priyanka Profile Photo" class="profile-img">
-</div>
+<img src="profile.jpg" class="profile-img">
 
-<div class="hero-text">
+<div>
 <h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
 <h2 id="typing"></h2>
-<p>Entry-Level Data Analyst | SQL | Python | Power BI | Excel</p>
+<p>Data Analyst — SQL — Python — Power BI — Excel</p>
 <a href="priyanka.pdf" class="btn">Download Resume</a>
 </div>
 
 </div>
-
 </section>
-
-<!-- ABOUT -->
 
 <section id="about" class="container">
 <div class="glass">
-<h2>About Me</h2>
+<h2>Profile</h2>
 <p>
-Entry-level Data Analyst with hands-on experience analyzing customer, sales and operational datasets.
-Skilled in SQL, Python, Excel and Power BI for data cleaning, exploratory analysis, KPI tracking and dashboard development.
-</p>
-<p>
-Passionate about transforming raw data into actionable business insights and supporting data-driven decision-making.
+Entry-level Data Analyst with hands-on experience in SQL, Python, Excel, and Power BI. Skilled in analyzing customer, sales, occupancy, and operational datasets to build dashboards and deliver actionable business insights.
 </p>
 </div>
 </section>
-
-<!-- SKILLS -->
 
 <section id="skills" class="container">
 <div class="glass">
-<h2>Skills</h2>
+<h2>Technical Skills</h2>
+<ul>
+<li><b>Data Analysis:</b> Data cleaning, preprocessing, EDA, KPI definition</li>
+<li><b>SQL:</b> Joins, subqueries, aggregations, window functions</li>
+<li><b>Python:</b> pandas, numpy, matplotlib</li>
+<li><b>Dashboards:</b> Power BI, Excel</li>
+<li><b>Databases & Tools:</b> PostgreSQL, MySQL, MongoDB, Snowflake, Git/GitHub</li>
+</ul>
+</div>
+</section>
 
-<div class="skill">SQL<div class="bar"><div style="width:90%"></div></div></div>
-<div class="skill">Python<div class="bar"><div style="width:85%"></div></div></div>
-<div class="skill">Power BI<div class="bar"><div style="width:88%"></div></div></div>
-<div class="skill">Excel<div class="bar"><div style="width:92%"></div></div></div>
+<section id="projects" class="container">
+<div class="glass">
+<h2>Projects</h2>
+
+<h3>Purchase Pattern Analysis</h3>
+<ul>
+<li>Analyzed customer transaction data to identify purchase patterns and high-value customers</li>
+<li>Used SQL and Python for data extraction and analysis</li>
+<li>Built interactive Power BI dashboards to visualize KPIs</li>
+</ul>
+
+<h3>Customer Data Analysis — Shopping Malls</h3>
+<ul>
+<li>Analyzed transaction data from 10 shopping malls (2021–2023)</li>
+<li>Used Power Query and DAX to create KPIs</li>
+<li>Built dashboards to compare location-wise performance</li>
+</ul>
+
+<h3>Movie Database Analysis (SQL)</h3>
+<ul>
+<li>Performed advanced SQL analysis using joins and window functions</li>
+<li>Analyzed revenue trends and movie performance</li>
+</ul>
 
 </div>
 </section>
 
-<!-- CONTACT -->
+<section id="experience" class="container">
+<div class="glass">
+<h2>Internship Experience</h2>
+
+<h3>Data Analyst Intern — Rubixe (2025–Present)</h3>
+<ul>
+<li>Worked on real-world business datasets</li>
+<li>Performed EDA using SQL and Python</li>
+<li>Created Power BI dashboards to track KPIs</li>
+</ul>
+
+<h3>Data Analyst Intern — Canaan Ed & Tech (Dec 2025)</h3>
+<ul>
+<li>Completed hands-on analytics tasks</li>
+<li>Strengthened analytical thinking through project-based learning</li>
+</ul>
+
+<h3>Certification — DataMites (2025–2026)</h3>
+<ul>
+<li>Industry-aligned Data Analytics Certification</li>
+<li>Worked on real datasets using Excel, SQL, Python, Power BI</li>
+<li>Participated in mock interviews and placement training</li>
+</ul>
+
+</div>
+</section>
 
 <section id="contact" class="container">
 <div class="glass">
 <h2>Contact</h2>
 <p>Email: priyankacm26@gmail.com</p>
+<p>Phone: +91 9148358436</p>
 <p>LinkedIn: linkedin.com/in/priyanka-meti</p>
+<p>GitHub: github.com/priyankacm26-rgb</p>
 </div>
 </section>
 
@@ -262,12 +247,9 @@ Passionate about transforming raw data into actionable business insights and sup
 © 2026 Priyanka C Meti
 </footer>
 
-<!-- TYPING ANIMATION FIXED -->
-
 <script>
 const text=["Data Analyst","SQL Specialist","Power BI Developer","Excel Expert"];
 let i=0,j=0,current="";
-
 function type(){
 current=text[i];
 document.getElementById("typing").textContent=current.substring(0,j);

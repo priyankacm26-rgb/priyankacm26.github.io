@@ -9,16 +9,13 @@
 
 <style>
 
-/* ===== GLOBAL ===== */
-
 body{
 margin:0;
 font-family:Poppins;
 background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
 background-size:400% 400%;
-animation:bg 15s ease infinite;
+animation:bg 12s ease infinite;
 color:white;
-scroll-behavior:smooth;
 }
 
 @keyframes bg{
@@ -33,61 +30,27 @@ max-width:1200px;
 margin:auto;
 }
 
-section{
-padding:80px 0;
-}
-
-/* ===== NAVBAR ===== */
-
 nav{
-position:sticky;
-top:0;
-background:rgba(0,0,0,0.4);
-backdrop-filter:blur(10px);
 display:flex;
 justify-content:space-between;
-align-items:center;
-padding:15px 5%;
-z-index:1000;
-}
-
-nav h2{
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
--webkit-background-clip:text;
-color:transparent;
+padding:20px;
+background:rgba(0,0,0,0.3);
+backdrop-filter:blur(10px);
 }
 
 nav a{
 color:white;
 margin-left:20px;
 text-decoration:none;
-position:relative;
 }
-
-nav a::after{
-content:'';
-position:absolute;
-width:0%;
-height:2px;
-bottom:-4px;
-left:0;
-background:#00f5ff;
-transition:0.3s;
-}
-
-nav a:hover::after{
-width:100%;
-}
-
-/* ===== HERO ===== */
 
 .hero{
 min-height:90vh;
 display:flex;
 align-items:center;
 justify-content:center;
-flex-wrap:wrap;
 gap:70px;
+flex-wrap:wrap;
 }
 
 .profile-img{
@@ -96,18 +59,14 @@ height:280px;
 border-radius:50%;
 object-fit:cover;
 border:4px solid #00f5ff;
-box-shadow:0 0 40px #00f5ff,0 0 80px rgba(0,255,255,0.5);
+box-shadow:0 0 40px #00f5ff;
 animation:float 4s ease-in-out infinite;
 }
 
 @keyframes float{
 0%{transform:translateY(0);}
-50%{transform:translateY(-20px);}
+50%{transform:translateY(-15px);}
 100%{transform:translateY(0);}
-}
-
-.hero h1{
-font-size:40px;
 }
 
 .gradient-text{
@@ -118,37 +77,22 @@ color:transparent;
 
 .btn{
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
-padding:14px 30px;
+padding:14px 28px;
 border-radius:30px;
-color:white;
 text-decoration:none;
+color:white;
 font-weight:bold;
 display:inline-block;
 margin-top:20px;
-transition:0.3s;
 }
-
-.btn:hover{
-transform:scale(1.05);
-box-shadow:0 0 25px #ff00ff;
-}
-
-/* ===== GLASS CARDS ===== */
 
 .glass{
 background:rgba(255,255,255,0.06);
 backdrop-filter:blur(15px);
 border-radius:20px;
 padding:30px;
-transition:0.4s;
+margin-bottom:30px;
 }
-
-.glass:hover{
-transform:translateY(-8px);
-box-shadow:0 10px 30px rgba(0,255,255,0.2);
-}
-
-/* ===== SKILLS ===== */
 
 .skill{
 margin-bottom:15px;
@@ -166,7 +110,9 @@ height:100%;
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
 }
 
-/* ===== FOOTER ===== */
+section{
+padding:60px 0;
+}
 
 footer{
 text-align:center;
@@ -174,23 +120,13 @@ padding:20px;
 opacity:0.7;
 }
 
-/* ===== RESPONSIVE ===== */
-
-@media(max-width:768px){
-.hero{
-text-align:center;
-}
-}
-
 </style>
 </head>
 
 <body>
 
-<!-- NAV -->
-
-<nav>
-<h2>Priyanka</h2>
+<nav class="container">
+<h2 class="gradient-text">Priyanka</h2>
 <div>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -205,10 +141,15 @@ text-align:center;
 <img src="profile.jpg" class="profile-img">
 
 <div>
+
 <h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
+
 <h2 id="typing"></h2>
+
 <p>Entry-Level Data Analyst | SQL | Python | Power BI | Excel</p>
+
 <a href="priyanka.pdf" class="btn">Download Resume</a>
+
 </div>
 
 </section>
@@ -216,55 +157,54 @@ text-align:center;
 <!-- ABOUT -->
 
 <section id="about" class="container">
+
 <div class="glass">
+
 <h2>About Me</h2>
+
 <p>
-Entry-level Data Analyst with hands-on experience working on customer, sales, and operational datasets.
-Skilled in SQL, Python, Excel, and Power BI for data cleaning, KPI tracking, and dashboard development.
+Entry-level Data Analyst with hands-on experience analyzing customer, sales and operational datasets.
+Skilled in SQL, Python, Excel, and Power BI for data cleaning, exploratory analysis, KPI tracking and dashboard development.
 </p>
+
 <p>
-Strong in analytical thinking, business understanding, and transforming raw data into actionable insights.
+Passionate about transforming raw data into meaningful insights and building dashboards that support data-driven decision-making.
 </p>
+
 </div>
+
 </section>
 
 <!-- SKILLS -->
 
 <section id="skills" class="container">
+
 <div class="glass">
+
 <h2>Skills</h2>
 
-<div class="skill">
-SQL
-<div class="bar"><div style="width:90%"></div></div>
-</div>
-
-<div class="skill">
-Python
-<div class="bar"><div style="width:85%"></div></div>
-</div>
-
-<div class="skill">
-Power BI
-<div class="bar"><div style="width:88%"></div></div>
-</div>
-
-<div class="skill">
-Excel
-<div class="bar"><div style="width:92%"></div></div>
-</div>
+<div class="skill">SQL<div class="bar"><div style="width:90%"></div></div></div>
+<div class="skill">Python<div class="bar"><div style="width:85%"></div></div></div>
+<div class="skill">Power BI<div class="bar"><div style="width:88%"></div></div></div>
+<div class="skill">Excel<div class="bar"><div style="width:92%"></div></div></div>
 
 </div>
+
 </section>
 
 <!-- CONTACT -->
 
 <section id="contact" class="container">
+
 <div class="glass">
+
 <h2>Contact</h2>
+
 <p>Email: priyankacm26@gmail.com</p>
 <p>LinkedIn: linkedin.com/in/priyanka-meti</p>
+
 </div>
+
 </section>
 
 <footer>
@@ -272,15 +212,23 @@ Excel
 </footer>
 
 <script>
+
 const text=["Data Analyst","SQL Specialist","Power BI Developer","Excel Expert"];
 let i=0,j=0,current="";
+
 function type(){
 current=text[i];
-document.getElementById("typing").textContent=current.substring(0,j++);
-if(j>current.length){j=0;i=(i+1)%text.length;}
+document.getElementById("typing").textContent=current.substring(0,j);
+j++;
+if(j>current.length){
+j=0;
+i=(i+1)%text.length;
+}
 setTimeout(type,100);
 }
+
 type();
+
 </script>
 
 </body>

@@ -7,6 +7,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
 
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <style>
 
 /* ===== GLOBAL ===== */
@@ -32,6 +35,12 @@ width:90%;
 max-width:1100px;
 margin:auto;
 }
+
+section{
+padding:40px 0;
+}
+
+/* NAVBAR */
 
 nav{
 display:flex;
@@ -66,8 +75,8 @@ flex-wrap:wrap;
 .profile-img{
 width:260px;
 height:260px;
-border-radius:20px;
 object-fit:cover;
+border-radius:20px;
 box-shadow:0 0 30px #00f5ff;
 }
 
@@ -81,44 +90,30 @@ color:transparent;
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
 padding:12px 25px;
 border-radius:30px;
-text-decoration:none;
 color:white;
+text-decoration:none;
 display:inline-block;
 margin-top:15px;
 }
 
-/* SECTIONS */
-
-section{
-padding:40px 0;
-}
+/* GLASS CARD */
 
 .glass{
 background:rgba(255,255,255,0.06);
 backdrop-filter:blur(15px);
 border-radius:20px;
 padding:25px;
-margin-bottom:20px;
-opacity:0;
-transform:translateY(30px);
-transition:0.6s;
-}
-
-.glass.show{
-opacity:1;
-transform:translateY(0);
-}
-
-/* PROJECT CARDS */
-
-.project-card{
 margin-bottom:15px;
 transition:0.3s;
 }
 
-.project-card:hover{
+.glass:hover{
 transform:translateY(-5px);
-box-shadow:0 10px 30px rgba(0,255,255,0.2);
+}
+
+.icon{
+margin-right:10px;
+color:#00f5ff;
 }
 
 footer{
@@ -145,6 +140,7 @@ padding:20px;
 <!-- HERO -->
 
 <section class="hero container">
+
 <div class="hero-wrapper">
 
 <img src="pic.jpg" class="pic-img">
@@ -152,21 +148,21 @@ padding:20px;
 <div>
 <h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
 <h2 id="typing"></h2>
-<p>Data Analyst — SQL — Python — Power BI — Excel</p>
-<a href="priyanka.pdf" class="btn">Download Resume</a>
+<p><i class="fa-solid fa-chart-line icon"></i>Data Analyst — SQL — Python — Power BI — Excel</p>
+<a href="priyanka.pdf" class="btn"><i class="fa-solid fa-download"></i> Download Resume</a>
 </div>
 
 </div>
+
 </section>
 
 <!-- ABOUT -->
 
 <section id="about" class="container">
-<div class="glass reveal">
-<h2>About Me</h2>
+<div class="glass">
+<h2><i class="fa-solid fa-user icon"></i>About Me</h2>
 <p>
-Entry-level Data Analyst with hands-on experience analyzing customer, sales and operational datasets.
-Skilled in SQL, Python, Excel and Power BI for building dashboards and extracting insights.
+Entry-level Data Analyst skilled in SQL, Python, Excel, and Power BI. Experienced in analyzing customer, sales, occupancy and operational data to build dashboards and generate actionable insights.
 </p>
 </div>
 </section>
@@ -174,9 +170,9 @@ Skilled in SQL, Python, Excel and Power BI for building dashboards and extractin
 <!-- SKILLS -->
 
 <section id="skills" class="container">
-<div class="glass reveal">
-<h2>Skills</h2>
-<p>SQL | Python | Power BI | Excel | Data Visualization</p>
+<div class="glass">
+<h2><i class="fa-solid fa-code icon"></i>Technical Skills</h2>
+<p>SQL | Python | Power BI | Excel | PostgreSQL | MySQL | MongoDB | Snowflake | GitHub</p>
 </div>
 </section>
 
@@ -184,19 +180,19 @@ Skilled in SQL, Python, Excel and Power BI for building dashboards and extractin
 
 <section id="projects" class="container">
 
-<div class="glass project-card reveal">
+<div class="glass">
 <h3>Purchase Pattern Analysis</h3>
-<p>Analyzed customer transaction data using SQL and Python and created Power BI dashboards.</p>
+<p>Analyzed customer transaction data using SQL, Python, and Power BI dashboards.</p>
 </div>
 
-<div class="glass project-card reveal">
+<div class="glass">
 <h3>Customer Data Analysis — Shopping Malls</h3>
-<p>Location-wise performance dashboards using Power BI and DAX.</p>
+<p>Created Power BI dashboards with DAX KPIs to analyze location performance.</p>
 </div>
 
-<div class="glass project-card reveal">
+<div class="glass">
 <h3>Movie Database SQL Analysis</h3>
-<p>Advanced SQL queries for revenue trends and performance analysis.</p>
+<p>Advanced SQL analysis including joins, aggregations, and window functions.</p>
 </div>
 
 </section>
@@ -205,14 +201,14 @@ Skilled in SQL, Python, Excel and Power BI for building dashboards and extractin
 
 <section id="experience" class="container">
 
-<div class="glass reveal">
+<div class="glass">
 <h3>Data Analyst Intern — Rubixe</h3>
-<p>Worked with business datasets, performed data cleaning and built KPI dashboards.</p>
+<p>Worked with business datasets, built dashboards, performed EDA and KPI tracking.</p>
 </div>
 
-<div class="glass reveal">
+<div class="glass">
 <h3>Data Analyst Intern — Canaan Ed & Tech</h3>
-<p>Performed data analysis tasks and reporting with real-world datasets.</p>
+<p>Completed analytics tasks including data cleaning, analysis and reporting.</p>
 </div>
 
 </section>
@@ -220,9 +216,15 @@ Skilled in SQL, Python, Excel and Power BI for building dashboards and extractin
 <!-- CONTACT -->
 
 <section id="contact" class="container">
-<div class="glass reveal">
-<h2>Contact</h2>
-<p>Email: priyankacm26@gmail.com</p>
+<div class="glass">
+
+<h2><i class="fa-solid fa-envelope icon"></i>Contact</h2>
+
+<p><i class="fa-solid fa-envelope icon"></i> priyankacm26@gmail.com</p>
+<p><i class="fa-solid fa-phone icon"></i> +91 91483 58436</p>
+<p><i class="fa-brands fa-linkedin icon"></i> linkedin.com/in/priyanka-meti</p>
+<p><i class="fa-brands fa-github icon"></i> github.com/priyankacm26-rgb</p>
+
 </div>
 </section>
 
@@ -244,18 +246,6 @@ if(j>current.length){j=0;i=(i+1)%text.length;}
 setTimeout(type,100);
 }
 type();
-
-/* scroll reveal */
-
-const reveals=document.querySelectorAll(".reveal");
-
-window.addEventListener("scroll",()=>{
-reveals.forEach(el=>{
-if(el.getBoundingClientRect().top < window.innerHeight-100){
-el.classList.add("show");
-}
-});
-});
 
 </script>
 

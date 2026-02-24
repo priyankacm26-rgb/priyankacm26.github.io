@@ -4,11 +4,11 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
 
-<!-- ICONS -->
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -38,10 +38,10 @@ margin:auto;
 }
 
 section{
-padding:70px 0;
+padding:80px 0;
 }
 
-/* ===== NAV ===== */
+/* ===== NAVBAR ===== */
 
 nav{
 display:flex;
@@ -62,28 +62,34 @@ margin-left:20px;
 text-decoration:none;
 }
 
-nav a:hover{
-color:#00f5ff;
-}
-
 /* ===== HERO ===== */
 
 .hero{
 display:flex;
 align-items:center;
 justify-content:center;
-flex-wrap:wrap;
 gap:80px;
+flex-wrap:wrap;
 min-height:90vh;
 }
 
-.profile-img{
-width:260px;
-height:260px;
-border-radius:50%;
-object-fit:cover;
-border:4px solid #00f5ff;
+.photo-card{
+border-radius:20px;
+overflow:hidden;
 box-shadow:0 0 40px #00f5ff;
+animation:float 5s ease-in-out infinite;
+}
+
+.photo-card img{
+height:420px;
+width:auto;
+border-radius:20px;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
 }
 
 .gradient-text{
@@ -118,23 +124,30 @@ transition:0.3s;
 transform:translateY(-6px);
 }
 
-/* ===== GRID ===== */
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-}
-
 ul{
-line-height:1.8;
 list-style:none;
 padding:0;
+line-height:1.8;
 }
 
 ul li i{
-margin-right:10px;
 color:#00f5ff;
+margin-right:10px;
+}
+
+/* ===== EXPERIENCE TIMELINE ===== */
+
+.timeline-item{
+margin-bottom:40px;
+padding-left:20px;
+border-left:3px solid #00f5ff;
+}
+
+.date{
+font-size:14px;
+color:#00f5ff;
+display:block;
+margin-bottom:10px;
 }
 
 footer{
@@ -163,13 +176,22 @@ opacity:0.7;
 
 <section class="hero container">
 
-<img src="pic.jpg" class="pic-img">
+<div class="photo-card">
+<img src="pic.jpg">
+</div>
 
 <div>
+
 <h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
+
 <h2 id="typing"></h2>
+
 <p><i class="fa-solid fa-chart-line"></i> Data Analyst — SQL — Python — Power BI — Excel</p>
-<a href="priyanka.pdf" class="btn"><i class="fa-solid fa-download"></i> Download Resume</a>
+
+<a href="priyanka.pdf" class="btn">
+<i class="fa-solid fa-download"></i> Download Resume
+</a>
+
 </div>
 
 </section>
@@ -180,8 +202,7 @@ opacity:0.7;
 <div class="card">
 <h2><i class="fa-solid fa-user"></i> Profile</h2>
 <p>
-Entry-level Data Analyst with hands-on experience in SQL, Python, Excel and Power BI.
-Skilled in analyzing customer, sales and operational data to build dashboards and deliver business insights.
+Entry-level Data Analyst skilled in SQL, Python, Excel and Power BI. Experienced in analyzing customer, sales and operational datasets and building dashboards that deliver business insights.
 </p>
 </div>
 </section>
@@ -193,11 +214,11 @@ Skilled in analyzing customer, sales and operational data to build dashboards an
 <h2><i class="fa-solid fa-code"></i> Technical Skills</h2>
 
 <ul>
-<li><i class="fa-solid fa-database"></i> SQL (Joins, Subqueries, Window Functions)</li>
+<li><i class="fa-solid fa-database"></i> SQL (Joins, Window Functions)</li>
 <li><i class="fa-brands fa-python"></i> Python (Pandas, NumPy)</li>
-<li><i class="fa-solid fa-chart-column"></i> Power BI & Excel Dashboards</li>
+<li><i class="fa-solid fa-chart-column"></i> Power BI & Excel</li>
 <li><i class="fa-solid fa-broom"></i> Data Cleaning & EDA</li>
-<li><i class="fa-brands fa-github"></i> Git & GitHub</li>
+<li><i class="fa-brands fa-github"></i> GitHub</li>
 </ul>
 
 </div>
@@ -209,24 +230,7 @@ Skilled in analyzing customer, sales and operational data to build dashboards an
 <div class="card">
 <h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
 
-<div class="grid">
-
-<div>
-<h3>Purchase Pattern Analysis</h3>
-<p>Customer transaction analysis using SQL, Python and Power BI dashboards.</p>
-</div>
-
-<div>
-<h3>Shopping Mall Data Analysis</h3>
-<p>Power BI dashboards comparing location performance.</p>
-</div>
-
-<div>
-<h3>Movie Database SQL Analysis</h3>
-<p>Advanced SQL analysis using joins & window functions.</p>
-</div>
-
-</div>
+<p>Purchase Pattern Analysis | Shopping Mall Analysis | Movie Database SQL Analysis</p>
 
 </div>
 </section>
@@ -235,11 +239,36 @@ Skilled in analyzing customer, sales and operational data to build dashboards an
 
 <section id="experience" class="container">
 <div class="card">
-<h2><i class="fa-solid fa-briefcase"></i> Experience & Certification</h2>
 
-<p><b>Rubixe — Data Analyst Intern</b></p>
-<p><b>Canaan Ed & Tech — Data Analyst Intern</b></p>
-<p><b>DataMites — Data Analytics Certification</b></p>
+<h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
+
+<div class="timeline-item">
+<h3>Data Analyst Intern – Rubixe</h3>
+<span class="date">2025 – Present</span>
+<ul>
+<li><i class="fa-solid fa-check"></i> Exploratory Data Analysis using SQL & Python</li>
+<li><i class="fa-solid fa-check"></i> Built Power BI dashboards</li>
+<li><i class="fa-solid fa-check"></i> KPI tracking & business insights</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<h3>Data Analyst Intern – Canaan Ed & Tech</h3>
+<span class="date">Dec 2025</span>
+<ul>
+<li><i class="fa-solid fa-check"></i> Data cleaning & reporting</li>
+<li><i class="fa-solid fa-check"></i> Real-world analytics projects</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<h3>Data Analytics Certification – DataMites</h3>
+<span class="date">2025 – 2026</span>
+<ul>
+<li><i class="fa-solid fa-check"></i> SQL, Python, Excel & Power BI projects</li>
+<li><i class="fa-solid fa-check"></i> Mock interviews & placement training</li>
+</ul>
+</div>
 
 </div>
 </section>
@@ -251,7 +280,6 @@ Skilled in analyzing customer, sales and operational data to build dashboards an
 <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
 <p>Email: priyankacm26@gmail.com</p>
 <p>LinkedIn: linkedin.com/in/priyanka-meti</p>
-<p>GitHub: github.com/priyankacm26-rgb</p>
 </div>
 </section>
 

@@ -9,20 +9,24 @@
 
 <style>
 
+/* ===== BACKGROUND ===== */
+
 body{
 margin:0;
 font-family:Poppins;
 background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
 background-size:400% 400%;
-animation:bg 12s ease infinite;
+animation:bgMove 12s ease infinite;
 color:white;
 }
 
-@keyframes bg{
+@keyframes bgMove{
 0%{background-position:0% 50%;}
 50%{background-position:100% 50%;}
 100%{background-position:0% 50%;}
 }
+
+/* ===== CONTAINER ===== */
 
 .container{
 width:90%;
@@ -30,27 +34,55 @@ max-width:1200px;
 margin:auto;
 }
 
+/* ===== NAVBAR ===== */
+
 nav{
 display:flex;
 justify-content:space-between;
-padding:20px;
+align-items:center;
+padding:20px 0;
 background:rgba(0,0,0,0.3);
 backdrop-filter:blur(10px);
 }
 
+nav h2{
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
 nav a{
 color:white;
-margin-left:20px;
+margin-left:25px;
 text-decoration:none;
+transition:0.3s;
 }
+
+nav a:hover{
+color:#00f5ff;
+}
+
+/* ===== HERO SECTION ===== */
 
 .hero{
 min-height:90vh;
 display:flex;
 align-items:center;
 justify-content:center;
-gap:70px;
+}
+
+.hero-wrapper{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:80px;
 flex-wrap:wrap;
+}
+
+.photo-container{
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
 .profile-img{
@@ -58,8 +90,8 @@ width:280px;
 height:280px;
 border-radius:50%;
 object-fit:cover;
-border:4px solid #00f5ff;
-box-shadow:0 0 40px #00f5ff;
+border:5px solid #00f5ff;
+box-shadow:0 0 40px #00f5ff, 0 0 80px rgba(0,255,255,0.4);
 animation:float 4s ease-in-out infinite;
 }
 
@@ -67,6 +99,15 @@ animation:float 4s ease-in-out infinite;
 0%{transform:translateY(0);}
 50%{transform:translateY(-15px);}
 100%{transform:translateY(0);}
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+font-size:42px;
+margin-bottom:10px;
 }
 
 .gradient-text{
@@ -84,6 +125,18 @@ color:white;
 font-weight:bold;
 display:inline-block;
 margin-top:20px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+box-shadow:0 0 25px #ff00ff;
+}
+
+/* ===== SECTIONS ===== */
+
+section{
+padding:60px 0;
 }
 
 .glass{
@@ -93,6 +146,8 @@ border-radius:20px;
 padding:30px;
 margin-bottom:30px;
 }
+
+/* ===== SKILLS ===== */
 
 .skill{
 margin-bottom:15px;
@@ -110,9 +165,7 @@ height:100%;
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
 }
 
-section{
-padding:60px 0;
-}
+/* ===== FOOTER ===== */
 
 footer{
 text-align:center;
@@ -120,13 +173,24 @@ padding:20px;
 opacity:0.7;
 }
 
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+.hero-wrapper{
+flex-direction:column;
+text-align:center;
+}
+}
+
 </style>
 </head>
 
 <body>
 
+<!-- NAVBAR -->
+
 <nav class="container">
-<h2 class="gradient-text">Priyanka</h2>
+<h2>Priyanka</h2>
 <div>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -138,17 +202,18 @@ opacity:0.7;
 
 <section class="hero container">
 
-<img src="profile.jpg" class="profile-img">
+<div class="hero-wrapper">
 
-<div>
+<div class="photo-container">
+<img src="profile.jpg" alt="Priyanka Profile Photo" class="profile-img">
+</div>
 
+<div class="hero-text">
 <h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
-
 <h2 id="typing"></h2>
-
 <p>Entry-Level Data Analyst | SQL | Python | Power BI | Excel</p>
-
 <a href="priyanka.pdf" class="btn">Download Resume</a>
+</div>
 
 </div>
 
@@ -157,30 +222,22 @@ opacity:0.7;
 <!-- ABOUT -->
 
 <section id="about" class="container">
-
 <div class="glass">
-
 <h2>About Me</h2>
-
 <p>
 Entry-level Data Analyst with hands-on experience analyzing customer, sales and operational datasets.
-Skilled in SQL, Python, Excel, and Power BI for data cleaning, exploratory analysis, KPI tracking and dashboard development.
+Skilled in SQL, Python, Excel and Power BI for data cleaning, exploratory analysis, KPI tracking and dashboard development.
 </p>
-
 <p>
-Passionate about transforming raw data into meaningful insights and building dashboards that support data-driven decision-making.
+Passionate about transforming raw data into actionable business insights and supporting data-driven decision-making.
 </p>
-
 </div>
-
 </section>
 
 <!-- SKILLS -->
 
 <section id="skills" class="container">
-
 <div class="glass">
-
 <h2>Skills</h2>
 
 <div class="skill">SQL<div class="bar"><div style="width:90%"></div></div></div>
@@ -189,30 +246,25 @@ Passionate about transforming raw data into meaningful insights and building das
 <div class="skill">Excel<div class="bar"><div style="width:92%"></div></div></div>
 
 </div>
-
 </section>
 
 <!-- CONTACT -->
 
 <section id="contact" class="container">
-
 <div class="glass">
-
 <h2>Contact</h2>
-
 <p>Email: priyankacm26@gmail.com</p>
 <p>LinkedIn: linkedin.com/in/priyanka-meti</p>
-
 </div>
-
 </section>
 
 <footer>
 © 2026 Priyanka C Meti
 </footer>
 
-<script>
+<!-- TYPING ANIMATION FIXED -->
 
+<script>
 const text=["Data Analyst","SQL Specialist","Power BI Developer","Excel Expert"];
 let i=0,j=0,current="";
 
@@ -226,9 +278,7 @@ i=(i+1)%text.length;
 }
 setTimeout(type,100);
 }
-
 type();
-
 </script>
 
 </body>

@@ -73,8 +73,8 @@ flex-wrap:wrap;
 
 .profile-wrapper{
 position:relative;
-width:240px;
-height:240px;
+width:260px;
+height:260px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -83,12 +83,12 @@ justify-content:center;
 .profile-wrapper::before{
 content:'';
 position:absolute;
-width:100%;
-height:100%;
+width:260%;
+height:260%;
 border-radius:50%;
 background:linear-gradient(45deg,#00f5ff,#ff00ff);
 animation:rotate 6s linear infinite;
-z-index:-1;
+z-index: 0;
 }
 
 @keyframes rotate{
@@ -96,11 +96,12 @@ z-index:-1;
 }
 
 .profile-img{
-width:200px;
-height:200px;
+width:220px;
+height:220px;
 border-radius:50%;
 object-fit:cover;
-border:6px solid #1f1b3a;
+position:relative;
+z-index:2;
 }
 
 /* TEXT */

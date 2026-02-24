@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 
@@ -19,10 +14,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 body{
 margin:0;
 font-family:Poppins;
-background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000);
+background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
 background-size:400% 400%;
 animation:bgMove 12s ease infinite;
 color:white;
+scroll-behavior:smooth;
 }
 
 @keyframes bgMove{
@@ -33,27 +29,16 @@ color:white;
 
 .container{
 width:90%;
-max-width:1200px;
+max-width:1100px;
 margin:auto;
 }
-
-section{
-padding:80px 0;
-}
-
-/* ===== NAVBAR ===== */
 
 nav{
 display:flex;
 justify-content:space-between;
-align-items:center;
-padding:20px 0;
-}
-
-nav h2{
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
--webkit-background-clip:text;
-color:transparent;
+padding:15px 0;
+background:rgba(0,0,0,0.3);
+backdrop-filter:blur(10px);
 }
 
 nav a{
@@ -62,34 +47,28 @@ margin-left:20px;
 text-decoration:none;
 }
 
-/* ===== HERO ===== */
+/* HERO */
 
 .hero{
+min-height:75vh;
 display:flex;
 align-items:center;
 justify-content:center;
-gap:80px;
+}
+
+.hero-wrapper{
+display:flex;
+align-items:center;
+gap:60px;
 flex-wrap:wrap;
-min-height:90vh;
 }
 
-.photo-card{
+.profile-img{
+width:260px;
+height:260px;
 border-radius:20px;
-overflow:hidden;
-box-shadow:0 0 40px #00f5ff;
-animation:float 5s ease-in-out infinite;
-}
-
-.photo-card img{
-height:420px;
-width:auto;
-border-radius:20px;
-}
-
-@keyframes float{
-0%{transform:translateY(0);}
-50%{transform:translateY(-15px);}
-100%{transform:translateY(0);}
+object-fit:cover;
+box-shadow:0 0 30px #00f5ff;
 }
 
 .gradient-text{
@@ -100,60 +79,51 @@ color:transparent;
 
 .btn{
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
-padding:14px 25px;
+padding:12px 25px;
 border-radius:30px;
-color:white;
 text-decoration:none;
-font-weight:bold;
+color:white;
 display:inline-block;
 margin-top:15px;
 }
 
-/* ===== CARDS ===== */
+/* SECTIONS */
 
-.card{
+section{
+padding:40px 0;
+}
+
+.glass{
 background:rgba(255,255,255,0.06);
 backdrop-filter:blur(15px);
 border-radius:20px;
-padding:30px;
-margin-bottom:30px;
+padding:25px;
+margin-bottom:20px;
+opacity:0;
+transform:translateY(30px);
+transition:0.6s;
+}
+
+.glass.show{
+opacity:1;
+transform:translateY(0);
+}
+
+/* PROJECT CARDS */
+
+.project-card{
+margin-bottom:15px;
 transition:0.3s;
 }
 
-.card:hover{
-transform:translateY(-6px);
-}
-
-ul{
-list-style:none;
-padding:0;
-line-height:1.8;
-}
-
-ul li i{
-color:#00f5ff;
-margin-right:10px;
-}
-
-/* ===== EXPERIENCE TIMELINE ===== */
-
-.timeline-item{
-margin-bottom:40px;
-padding-left:20px;
-border-left:3px solid #00f5ff;
-}
-
-.date{
-font-size:14px;
-color:#00f5ff;
-display:block;
-margin-bottom:10px;
+.project-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 30px rgba(0,255,255,0.2);
 }
 
 footer{
 text-align:center;
 padding:20px;
-opacity:0.7;
 }
 
 </style>
@@ -162,7 +132,7 @@ opacity:0.7;
 <body>
 
 <nav class="container">
-<h2>Priyanka</h2>
+<h2 class="gradient-text">Priyanka</h2>
 <div>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -175,34 +145,28 @@ opacity:0.7;
 <!-- HERO -->
 
 <section class="hero container">
+<div class="hero-wrapper">
 
-<div class="photo-card">
-<img src="pic.jpg">
-</div>
+<img src="pic.jpg" class="pic-img">
 
 <div>
-
 <h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
-
 <h2 id="typing"></h2>
-
-<p><i class="fa-solid fa-chart-line"></i> Data Analyst — SQL — Python — Power BI — Excel</p>
-
-<a href="priyanka.pdf" class="btn">
-<i class="fa-solid fa-download"></i> Download Resume
-</a>
-
+<p>Data Analyst — SQL — Python — Power BI — Excel</p>
+<a href="priyanka.pdf" class="btn">Download Resume</a>
 </div>
 
+</div>
 </section>
 
 <!-- ABOUT -->
 
 <section id="about" class="container">
-<div class="card">
-<h2><i class="fa-solid fa-user"></i> Profile</h2>
+<div class="glass reveal">
+<h2>About Me</h2>
 <p>
-Entry-level Data Analyst skilled in SQL, Python, Excel and Power BI. Experienced in analyzing customer, sales and operational datasets and building dashboards that deliver business insights.
+Entry-level Data Analyst with hands-on experience analyzing customer, sales and operational datasets.
+Skilled in SQL, Python, Excel and Power BI for building dashboards and extracting insights.
 </p>
 </div>
 </section>
@@ -210,76 +174,55 @@ Entry-level Data Analyst skilled in SQL, Python, Excel and Power BI. Experienced
 <!-- SKILLS -->
 
 <section id="skills" class="container">
-<div class="card">
-<h2><i class="fa-solid fa-code"></i> Technical Skills</h2>
-
-<ul>
-<li><i class="fa-solid fa-database"></i> SQL (Joins, Window Functions)</li>
-<li><i class="fa-brands fa-python"></i> Python (Pandas, NumPy)</li>
-<li><i class="fa-solid fa-chart-column"></i> Power BI & Excel</li>
-<li><i class="fa-solid fa-broom"></i> Data Cleaning & EDA</li>
-<li><i class="fa-brands fa-github"></i> GitHub</li>
-</ul>
-
+<div class="glass reveal">
+<h2>Skills</h2>
+<p>SQL | Python | Power BI | Excel | Data Visualization</p>
 </div>
 </section>
 
 <!-- PROJECTS -->
 
 <section id="projects" class="container">
-<div class="card">
-<h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
 
-<p>Purchase Pattern Analysis | Shopping Mall Analysis | Movie Database SQL Analysis</p>
-
+<div class="glass project-card reveal">
+<h3>Purchase Pattern Analysis</h3>
+<p>Analyzed customer transaction data using SQL and Python and created Power BI dashboards.</p>
 </div>
+
+<div class="glass project-card reveal">
+<h3>Customer Data Analysis — Shopping Malls</h3>
+<p>Location-wise performance dashboards using Power BI and DAX.</p>
+</div>
+
+<div class="glass project-card reveal">
+<h3>Movie Database SQL Analysis</h3>
+<p>Advanced SQL queries for revenue trends and performance analysis.</p>
+</div>
+
 </section>
 
 <!-- EXPERIENCE -->
 
 <section id="experience" class="container">
-<div class="card">
 
-<h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
-
-<div class="timeline-item">
-<h3>Data Analyst Intern – Rubixe</h3>
-<span class="date">2025 – Present</span>
-<ul>
-<li><i class="fa-solid fa-check"></i> Exploratory Data Analysis using SQL & Python</li>
-<li><i class="fa-solid fa-check"></i> Built Power BI dashboards</li>
-<li><i class="fa-solid fa-check"></i> KPI tracking & business insights</li>
-</ul>
+<div class="glass reveal">
+<h3>Data Analyst Intern — Rubixe</h3>
+<p>Worked with business datasets, performed data cleaning and built KPI dashboards.</p>
 </div>
 
-<div class="timeline-item">
-<h3>Data Analyst Intern – Canaan Ed & Tech</h3>
-<span class="date">Dec 2025</span>
-<ul>
-<li><i class="fa-solid fa-check"></i> Data cleaning & reporting</li>
-<li><i class="fa-solid fa-check"></i> Real-world analytics projects</li>
-</ul>
+<div class="glass reveal">
+<h3>Data Analyst Intern — Canaan Ed & Tech</h3>
+<p>Performed data analysis tasks and reporting with real-world datasets.</p>
 </div>
 
-<div class="timeline-item">
-<h3>Data Analytics Certification – DataMites</h3>
-<span class="date">2025 – 2026</span>
-<ul>
-<li><i class="fa-solid fa-check"></i> SQL, Python, Excel & Power BI projects</li>
-<li><i class="fa-solid fa-check"></i> Mock interviews & placement training</li>
-</ul>
-</div>
-
-</div>
 </section>
 
 <!-- CONTACT -->
 
 <section id="contact" class="container">
-<div class="card">
-<h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+<div class="glass reveal">
+<h2>Contact</h2>
 <p>Email: priyankacm26@gmail.com</p>
-<p>LinkedIn: linkedin.com/in/priyanka-meti</p>
 </div>
 </section>
 
@@ -288,6 +231,8 @@ Entry-level Data Analyst skilled in SQL, Python, Excel and Power BI. Experienced
 </footer>
 
 <script>
+
+/* typing animation */
 
 const text=["Data Analyst","SQL Specialist","Power BI Developer","Excel Expert"];
 let i=0,j=0,current="";
@@ -299,6 +244,18 @@ if(j>current.length){j=0;i=(i+1)%text.length;}
 setTimeout(type,100);
 }
 type();
+
+/* scroll reveal */
+
+const reveals=document.querySelectorAll(".reveal");
+
+window.addEventListener("scroll",()=>{
+reveals.forEach(el=>{
+if(el.getBoundingClientRect().top < window.innerHeight-100){
+el.classList.add("show");
+}
+});
+});
 
 </script>
 

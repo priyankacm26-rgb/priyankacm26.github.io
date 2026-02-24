@@ -1,247 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Priyanka C Meti | Data Analyst</title>
-
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
-
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-<style>
-
-body{
-margin:0;
-font-family:Poppins;
-background:linear-gradient(135deg,#020617,#0f172a);
-color:white;
-scroll-behavior:smooth;
-}
-
-.container{
-width:90%;
-max-width:1100px;
-margin:auto;
-}
-
-nav{
-display:flex;
-justify-content:space-between;
-padding:20px;
-}
-
-nav a{
-color:white;
-margin-left:20px;
-text-decoration:none;
-}
-
-.hero{
-height:90vh;
-display:flex;
-align-items:center;
-}
-
-.gradient-text{
-background:linear-gradient(90deg,#38bdf8,#a78bfa);
--webkit-background-clip:text;
-color:transparent;
-}
+# 👩‍💻 Priyanka C Meti — Data Analyst Portfolio
 
-.glass{
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
-border-radius:15px;
-padding:20px;
-border:1px solid rgba(255,255,255,0.1);
-margin-bottom:20px;
-}
-
-.btn{
-background:#38bdf8;
-padding:10px 20px;
-border-radius:8px;
-text-decoration:none;
-color:black;
-font-weight:bold;
-}
+Welcome to my personal portfolio website showcasing my data analytics projects, skills, and experience.
 
-.btn:hover{
-box-shadow:0 0 20px #38bdf8;
-}
+---
 
-.skills span{
-display:inline-block;
-background:#1e293b;
-padding:8px;
-margin:5px;
-border-radius:5px;
-}
+## 🚀 About Me
 
-.project-card{
-transition:0.4s;
-}
+Entry-level Data Analyst with hands-on experience in:
 
-.project-card:hover{
-transform:translateY(-10px);
-box-shadow:0px 10px 30px rgba(0,0,0,0.5);
-}
+* SQL
+* Python
+* Power BI
+* Excel
+* Data Cleaning & EDA
+* KPI Dashboard Development
 
-footer{
-text-align:center;
-padding:20px;
-}
+I enjoy transforming raw data into meaningful insights and building dashboards that support data-driven decision making.
 
-</style>
-</head>
+---
 
-<body>
+## 🌐 Live Portfolio Website
 
-<!-- NAVBAR -->
-<nav class="container">
-<h2 class="gradient-text">Priyanka</h2>
-<div>
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</div>
-</nav>
+👉 https://priyankacm26.github.io
 
-<!-- HERO -->
-<section class="hero container">
+---
 
-<div>
+## 📊 Featured Projects
 
-<h1>Hello I'm <span class="gradient-text">Priyanka C Meti</span></h1>
+### 🔹 Purchase Pattern Analysis
 
-<h2 id="typing"></h2>
+* Customer transaction analysis using SQL & Python
+* Built Power BI dashboards to identify sales trends and high-value customers
 
-<p>Data Analyst skilled in SQL, Python, Power BI and Data Storytelling.</p>
+### 🔹 Customer Data Analysis (Shopping Malls)
 
-<a href="#" class="btn">View Resume</a>
+* Power BI dashboards with DAX KPIs
+* Location-wise performance comparison
 
-</div>
+### 🔹 Movie Database SQL Analysis
 
-</section>
+* Advanced SQL queries (joins, aggregations, window functions)
+* Revenue trend and popularity analysis
 
-<!-- ABOUT -->
-<section id="about" class="container">
+---
 
-<div class="glass" data-aos="fade-up">
+## 💼 Internship Experience
 
-<h2>About Me</h2>
+* Data Analyst Intern — Rubixe
+* Data Analyst Intern — Canaan Ed & Tech
 
-<p>
-Motivated Data Analyst passionate about solving business problems using data-driven insights.
-Experienced in dashboards, KPIs, ETL pipelines and analytics.
-</p>
+---
 
-</div>
+## 🛠 Technical Skills
 
-</section>
+SQL | Python | Power BI | Excel | PostgreSQL | MySQL | MongoDB | GitHub
 
-<!-- SKILLS -->
-<section class="container">
+---
 
-<div class="glass" data-aos="fade-up">
+## 📫 Connect With Me
 
-<h2>Skills</h2>
+* LinkedIn: https://linkedin.com/in/priyanka-meti
+* Email: [priyankacm26@gmail.com](mailto:priyankacm26@gmail.com)
 
-<div class="skills">
+---
 
-<span>SQL</span>
-<span>Python</span>
-<span>Power BI</span>
-<span>Tableau</span>
-<span>Excel</span>
-<span>Data Visualization</span>
-<span>ETL Pipelines</span>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="container">
-
-<div class="glass project-card" data-aos="fade-up">
-
-<h3>Heart Attack Prediction ML</h3>
-
-<p>Built predictive ML model using healthcare dataset and feature engineering.</p>
-
-</div>
-
-<div class="glass project-card" data-aos="fade-up">
-
-<h3>Local Farmer Marketplace</h3>
-
-<p>Created analytics system with automated inventory and ETL pipelines.</p>
-
-</div>
-
-<div class="glass project-card" data-aos="fade-up">
-
-<h3>Voice Controlled Wheelchair</h3>
-
-<p>IoT project improving mobility using voice automation.</p>
-
-</div>
-
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="container">
-
-<div class="glass" data-aos="fade-up">
-
-<h2>Contact</h2>
-
-<p>Email: priyankacm26@gmail.com</p>
-<p>Location: Bangalore, India</p>
-
-<a href="https://linkedin.com" class="btn">LinkedIn</a>
-
-</div>
-
-</section>
-
-<footer>
-
-© 2026 Priyanka C Meti
-
-</footer>
-
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script>
-AOS.init();
-</script>
-
-<!-- TYPING ANIMATION -->
-<script>
-
-const text = ["Data Analyst","SQL Expert","Power BI Developer","Python Analyst"];
-let i=0,j=0,current="";
-
-function type(){
-current = text[i];
-document.getElementById("typing").textContent=current.substring(0,j++);
-if(j>current.length){
-j=0;
-i=(i+1)%text.length;
-}
-setTimeout(type,100);
-}
-
-type();
-
-</script>
-
-</body>
-</html>
+⭐ Thank you for visiting my portfolio!

@@ -46,7 +46,7 @@ color:transparent;
 
 nav a{
 color:white;
-margin-left:25px;
+margin-left:20px;
 text-decoration:none;
 }
 
@@ -119,13 +119,6 @@ padding:20px;
 opacity:0.7;
 }
 
-@media(max-width:768px){
-.hero-wrapper{
-flex-direction:column;
-text-align:center;
-}
-}
-
 </style>
 </head>
 
@@ -138,6 +131,7 @@ text-align:center;
 <a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
 <a href="#experience">Experience</a>
+<a href="#education">Education</a>
 <a href="#contact">Contact</a>
 </div>
 </nav>
@@ -161,7 +155,7 @@ text-align:center;
 <div class="glass">
 <h2>Profile</h2>
 <p>
-Entry-level Data Analyst with hands-on experience in SQL, Python, Excel, and Power BI. Skilled in analyzing customer, sales, occupancy, and operational datasets to build dashboards and deliver actionable business insights.
+Entry-level Data Analyst with hands-on experience in SQL, Python, Excel, and Power BI. Skilled in analyzing customer, sales, occupancy, and operational data to build dashboards and deliver actionable business insights.
 </p>
 </div>
 </section>
@@ -170,11 +164,12 @@ Entry-level Data Analyst with hands-on experience in SQL, Python, Excel, and Pow
 <div class="glass">
 <h2>Technical Skills</h2>
 <ul>
-<li><b>Data Analysis:</b> Data cleaning, preprocessing, EDA, KPI definition</li>
-<li><b>SQL:</b> Joins, subqueries, aggregations, window functions</li>
-<li><b>Python:</b> pandas, numpy, matplotlib</li>
-<li><b>Dashboards:</b> Power BI, Excel</li>
-<li><b>Databases & Tools:</b> PostgreSQL, MySQL, MongoDB, Snowflake, Git/GitHub</li>
+<li>Data Cleaning, Preprocessing, EDA, KPI Definition</li>
+<li>SQL (Joins, Subqueries, Aggregations, Window Functions)</li>
+<li>Python (Pandas, NumPy, Matplotlib)</li>
+<li>Power BI & Excel Dashboards</li>
+<li>PostgreSQL, MySQL, MongoDB, Snowflake</li>
+<li>Git & GitHub</li>
 </ul>
 </div>
 </section>
@@ -185,22 +180,22 @@ Entry-level Data Analyst with hands-on experience in SQL, Python, Excel, and Pow
 
 <h3>Purchase Pattern Analysis</h3>
 <ul>
-<li>Analyzed customer transaction data to identify purchase patterns and high-value customers</li>
-<li>Used SQL and Python for data extraction and analysis</li>
-<li>Built interactive Power BI dashboards to visualize KPIs</li>
+<li>Analyzed customer transaction data to identify purchase trends</li>
+<li>Used SQL & Python for analysis</li>
+<li>Built Power BI dashboards with KPIs</li>
 </ul>
 
 <h3>Customer Data Analysis — Shopping Malls</h3>
 <ul>
-<li>Analyzed transaction data from 10 shopping malls (2021–2023)</li>
-<li>Used Power Query and DAX to create KPIs</li>
-<li>Built dashboards to compare location-wise performance</li>
+<li>Analyzed data from 10 shopping malls (2021–2023)</li>
+<li>Used Power Query and DAX</li>
+<li>Built location performance dashboards</li>
 </ul>
 
-<h3>Movie Database Analysis (SQL)</h3>
+<h3>Movie Database Analysis</h3>
 <ul>
-<li>Performed advanced SQL analysis using joins and window functions</li>
-<li>Analyzed revenue trends and movie performance</li>
+<li>Advanced SQL queries using joins & window functions</li>
+<li>Analyzed movie popularity and revenue trends</li>
 </ul>
 
 </div>
@@ -208,28 +203,37 @@ Entry-level Data Analyst with hands-on experience in SQL, Python, Excel, and Pow
 
 <section id="experience" class="container">
 <div class="glass">
-<h2>Internship Experience</h2>
+<h2>Experience & Certification</h2>
 
 <h3>Data Analyst Intern — Rubixe (2025–Present)</h3>
 <ul>
-<li>Worked on real-world business datasets</li>
-<li>Performed EDA using SQL and Python</li>
-<li>Created Power BI dashboards to track KPIs</li>
+<li>EDA using SQL & Python</li>
+<li>Created Power BI dashboards for KPI tracking</li>
 </ul>
 
 <h3>Data Analyst Intern — Canaan Ed & Tech (Dec 2025)</h3>
 <ul>
-<li>Completed hands-on analytics tasks</li>
-<li>Strengthened analytical thinking through project-based learning</li>
+<li>Data cleaning, analysis & reporting tasks</li>
 </ul>
 
-<h3>Certification — DataMites (2025–2026)</h3>
+<h3>Certification — Data Analytics (DataMites, Bengaluru)</h3>
 <ul>
-<li>Industry-aligned Data Analytics Certification</li>
-<li>Worked on real datasets using Excel, SQL, Python, Power BI</li>
-<li>Participated in mock interviews and placement training</li>
+<li>Worked on real-world datasets</li>
+<li>Built dashboards using Excel, SQL, Python, Power BI</li>
+<li>Placement training & mock interviews</li>
 </ul>
 
+</div>
+</section>
+
+<section id="education" class="container">
+<div class="glass">
+<h2>Education</h2>
+<ul>
+<li>B.E Electrical & Electronics Engineering (CGPA 8.6)</li>
+<li>PUC — 90%</li>
+<li>SSLC — 90%</li>
+</ul>
 </div>
 </section>
 
@@ -254,10 +258,7 @@ function type(){
 current=text[i];
 document.getElementById("typing").textContent=current.substring(0,j);
 j++;
-if(j>current.length){
-j=0;
-i=(i+1)%text.length;
-}
+if(j>current.length){j=0;i=(i+1)%text.length;}
 setTimeout(type,100);
 }
 type();

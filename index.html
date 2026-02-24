@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
-
-<!-- IMPORTANT FIX: fontawesome link must be separate -->
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 
-/* GLOBAL */
+/* ================= GLOBAL ================= */
 
 body{
 margin:0;
 font-family:Poppins;
-background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
+background-size:400% 400%;
+animation:bgMove 12s ease infinite;
 color:white;
 scroll-behavior:smooth;
+}
+
+@keyframes bgMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
 }
 
 .container{
@@ -33,10 +36,10 @@ margin:auto;
 }
 
 section{
-padding:40px 0;
+padding:50px 0;
 }
 
-/* NAVBAR */
+/* ================= NAVBAR ================= */
 
 nav{
 display:flex;
@@ -57,15 +60,20 @@ nav a{
 color:white;
 margin-left:20px;
 text-decoration:none;
+transition:0.3s;
 }
 
-/* HERO */
+nav a:hover{
+color:#00f5ff;
+}
+
+/* ================= HERO ================= */
 
 .hero{
+min-height:75vh;
 display:flex;
 align-items:center;
 justify-content:center;
-min-height:70vh;
 }
 
 .hero-wrapper{
@@ -75,18 +83,15 @@ gap:60px;
 flex-wrap:wrap;
 }
 
-/* PROFILE IMAGE */
+/* Profile */
 
-.profile-wrapper{
+.Profile-wrapper{
 position:relative;
-width:240px;
-height:240px;
-display:flex;
-align-items:center;
-justify-content:center;
+width:250px;
+height:250px;
 }
 
-.profile-wrapper::before{
+.Profile-wrapper::before{
 content:'';
 position:absolute;
 width:100%;
@@ -101,15 +106,13 @@ z-index:-1;
 100%{transform:rotate(360deg);}
 }
 
-.profile-img{
-width:220px;
-height:220px;
+.Profile-img{
+width:230px;
+height:230px;
 border-radius:50%;
 object-fit:cover;
 border:6px solid #1f1b3a;
 }
-
-/* TEXT */
 
 .gradient{
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
@@ -125,9 +128,15 @@ text-decoration:none;
 color:white;
 display:inline-block;
 margin-top:15px;
+transition:0.3s;
 }
 
-/* SECTION TITLES */
+.btn:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px #ff00ff;
+}
+
+/* ================= TITLES ================= */
 
 .section-title{
 text-align:center;
@@ -135,62 +144,95 @@ margin-bottom:25px;
 }
 
 .section-title h2{
-font-size:30px;
-margin-bottom:6px;
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
 -webkit-background-clip:text;
 color:transparent;
 }
 
-.section-title p{
-opacity:0.7;
-font-size:14px;
-}
-
-/* CARDS */
+/* ================= CARDS ================= */
 
 .card{
 background:rgba(255,255,255,0.05);
 backdrop-filter:blur(12px);
 border-radius:15px;
-padding:18px;
-margin-bottom:12px;
+padding:20px;
+margin-bottom:20px;
 transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-5px);
+transform:translateY(-6px);
 }
 
-/* TIMELINE */
+/* ================= GRID ================= */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.project-img{
+width:100%;
+border-radius:12px;
+margin-top:10px;
+transition:0.4s;
+}
+
+.project-img:hover{
+transform:scale(1.05);
+}
+
+/* ================= SKILLS ================= */
+
+.skill{
+margin-bottom:18px;
+}
+
+.bar{
+height:8px;
+background:#1e293b;
+border-radius:20px;
+overflow:hidden;
+margin-top:6px;
+}
+
+.bar div{
+height:100%;
+width:0;
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+transition:2s ease;
+}
+
+/* ================= TIMELINE ================= */
 
 .timeline{
 border-left:2px solid #00f5ff;
-padding-left:20px;
+padding-left:25px;
 }
 
 .timeline-item{
-margin-bottom:18px;
+margin-bottom:25px;
 position:relative;
 }
 
 .timeline-item::before{
 content:'';
-width:12px;
-height:12px;
+width:14px;
+height:14px;
 background:#00f5ff;
 border-radius:50%;
 position:absolute;
-left:-27px;
+left:-33px;
 top:5px;
+box-shadow:0 0 10px #00f5ff;
 }
 
 footer{
 text-align:center;
-padding:20px;
+padding:25px;
+opacity:0.7;
 }
-
-/* MOBILE */
 
 @media(max-width:768px){
 .hero-wrapper{
@@ -200,14 +242,12 @@ text-align:center;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <nav class="container">
 <div class="logo">Priyanka</div>
-
 <div>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -220,7 +260,6 @@ text-align:center;
 <!-- HERO -->
 
 <section class="hero container">
-
 <div class="hero-wrapper">
 
 <div class="profile-wrapper">
@@ -229,96 +268,111 @@ text-align:center;
 
 <div>
 <h1>Hello I'm <span class="gradient">Priyanka C Meti</span></h1>
-<h2 id="typing"></h2>
 <p><i class="fa-solid fa-chart-line"></i> Data Analyst | SQL | Python | Power BI | Excel</p>
 <a href="priyanka.pdf" class="btn"><i class="fa-solid fa-download"></i> Download Resume</a>
 </div>
 
 </div>
-
 </section>
 
 <!-- ABOUT -->
 
 <section id="about" class="container">
-
-<div class="section-title">
-<h2>About Me</h2>
-<p>Professional summary</p>
-</div>
-
+<div class="section-title"><h2>About Me</h2></div>
 <div class="card">
-Entry-Level Data Analyst skilled in SQL, Python, Excel and Power BI.
-Experienced in data cleaning, EDA, dashboard building and extracting business insights.
+Passionate Data Analyst skilled in transforming raw datasets into actionable business insights.
+Experienced in dashboard development, KPI tracking, and business intelligence reporting.
 </div>
-
 </section>
 
 <!-- SKILLS -->
 
 <section id="skills" class="container">
-
-<div class="section-title">
-<h2>Technical Skills</h2>
-</div>
+<div class="section-title"><h2>Technical Skills</h2></div>
 
 <div class="card">
-SQL | Python | Power BI | Excel | PostgreSQL | MySQL | Snowflake | GitHub
-</div>
 
+<div class="skill">SQL — 90%
+<div class="bar"><div data-width="90%"></div></div></div>
+
+<div class="skill">Python — 85%
+<div class="bar"><div data-width="85%"></div></div></div>
+
+<div class="skill">Power BI — 88%
+<div class="bar"><div data-width="88%"></div></div></div>
+
+<div class="skill">Excel — 92%
+<div class="bar"><div data-width="92%"></div></div></div>
+
+</div>
 </section>
 
 <!-- PROJECTS -->
 
 <section id="projects" class="container">
+<div class="section-title"><h2>Dashboard Projects</h2></div>
 
-<div class="section-title">
-<h2>Featured Projects</h2>
+<div class="grid">
+
+<div class="card">
+<h3>1️⃣ Purchase Pattern Analytics</h3>
+<img src="dashboard1.jpg" class="project-img">
 </div>
 
 <div class="card">
-Customer Data Analysis — Power BI dashboards with KPI tracking.
+<h3>2️⃣ Customer Data Analysis</h3>
+<img src="dashboard2.jpg" class="project-img">
 </div>
 
 <div class="card">
-Movie Database SQL Analysis — Advanced SQL joins and insights extraction.
+<h3>2️⃣.1 Customer Advanced Analysis</h3>
+<img src="dashboard2.1.jpg" class="project-img">
 </div>
 
+<div class="card">
+<h3>3️⃣ Stock Market Dashboard</h3>
+<img src="dashboard3.jpg" class="project-img">
+</div>
+
+<div class="card">
+<h3>4️⃣ Pizza Sales Dashboard</h3>
+<img src="dashboard4.jpg" class="project-img">
+</div>
+
+<div class="card">
+<h3>5️⃣ Pizza Insights Dashboard</h3>
+<img src="dashboard5.jpg" class="project-img">
+</div>
+
+</div>
 </section>
 
 <!-- EXPERIENCE -->
 
 <section id="experience" class="container">
-
-<div class="section-title">
-<h2>Experience</h2>
-</div>
+<div class="section-title"><h2>Experience</h2></div>
 
 <div class="card">
-
 <div class="timeline">
 
 <div class="timeline-item">
-Data Analyst Intern — Rubixe
+<h4>Data Analyst Intern — Rubixe</h4>
+<p>Worked on customer datasets, KPI dashboards & business insights reporting.</p>
 </div>
 
 <div class="timeline-item">
-Data Analyst Intern — Canaan Ed & Tech
+<h4>Data Analyst Intern — Canaan Ed & Tech</h4>
+<p>Performed SQL analysis, data cleaning & interactive dashboard building.</p>
 </div>
 
 </div>
-
 </div>
-
 </section>
 
 <!-- CONTACT -->
 
 <section id="contact" class="container">
-
-<div class="section-title">
-<h2>Get In Touch</h2>
-</div>
+<div class="section-title"><h2>Contact</h2></div>
 
 <div class="card">
 <p><i class="fa-solid fa-envelope"></i> priyankacm26@gmail.com</p>
@@ -335,18 +389,12 @@ Data Analyst Intern — Canaan Ed & Tech
 
 <script>
 
-const text=["Data Analyst","SQL Specialist","Power BI Developer","Excel Expert"];
-let i=0,j=0,current="";
-
-function type(){
-current=text[i];
-document.getElementById("typing").textContent=current.substring(0,j);
-j++;
-if(j>current.length){j=0;i=(i+1)%text.length;}
-setTimeout(type,100);
+/* Skill Animation */
+window.onload=()=>{
+document.querySelectorAll('.bar div').forEach(el=>{
+el.style.width=el.getAttribute('data-width');
+});
 }
-
-type();
 
 </script>
 

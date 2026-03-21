@@ -11,7 +11,8 @@
 
 <style>
 
-/* GLOBAL */
+/* ================= GLOBAL ================= */
+
 body{
 margin:0;
 font-family:Poppins;
@@ -38,7 +39,8 @@ section{
 padding:50px 0;
 }
 
-/* NAVBAR */
+/* ================= NAVBAR ================= */
+
 nav{
 display:flex;
 justify-content:space-between;
@@ -65,7 +67,8 @@ nav a:hover{
 color:#00f5ff;
 }
 
-/* HERO */
+/* ================= HERO ================= */
+
 .hero{
 min-height:75vh;
 display:flex;
@@ -81,6 +84,7 @@ flex-wrap:wrap;
 }
 
 /* Profile */
+
 .Profile-wrapper{
 position:relative;
 width:250px;
@@ -132,7 +136,8 @@ transform:scale(1.05);
 box-shadow:0 0 20px #ff00ff;
 }
 
-/* TITLES */
+/* ================= TITLES ================= */
+
 .section-title{
 text-align:center;
 margin-bottom:25px;
@@ -144,7 +149,8 @@ background:linear-gradient(90deg,#00f5ff,#ff00ff);
 color:transparent;
 }
 
-/* CARDS */
+/* ================= CARDS ================= */
+
 .card{
 background:rgba(255,255,255,0.05);
 backdrop-filter:blur(12px);
@@ -155,11 +161,11 @@ transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-8px) scale(1.02);
-box-shadow:0 0 20px #00f5ff;
+transform:translateY(-6px);
 }
 
-/* GRID */
+/* ================= GRID ================= */
+
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -177,7 +183,8 @@ transition:0.4s;
 transform:scale(1.05);
 }
 
-/* SKILLS */
+/* ================= SKILLS ================= */
+
 .skill{
 margin-bottom:18px;
 }
@@ -197,7 +204,8 @@ background:linear-gradient(90deg,#00f5ff,#ff00ff);
 transition:2s ease;
 }
 
-/* TIMELINE */
+/* ================= TIMELINE ================= */
+
 .timeline{
 border-left:2px solid #00f5ff;
 padding-left:25px;
@@ -250,6 +258,7 @@ text-align:center;
 </nav>
 
 <!-- HERO -->
+
 <section class="hero container">
 <div class="hero-wrapper">
 
@@ -267,6 +276,7 @@ text-align:center;
 </section>
 
 <!-- ABOUT -->
+
 <section id="about" class="container">
 <div class="section-title"><h2>About Me</h2></div>
 <div class="card">
@@ -276,6 +286,7 @@ Experienced in dashboard development, KPI tracking, and business intelligence re
 </section>
 
 <!-- SKILLS -->
+
 <section id="skills" class="container">
 <div class="section-title"><h2>Technical Skills</h2></div>
 
@@ -302,55 +313,88 @@ Experienced in dashboard development, KPI tracking, and business intelligence re
 
 <div class="grid">
 
+<!-- 1 -->
 <div class="card">
 <h3>1️⃣ Purchase Pattern Analytics</h3>
+<p>
+Analyzed customer purchasing behavior to identify trends, top products, and sales patterns.
+Helps businesses improve product placement and marketing strategies.
+</p>
+<a href="#" class="btn">View Project</a>
 <img src="dashboard1.jpg" class="project-img">
 </div>
 
+<!-- 2 -->
 <div class="card">
 <h3>2️⃣ Customer Data Analysis</h3>
+<p>
+Explored customer data to understand demographics, behavior, and segmentation.
+Provided insights for targeted marketing and customer retention.
+</p>
+<a href="#" class="btn">View Project</a>
 <img src="dashboard2.jpg" class="project-img">
 </div>
 
+<!-- 3 -->
 <div class="card">
 <h3>3️⃣ Customer Advanced Analysis</h3>
+<p>
+Advanced analysis on customer datasets including trends, KPIs, and behavioral insights.
+Used to improve decision-making and customer experience strategies.
+</p>
+<a href="#" class="btn">View Project</a>
 <img src="dashboardc2.jpg" class="project-img">
 </div>
 
+<!-- 4 -->
 <div class="card">
 <h3>4️⃣ Stock Market Dashboard</h3>
+<p>
+Interactive dashboard analyzing stock trends, price movements, and performance metrics.
+Helps track investment patterns and market behavior.
+</p>
+<a href="#" class="btn">View Project</a>
 <img src="dashboard3.jpg" class="project-img">
 </div>
 
+<!-- 5 -->
 <div class="card">
 <h3>5️⃣ Pizza Sales Dashboard</h3>
+<p>
+Analyzed pizza sales data to identify top-selling products, revenue trends, and peak sales times.
+Supports business growth and inventory planning.
+</p>
+<a href="#" class="btn">View Project</a>
 <img src="dashboard4.jpg" class="project-img">
 </div>
 
+<!-- 6 -->
 <div class="card">
 <h3>6️⃣ Pizza Insights Dashboard</h3>
+<p>
+Detailed insights into pizza sales including category performance, order patterns, and revenue analysis.
+Helps optimize menu and marketing strategies.
+</p>
+<a href="#" class="btn">View Project</a>
 <img src="dashboard5.jpg" class="project-img">
 </div>
 
-<!-- NEW PROJECT -->
+<!-- 7 -->
 <div class="card">
 <h3>7️⃣ Booking Intelligence Dashboard</h3>
 <p>
 Power BI dashboard analyzing hotel bookings, cancellations, and pricing trends.
 Provides insights on customer behavior, lead time impact, and dynamic pricing strategies.
 </p>
-
 <a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">
 <i class="fa-brands fa-github"></i> View Project
 </a>
-
 <img src="hotel_dashboard.jpg" class="project-img">
 </div>
 
 </div>
-</section>
+</section><!-- EXPERIENCE -->
 
-<!-- EXPERIENCE -->
 <section id="experience" class="container">
 <div class="section-title"><h2>Experience</h2></div>
 
@@ -372,28 +416,17 @@ Provides insights on customer behavior, lead time impact, and dynamic pricing st
 </section>
 
 <!-- CONTACT -->
+
 <section id="contact" class="container">
 <div class="section-title"><h2>Contact</h2></div>
 
 <div class="card">
 <p><i class="fa-solid fa-envelope"></i> priyankacm26@gmail.com</p>
-<p><i class="fa-solid fa-phone"></i> +91 XXXXX XXXXX</p>
-
-<p>
-<i class="fa-brands fa-linkedin"></i>
-<a href="https://linkedin.com/in/priyanka-meti" target="_blank" style="color:white;">
-LinkedIn
-</a>
-</p>
-
-<p>
-<i class="fa-brands fa-github"></i>
-<a href="https://github.com/priyankacm26-rgb" target="_blank" style="color:white;">
-GitHub
-</a>
-</p>
-
+<p><i class="fa-solid fa-phone"></i> +91 91483 58436</p>
+<p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/priyanka-meti</p>
+<p><i class="fa-brands fa-github"></i> github.com/priyankacm26-rgb</p>
 </div>
+
 </section>
 
 <footer>
@@ -401,11 +434,14 @@ GitHub
 </footer>
 
 <script>
+
+/* Skill Animation */
 window.onload=()=>{
 document.querySelectorAll('.bar div').forEach(el=>{
 el.style.width=el.getAttribute('data-width');
 });
 }
+
 </script>
 
 </body>

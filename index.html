@@ -4,7 +4,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Priyanka | Data Analyst Portfolio</title>
+<title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -15,75 +15,119 @@
 body{
 margin:0;
 font-family:Poppins;
-background:#0f172a;
+background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
+background-size:400% 400%;
+animation:bgMove 12s ease infinite;
 color:white;
 scroll-behavior:smooth;
+}
+
+@keyframes bgMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+section{
+padding:50px 0;
 }
 
 /* NAVBAR */
 nav{
 display:flex;
 justify-content:space-between;
-padding:20px;
-background:#1e293b;
-position:sticky;
-top:0;
-z-index:100;
+align-items:center;
+padding:20px 0;
 }
 
 .logo{
-font-weight:600;
 font-size:22px;
+font-weight:600;
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
 }
 
 .nav-links{
 display:flex;
-gap:20px;
 }
 
 .nav-links a{
 color:white;
+margin-left:20px;
 text-decoration:none;
-}
-
-.menu-toggle{
-display:none;
-font-size:22px;
-cursor:pointer;
 }
 
 /* HERO */
 .hero{
-text-align:center;
-padding:80px 20px;
+min-height:75vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero-wrapper{
+display:flex;
+align-items:center;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.Profile-wrapper{
+position:relative;
+width:250px;
+height:250px;
+}
+
+.Profile-img{
+width:230px;
+height:230px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid #1f1b3a;
 }
 
 .gradient{
-color:#38bdf8;
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
 }
 
 .btn{
-background:#38bdf8;
+background: linear-gradient(90deg,#00f5ff,#ff00ff);
 padding:10px 20px;
-border-radius:20px;
-color:black;
+border-radius:25px;
+color:white;
 text-decoration:none;
 display:inline-block;
-margin-top:15px;
+margin-top:10px;
 }
 
-/* PROJECTS */
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-padding:20px;
+/* TITLES */
+.section-title{
+text-align:center;
+margin-bottom:25px;
 }
 
+.section-title h2{
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+/* CARDS */
 .card{
-background:#1e293b;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(12px);
+border-radius:15px;
 padding:20px;
-border-radius:12px;
+margin-bottom:20px;
 transition:0.3s;
 }
 
@@ -91,43 +135,28 @@ transition:0.3s;
 transform:translateY(-8px);
 }
 
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
 .project-img{
 width:100%;
-border-radius:10px;
-}
-
-/* SKILLS */
-.skill{
-margin:10px 0;
-}
-
-.bar{
-height:6px;
-background:#334155;
-border-radius:10px;
-}
-
-.bar div{
-height:100%;
-background:#38bdf8;
-width:0;
-transition:2s;
+border-radius:12px;
+margin-top:10px;
 }
 
 /* RESPONSIVE */
 @media(max-width:768px){
-.nav-links{
-display:none;
+.hero-wrapper{
 flex-direction:column;
-background:#1e293b;
-position:absolute;
-top:60px;
-right:0;
-padding:20px;
+text-align:center;
 }
 
-.menu-toggle{
-display:block;
+.grid{
+grid-template-columns:1fr;
 }
 }
 
@@ -136,88 +165,94 @@ display:block;
 
 <body>
 
-<nav>
+<nav class="container">
 <div class="logo">Priyanka</div>
-
-<div class="menu-toggle" onclick="toggleMenu()">
-<i class="fa-solid fa-bars"></i>
-</div>
-
-<div class="nav-links" id="navLinks">
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
+<div class="nav-links">
 <a href="#projects">Projects</a>
 </div>
 </nav>
 
 <!-- HERO -->
-<section class="hero">
-<h1>Hello I'm <span class="gradient">Priyanka</span></h1>
-<h2 id="typing"></h2>
+<section class="hero container">
+<div class="hero-wrapper">
+
+<div class="Profile-wrapper">
+<img src="Profile.jpg" class="Profile-img">
+</div>
+
+<div>
+<h1>Hello I'm <span class="gradient">Priyanka C Meti</span></h1>
+<p>Data Analyst | SQL | Python | Power BI | Excel</p>
 <a href="priyanka.pdf" class="btn">Download Resume</a>
-</section>
+</div>
 
-<!-- ABOUT -->
-<section id="about" class="hero">
-<p>Data Analyst skilled in Power BI, Python, SQL and dashboard building.</p>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="hero">
-
-<div class="skill">SQL
-<div class="bar"><div data-width="90%"></div></div></div>
-
-<div class="skill">Python
-<div class="bar"><div data-width="85%"></div></div></div>
-
-<div class="skill">Power BI
-<div class="bar"><div data-width="88%"></div></div></div>
-
+</div>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects">
+<section id="projects" class="container">
+<div class="section-title"><h2>Dashboard Projects</h2></div>
+
 <div class="grid">
 
 <div class="card">
-<h3>Booking Intelligence Dashboard</h3>
-<p>Power BI dashboard analyzing hotel bookings, cancellations and pricing trends.</p>
+<h3>1️⃣ Purchase Pattern Analytics</h3>
+<p>Analyzed customer purchasing behavior and sales trends to improve business decisions.</p>
+<a href="#" class="btn">View Project</a>
+<img src="dashboard1.jpg" class="project-img">
+</div>
+
+<div class="card">
+<h3>2️⃣ Customer Data Analysis</h3>
+<p>Explored customer segmentation and behavior insights for targeted marketing.</p>
+<a href="#" class="btn">View Project</a>
+<img src="dashboard2.jpg" class="project-img">
+</div>
+
+<div class="card">
+<h3>3️⃣ Customer Advanced Analysis</h3>
+<p>Advanced KPIs and customer analytics for better decision-making.</p>
+<a href="#" class="btn">View Project</a>
+<img src="dashboardc2.jpg" class="project-img">
+</div>
+
+<div class="card">
+<h3>4️⃣ Stock Market Dashboard</h3>
+<p>Analyzed stock trends, performance, and market patterns.</p>
+<a href="#" class="btn">View Project</a>
+<img src="dashboard3.jpg" class="project-img">
+</div>
+
+<div class="card">
+<h3>5️⃣ Pizza Sales Dashboard</h3>
+<p>Identified top products, revenue trends, and sales insights.</p>
+<a href="#" class="btn">View Project</a>
+<img src="dashboard4.jpg" class="project-img">
+</div>
+
+<div class="card">
+<h3>6️⃣ Pizza Insights Dashboard</h3>
+<p>Detailed insights into pizza sales and customer preferences.</p>
+<a href="#" class="btn">View Project</a>
+<img src="dashboard5.jpg" class="project-img">
+</div>
+
+<div class="card">
+<h3>7️⃣ Booking Intelligence Dashboard</h3>
+<p>
+Power BI dashboard analyzing hotel bookings, cancellations, and pricing trends.
+Provides insights on customer behavior, lead time impact, and dynamic pricing strategies.
+</p>
+<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">View Project</a>
 <img src="hotel_dashboard.jpg" class="project-img">
-<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" class="btn">View</a>
 </div>
 
 </div>
 </section>
 
-<script>
-
-/* MENU */
-function toggleMenu(){
-let nav=document.getElementById("navLinks");
-nav.style.display = nav.style.display === "flex" ? "none" : "flex";
-}
-
-/* TYPING EFFECT */
-let text="Data Analyst | Power BI | Python | SQL";
-let i=0;
-function type(){
-if(i<text.length){
-document.getElementById("typing").innerHTML+=text.charAt(i);
-i++;
-setTimeout(type,50);
-}
-}
-type();
-
-/* SKILL ANIMATION */
-window.onload=()=>{
-document.querySelectorAll('.bar div').forEach(el=>{
-el.style.width=el.getAttribute('data-width');
-});
-}
-
-</script>
+<footer style="text-align:center;padding:20px;">
+© 2026 Priyanka
+</footer>
 
 </body>
 </html>

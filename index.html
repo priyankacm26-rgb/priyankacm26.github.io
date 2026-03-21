@@ -76,6 +76,11 @@ color:white;
 text-decoration:none;
 display:inline-block;
 margin-top:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
 }
 
 /* GRID */
@@ -91,23 +96,42 @@ background:rgba(255,255,255,0.05);
 padding:20px;
 border-radius:15px;
 transition:0.3s;
+position:relative;
 }
 
 .card:hover{
-transform:translateY(-10px);
-box-shadow:0 0 25px #ff00ff;
+transform:translateY(-10px) scale(1.02);
+box-shadow:0 0 30px #ff00ff;
 }
 
 .project-img{
 width:100%;
 border-radius:12px;
 margin-top:10px;
+transition:0.3s;
+}
+
+.card:hover .project-img{
+transform:scale(1.05);
+filter:brightness(0.8);
 }
 
 /* FEATURE */
 .highlight{
 border:2px solid #00f5ff;
 box-shadow:0 0 40px #00f5ff;
+}
+
+.highlight::before{
+content:"⭐ Featured";
+position:absolute;
+top:-10px;
+left:10px;
+background:#00f5ff;
+color:black;
+padding:5px 10px;
+border-radius:10px;
+font-size:12px;
 }
 
 /* SKILLS */
@@ -144,7 +168,7 @@ text-align:left;
 
 <!-- NAV -->
 <nav class="container">
-<div>Priyanka</div>
+<div><b>Priyanka</b></div>
 <div>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -159,9 +183,10 @@ text-align:left;
 <img src="Profile.jpg" class="profile-img">
 
 <h1>Hello I'm <span class="gradient">Priyanka C Meti</span></h1>
+
 <p id="typing"></p>
 
-<p style="color:#00f5ff;">🚀 Open to Data Analyst Roles</p>
+<p style="color:#00f5ff;font-weight:bold;">🚀 Open to Data Analyst Roles</p>
 
 <a href="priyanka.pdf" class="btn">Download Resume</a>
 </section>
@@ -170,8 +195,8 @@ text-align:left;
 <section id="about" class="container">
 <h2>About Me</h2>
 <p>
-Data Analyst passionate about solving business problems using data.
-Skilled in Power BI, Python, SQL, and building dashboards that drive decisions.
+Data Analyst passionate about solving real-world business problems using data.
+Skilled in Power BI, Python, SQL, and creating dashboards that drive decision-making and revenue growth.
 </p>
 </section>
 
@@ -201,39 +226,49 @@ Skilled in Power BI, Python, SQL, and building dashboards that drive decisions.
 
 <div class="card">
 <h3>Purchase Pattern Analytics</h3>
+<p>Analyzed purchasing behavior and sales trends.</p>
 <img src="dashboard1.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>Customer Data Analysis</h3>
+<p>Customer segmentation and behavior insights.</p>
 <img src="dashboard2.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>Customer Advanced Analysis</h3>
+<p>Advanced KPIs and analytics insights.</p>
 <img src="dashboardc2.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>Stock Market Dashboard</h3>
+<p>Stock trends and performance analysis.</p>
 <img src="dashboard3.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>Pizza Sales Dashboard</h3>
+<p>Revenue and product insights.</p>
 <img src="dashboard4.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>Pizza Insights Dashboard</h3>
+<p>Customer and sales analysis.</p>
 <img src="dashboard5.jpg" class="project-img">
 </div>
 
 <div class="card highlight">
 <h3>Booking Intelligence Dashboard</h3>
-<p>87K+ bookings analyzed | Pricing insights</p>
+<p>
+✔ 87K+ bookings analyzed <br>
+✔ 24K+ cancellations studied <br>
+✔ Pricing insights generated
+</p>
 <img src="hotel_dashboard.jpg" class="project-img">
-<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" class="btn">View Project</a>
+<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">View Project</a>
 </div>
 
 </div>
@@ -254,20 +289,17 @@ Skilled in Power BI, Python, SQL, and building dashboards that drive decisions.
 <section id="contact" class="container">
 <h2>Contact</h2>
 
-<p>Email: priyankacm26@gmail.com</p>
+<p>📧 Email: priyankacm26@gmail.com</p>
 
 <p>
-<a href="https://linkedin.com/in/priyanka-meti" class="btn">LinkedIn</a>
-</p>
-
-<p>
-<a href="https://github.com/priyankacm26-rgb" class="btn">GitHub</a>
+<a href="https://linkedin.com/in/priyanka-meti" target="_blank" class="btn">LinkedIn</a>
+<a href="https://github.com/priyankacm26-rgb" target="_blank" class="btn">GitHub</a>
 </p>
 
 </section>
 
 <footer>
-© 2026 Priyanka
+© 2026 Priyanka C Meti
 </footer>
 
 <script>

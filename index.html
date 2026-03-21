@@ -11,8 +11,7 @@
 
 <style>
 
-/* ================= GLOBAL ================= */
-
+/* GLOBAL */
 body{
 margin:0;
 font-family:Poppins;
@@ -39,8 +38,7 @@ section{
 padding:50px 0;
 }
 
-/* ================= NAVBAR ================= */
-
+/* NAVBAR */
 nav{
 display:flex;
 justify-content:space-between;
@@ -67,8 +65,7 @@ nav a:hover{
 color:#00f5ff;
 }
 
-/* ================= HERO ================= */
-
+/* HERO */
 .hero{
 min-height:75vh;
 display:flex;
@@ -84,7 +81,6 @@ flex-wrap:wrap;
 }
 
 /* Profile */
-
 .Profile-wrapper{
 position:relative;
 width:250px;
@@ -136,8 +132,7 @@ transform:scale(1.05);
 box-shadow:0 0 20px #ff00ff;
 }
 
-/* ================= TITLES ================= */
-
+/* TITLES */
 .section-title{
 text-align:center;
 margin-bottom:25px;
@@ -149,8 +144,7 @@ background:linear-gradient(90deg,#00f5ff,#ff00ff);
 color:transparent;
 }
 
-/* ================= CARDS ================= */
-
+/* CARDS */
 .card{
 background:rgba(255,255,255,0.05);
 backdrop-filter:blur(12px);
@@ -161,11 +155,11 @@ transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-6px);
+transform:translateY(-8px) scale(1.02);
+box-shadow:0 0 20px #00f5ff;
 }
 
-/* ================= GRID ================= */
-
+/* GRID */
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -183,8 +177,7 @@ transition:0.4s;
 transform:scale(1.05);
 }
 
-/* ================= SKILLS ================= */
-
+/* SKILLS */
 .skill{
 margin-bottom:18px;
 }
@@ -204,8 +197,7 @@ background:linear-gradient(90deg,#00f5ff,#ff00ff);
 transition:2s ease;
 }
 
-/* ================= TIMELINE ================= */
-
+/* TIMELINE */
 .timeline{
 border-left:2px solid #00f5ff;
 padding-left:25px;
@@ -258,7 +250,6 @@ text-align:center;
 </nav>
 
 <!-- HERO -->
-
 <section class="hero container">
 <div class="hero-wrapper">
 
@@ -276,7 +267,6 @@ text-align:center;
 </section>
 
 <!-- ABOUT -->
-
 <section id="about" class="container">
 <div class="section-title"><h2>About Me</h2></div>
 <div class="card">
@@ -286,7 +276,6 @@ Experienced in dashboard development, KPI tracking, and business intelligence re
 </section>
 
 <!-- SKILLS -->
-
 <section id="skills" class="container">
 <div class="section-title"><h2>Technical Skills</h2></div>
 
@@ -308,7 +297,6 @@ Experienced in dashboard development, KPI tracking, and business intelligence re
 </section>
 
 <!-- PROJECTS -->
-
 <section id="projects" class="container">
 <div class="section-title"><h2>Dashboard Projects</h2></div>
 
@@ -325,30 +313,44 @@ Experienced in dashboard development, KPI tracking, and business intelligence re
 </div>
 
 <div class="card">
-<h3>2️⃣.1 Customer Advanced Analysis</h3>
+<h3>3️⃣ Customer Advanced Analysis</h3>
 <img src="dashboardc2.jpg" class="project-img">
 </div>
 
 <div class="card">
-<h3>3️⃣ Stock Market Dashboard</h3>
+<h3>4️⃣ Stock Market Dashboard</h3>
 <img src="dashboard3.jpg" class="project-img">
 </div>
 
 <div class="card">
-<h3>4️⃣ Pizza Sales Dashboard</h3>
+<h3>5️⃣ Pizza Sales Dashboard</h3>
 <img src="dashboard4.jpg" class="project-img">
 </div>
 
 <div class="card">
-<h3>5️⃣ Pizza Insights Dashboard</h3>
+<h3>6️⃣ Pizza Insights Dashboard</h3>
 <img src="dashboard5.jpg" class="project-img">
+</div>
+
+<!-- NEW PROJECT -->
+<div class="card">
+<h3>7️⃣ Booking Intelligence Dashboard</h3>
+<p>
+Power BI dashboard analyzing hotel bookings, cancellations, and pricing trends.
+Provides insights on customer behavior, lead time impact, and dynamic pricing strategies.
+</p>
+
+<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">
+<i class="fa-brands fa-github"></i> View Project
+</a>
+
+<img src="hotel_dashboard.jpg" class="project-img">
 </div>
 
 </div>
 </section>
 
 <!-- EXPERIENCE -->
-
 <section id="experience" class="container">
 <div class="section-title"><h2>Experience</h2></div>
 
@@ -370,17 +372,28 @@ Experienced in dashboard development, KPI tracking, and business intelligence re
 </section>
 
 <!-- CONTACT -->
-
 <section id="contact" class="container">
 <div class="section-title"><h2>Contact</h2></div>
 
 <div class="card">
 <p><i class="fa-solid fa-envelope"></i> priyankacm26@gmail.com</p>
-<p><i class="fa-solid fa-phone"></i> +91 91483 58436</p>
-<p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/priyanka-meti</p>
-<p><i class="fa-brands fa-github"></i> github.com/priyankacm26-rgb</p>
-</div>
+<p><i class="fa-solid fa-phone"></i> +91 XXXXX XXXXX</p>
 
+<p>
+<i class="fa-brands fa-linkedin"></i>
+<a href="https://linkedin.com/in/priyanka-meti" target="_blank" style="color:white;">
+LinkedIn
+</a>
+</p>
+
+<p>
+<i class="fa-brands fa-github"></i>
+<a href="https://github.com/priyankacm26-rgb" target="_blank" style="color:white;">
+GitHub
+</a>
+</p>
+
+</div>
 </section>
 
 <footer>
@@ -388,14 +401,11 @@ Experienced in dashboard development, KPI tracking, and business intelligence re
 </footer>
 
 <script>
-
-/* Skill Animation */
 window.onload=()=>{
 document.querySelectorAll('.bar div').forEach(el=>{
 el.style.width=el.getAttribute('data-width');
 });
 }
-
 </script>
 
 </body>

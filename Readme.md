@@ -1,67 +1,101 @@
 # 👩‍💻 Priyanka C Meti — Data Analyst Portfolio
 
-Welcome to my personal portfolio website showcasing my data analytics projects, skills, and experience.
+Welcome to my personal portfolio showcasing data analytics projects, dashboards, and business insights.
 
 ---
 
 ## 🚀 About Me
 
-Entry-level Data Analyst with hands-on experience in:
+Aspiring Data Analyst with hands-on experience in transforming raw data into actionable insights.
 
-* SQL
-* Python
-* Power BI
-* Excel
-* Data Cleaning & EDA
-* KPI Dashboard Development
+Skilled in:
+- SQL | Python | Power BI | Excel  
+- Data Cleaning & Exploratory Data Analysis (EDA)  
+- KPI Dashboard Development & Business Reporting  
 
-I enjoy transforming raw data into meaningful insights and building dashboards that support data-driven decision making.
+I focus on solving business problems using data-driven approaches and building impactful dashboards.
 
 ---
 
-## 🌐 Live Portfolio Website
+## 🌐 Live Portfolio
 
-👉 https://priyankacm26.github.io
+👉 https://priyankacm26.github.io  
 
 ---
 
-## 📊 Featured Projects
+## 📊 Featured Project
+
+### ⭐ Booking Intelligence Dashboard (Hotel Analytics)
+
+🔗 GitHub:  
+https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git  
+
+**Project Overview:**  
+Analyzed hotel booking data to understand customer behavior, cancellations, and pricing trends.
+
+**Key Highlights:**
+- ✔ 87K+ bookings analyzed  
+- ✔ 24K+ cancellations studied  
+- ✔ Identified key drivers (lead time, customer type)  
+- ✔ Built dynamic pricing insights using ADR  
+
+**Business Impact:**
+- 📈 Improved pricing strategy decisions  
+- 📉 Reduced cancellation risk through insights  
+- 🎯 Enabled targeted retention strategies  
+
+---
+
+## 📊 Other Projects
 
 ### 🔹 Purchase Pattern Analysis
+- Customer transaction analysis using SQL & Python  
+- Identified sales trends and product performance  
 
-* Customer transaction analysis using SQL & Python
-* Built Power BI dashboards to identify sales trends and high-value customers
+### 🔹 Customer Data Analysis (Shopping Mall)
+- Power BI dashboards with DAX KPIs  
+- Customer segmentation and location-based insights  
 
-### 🔹 Customer Data Analysis (Shopping Malls)
+### 🔹 Customer Advanced Analytics
+- KPI dashboards and behavioral insights  
 
-* Power BI dashboards with DAX KPIs
-* Location-wise performance comparison
+### 🔹 Stock Market Dashboard
+- Stock performance and trend analysis  
 
-### 🔹 Movie Database SQL Analysis
+### 🔹 Pizza Sales Dashboard
+- Revenue trends and product insights  
 
-* Advanced SQL queries (joins, aggregations, window functions)
-* Revenue trend and popularity analysis
+### 🔹 Pizza Insights Dashboard
+- Category performance and customer behavior analysis  
 
 ---
 
 ## 💼 Internship Experience
 
-* Data Analyst Intern — Rubixe
-* Data Analyst Intern — Canaan Ed & Tech
+- **Data Analyst Intern — Rubixe**  
+- **Data Analyst Intern — Canaan Ed & Tech**
 
 ---
 
 ## 🛠 Technical Skills
 
-SQL | Python | Power BI | Excel | PostgreSQL | MySQL | MongoDB | GitHub
+**Languages & Tools:**  
+SQL | Python | Power BI | Excel  
+
+**Databases:**  
+MySQL | PostgreSQL | MongoDB  
+
+**Core Skills:**  
+Data Cleaning | EDA | Dashboarding | Data Visualization  
 
 ---
 
 ## 📫 Connect With Me
 
-* LinkedIn: https://linkedin.com/in/priyanka-meti
-* Email: [priyankacm26@gmail.com](mailto:priyankacm26@gmail.com)
+- 💼 LinkedIn: https://linkedin.com/in/priyanka-meti  
+- 💻 GitHub: https://github.com/priyankacm26-rgb  
+- 📧 Email: priyankacm26@gmail.com  
 
 ---
 
-⭐ Thank you for visiting my portfolio!
+## ⭐ If you like this portfolio, consider giving a star!

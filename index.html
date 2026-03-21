@@ -7,7 +7,6 @@
 <title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 
@@ -19,7 +18,6 @@ background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
 background-size:400% 400%;
 animation:bgMove 12s ease infinite;
 color:white;
-scroll-behavior:smooth;
 }
 
 @keyframes bgMove{
@@ -35,14 +33,14 @@ margin:auto;
 }
 
 section{
-padding:50px 0;
+padding:60px 0;
+border-bottom:1px solid rgba(255,255,255,0.1);
 }
 
 /* NAVBAR */
 nav{
 display:flex;
 justify-content:space-between;
-align-items:center;
 padding:20px 0;
 }
 
@@ -54,38 +52,10 @@ background:linear-gradient(90deg,#00f5ff,#ff00ff);
 color:transparent;
 }
 
-nav a{
-color:white;
-margin-left:20px;
-text-decoration:none;
-}
-
 /* HERO */
 .hero{
-min-height:75vh;
-display:flex;
-align-items:center;
-justify-content:center;
-}
-
-.hero-wrapper{
-display:flex;
-align-items:center;
-gap:60px;
-flex-wrap:wrap;
-}
-
-.Profile-wrapper{
-width:250px;
-height:250px;
-}
-
-.Profile-img{
-width:230px;
-height:230px;
-border-radius:50%;
-object-fit:cover;
-border:6px solid #1f1b3a;
+text-align:center;
+padding:80px 0;
 }
 
 .gradient{
@@ -98,10 +68,16 @@ color:transparent;
 background:linear-gradient(90deg,#00f5ff,#ff00ff);
 padding:12px 25px;
 border-radius:30px;
-text-decoration:none;
 color:white;
+text-decoration:none;
 display:inline-block;
 margin-top:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:linear-gradient(90deg,#ff00ff,#00f5ff);
+transform:scale(1.05);
 }
 
 /* TITLES */
@@ -119,14 +95,54 @@ color:transparent;
 /* CARDS */
 .card{
 background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
 border-radius:15px;
 padding:20px;
+position:relative;
+overflow:hidden;
 transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-8px);
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 0 25px #ff00ff;
+}
+
+.card::after{
+content:"View Project";
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.7);
+display:flex;
+align-items:center;
+justify-content:center;
+opacity:0;
+transition:0.4s;
+font-weight:bold;
+}
+
+.card:hover::after{
+opacity:1;
+}
+
+/* HIGHLIGHT PROJECT */
+.highlight{
+border:2px solid #00f5ff;
+box-shadow:0 0 25px #00f5ff;
+}
+
+.highlight::before{
+content:"⭐ Featured";
+position:absolute;
+top:-10px;
+left:10px;
+background:#00f5ff;
+color:black;
+padding:3px 10px;
+border-radius:10px;
+font-size:12px;
 }
 
 /* GRID */
@@ -142,58 +158,10 @@ border-radius:12px;
 margin-top:10px;
 }
 
-/* SKILLS */
-.skill{
-margin-bottom:18px;
-}
-
-.bar{
-height:8px;
-background:#1e293b;
-border-radius:20px;
-overflow:hidden;
-margin-top:6px;
-}
-
-.bar div{
-height:100%;
-width:0;
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
-transition:2s ease;
-}
-
-/* TIMELINE */
-.timeline{
-border-left:2px solid #00f5ff;
-padding-left:25px;
-}
-
-.timeline-item{
-margin-bottom:25px;
-position:relative;
-}
-
-.timeline-item::before{
-content:'';
-width:14px;
-height:14px;
-background:#00f5ff;
-border-radius:50%;
-position:absolute;
-left:-33px;
-top:5px;
-}
-
-footer{
-text-align:center;
-padding:25px;
-}
-
 /* RESPONSIVE */
 @media(max-width:768px){
-.hero-wrapper{
-flex-direction:column;
-text-align:center;
+.grid{
+grid-template-columns:1fr;
 }
 }
 
@@ -202,57 +170,18 @@ text-align:center;
 
 <body>
 
-<!-- NAVBAR -->
-<nav class="container">
-<div class="logo">Priyanka</div>
-<div>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#experience">Experience</a>
-<a href="#contact">Contact</a>
-</div>
-</nav>
-
 <!-- HERO -->
 <section class="hero container">
-<div class="hero-wrapper">
-
-<div class="Profile-wrapper">
-<img src="Profile.jpg" class="Profile-img">
-</div>
-
-<div>
 <h1>Hello I'm <span class="gradient">Priyanka C Meti</span></h1>
-<p>Data Analyst | SQL | Python | Power BI | Excel</p>
+<p id="typing"></p>
+
+<p style="color:#00f5ff;font-weight:bold;">🚀 Open to Data Analyst Roles</p>
+
 <a href="priyanka.pdf" class="btn">Download Resume</a>
-</div>
-
-</div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="container">
-<div class="section-title"><h2>About Me</h2></div>
-<div class="card">
-Passionate Data Analyst skilled in transforming raw datasets into actionable business insights.
-</div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="container">
-<div class="section-title"><h2>Technical Skills</h2></div>
-
-<div class="card">
-<div class="skill">SQL<div class="bar"><div data-width="90%"></div></div></div>
-<div class="skill">Python<div class="bar"><div data-width="85%"></div></div></div>
-<div class="skill">Power BI<div class="bar"><div data-width="88%"></div></div></div>
-<div class="skill">Excel<div class="bar"><div data-width="92%"></div></div></div>
-</div>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="container">
+<section class="container">
 <div class="section-title"><h2>Dashboard Projects</h2></div>
 
 <div class="grid">
@@ -260,91 +189,67 @@ Passionate Data Analyst skilled in transforming raw datasets into actionable bus
 <div class="card">
 <h3>1️⃣ Purchase Pattern Analytics</h3>
 <p>Analyzed customer purchasing behavior and sales trends.</p>
-<a href="#" class="btn">View Project</a>
 <img src="dashboard1.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>2️⃣ Customer Data Analysis</h3>
 <p>Explored customer segmentation and behavior insights.</p>
-<a href="#" class="btn">View Project</a>
 <img src="dashboard2.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>3️⃣ Customer Advanced Analysis</h3>
 <p>Advanced KPIs and customer analytics for better decisions.</p>
-<a href="#" class="btn">View Project</a>
 <img src="dashboardc2.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>4️⃣ Stock Market Dashboard</h3>
 <p>Analyzed stock trends and market performance.</p>
-<a href="#" class="btn">View Project</a>
 <img src="dashboard3.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>5️⃣ Pizza Sales Dashboard</h3>
 <p>Identified top products and revenue trends.</p>
-<a href="#" class="btn">View Project</a>
 <img src="dashboard4.jpg" class="project-img">
 </div>
 
 <div class="card">
 <h3>6️⃣ Pizza Insights Dashboard</h3>
 <p>Detailed insights into pizza sales and customer behavior.</p>
-<a href="#" class="btn">View Project</a>
 <img src="dashboard5.jpg" class="project-img">
 </div>
 
-<div class="card">
+<div class="card highlight">
 <h3>7️⃣ Booking Intelligence Dashboard</h3>
 <p>Hotel booking analysis with pricing and cancellation insights.</p>
-<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">View Project</a>
 <img src="hotel_dashboard.jpg" class="project-img">
+<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">View Project</a>
 </div>
 
 </div>
 </section>
 
-<!-- EXPERIENCE -->
-<section id="experience" class="container">
-<div class="section-title"><h2>Experience</h2></div>
-
-<div class="card">
-<div class="timeline">
-<div class="timeline-item">
-<h4>Data Analyst Intern — Rubixe</h4>
-</div>
-<div class="timeline-item">
-<h4>Data Analyst Intern — Canaan Ed & Tech</h4>
-</div>
-</div>
-</div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="container">
-<div class="section-title"><h2>Contact</h2></div>
-
-<div class="card">
-<p>Email: priyankacm26@gmail.com</p>
-<p>GitHub: github.com/priyankacm26-rgb</p>
-</div>
-</section>
-
-<footer>
-© 2026 Priyanka C Meti
+<footer style="text-align:center;padding:20px;">
+© 2026 Priyanka
 </footer>
 
 <script>
-window.onload=()=>{
-document.querySelectorAll('.bar div').forEach(el=>{
-el.style.width=el.getAttribute('data-width');
-});
+
+/* Typing Effect */
+let text="Data Analyst | Power BI | Python | SQL";
+let i=0;
+function type(){
+if(i<text.length){
+document.getElementById("typing").innerHTML+=text.charAt(i);
+i++;
+setTimeout(type,50);
 }
+}
+type();
+
 </script>
 
 </body>

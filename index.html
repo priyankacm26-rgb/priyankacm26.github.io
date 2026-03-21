@@ -4,13 +4,13 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Priyanka | Data Analyst</title>
+<title>Priyanka C Meti | Data Analyst</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
 
 <style>
 
-/* BACKGROUND */
+/* GLOBAL */
 body{
 margin:0;
 font-family:Poppins;
@@ -32,28 +32,30 @@ max-width:1100px;
 margin:auto;
 }
 
+section{
+padding:60px 0;
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+/* NAVBAR */
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 0;
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
 /* HERO */
 .hero{
 text-align:center;
 padding:80px 0;
-}
-
-/* PROFILE IMAGE */
-.profile-img{
-width:160px;
-height:160px;
-border-radius:50%;
-object-fit:cover;
-padding:5px;
-background:linear-gradient(45deg,#00f5ff,#ff00ff);
-box-shadow:0 0 30px #00f5ff;
-margin-bottom:20px;
-transition:0.4s;
-}
-
-.profile-img:hover{
-transform:scale(1.1);
-box-shadow:0 0 50px #ff00ff;
 }
 
 .gradient{
@@ -74,55 +76,48 @@ transition:0.3s;
 }
 
 .btn:hover{
+background:linear-gradient(90deg,#ff00ff,#00f5ff);
 transform:scale(1.05);
 }
 
-/* PROJECT GRID */
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
+/* TITLES */
+.section-title{
+text-align:center;
+margin-bottom:25px;
 }
 
-/* CARD */
+.section-title h2{
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+/* CARDS */
 .card{
 background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
 border-radius:15px;
 padding:20px;
 position:relative;
 overflow:hidden;
-transition:0.4s;
+transition:0.3s;
 }
 
 .card:hover{
 transform:translateY(-10px) scale(1.03);
-box-shadow:0 0 30px #ff00ff;
+box-shadow:0 0 25px #ff00ff;
 }
 
-.project-img{
-width:100%;
-border-radius:12px;
-transition:0.4s;
-}
-
-.card:hover .project-img{
-transform:scale(1.1);
-filter:brightness(0.6);
-}
-
-/* OVERLAY */
 .card::after{
 content:"View Project";
 position:absolute;
-top:0;
+bottom:0;
 left:0;
 width:100%;
 height:100%;
+background:rgba(0,0,0,0.7);
 display:flex;
 align-items:center;
 justify-content:center;
-background:rgba(0,0,0,0.7);
 opacity:0;
 transition:0.4s;
 font-weight:bold;
@@ -132,10 +127,10 @@ font-weight:bold;
 opacity:1;
 }
 
-/* FEATURED PROJECT */
+/* HIGHLIGHT PROJECT */
 .highlight{
 border:2px solid #00f5ff;
-box-shadow:0 0 40px #00f5ff;
+box-shadow:0 0 25px #00f5ff;
 }
 
 .highlight::before{
@@ -145,21 +140,22 @@ top:-10px;
 left:10px;
 background:#00f5ff;
 color:black;
-padding:5px 10px;
+padding:3px 10px;
 border-radius:10px;
 font-size:12px;
 }
 
-/* SECTION */
-section{
-padding:60px 0;
-text-align:center;
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
 }
 
-h2{
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
--webkit-background-clip:text;
-color:transparent;
+.project-img{
+width:100%;
+border-radius:12px;
+margin-top:10px;
 }
 
 /* RESPONSIVE */
@@ -176,77 +172,61 @@ grid-template-columns:1fr;
 
 <!-- HERO -->
 <section class="hero container">
-
-<img src="Profile.jpg" class="profile-img">
-
 <h1>Hello I'm <span class="gradient">Priyanka C Meti</span></h1>
-
 <p id="typing"></p>
 
-<p style="color:#00f5ff;font-weight:bold;">
-🚀 Open to Data Analyst Roles
-</p>
+<p style="color:#00f5ff;font-weight:bold;">🚀 Open to Data Analyst Roles</p>
 
 <a href="priyanka.pdf" class="btn">Download Resume</a>
-
 </section>
 
 <!-- PROJECTS -->
 <section class="container">
-<h2>Dashboard Projects</h2>
+<div class="section-title"><h2>Dashboard Projects</h2></div>
 
 <div class="grid">
 
 <div class="card">
-<h3>Purchase Pattern Analytics</h3>
-<p>Analyzed customer purchasing behavior and trends.</p>
+<h3>1️⃣ Purchase Pattern Analytics</h3>
+<p>Analyzed customer purchasing behavior and sales trends.</p>
 <img src="dashboard1.jpg" class="project-img">
 </div>
 
 <div class="card">
-<h3>Customer Data Analysis</h3>
-<p>Customer segmentation and behavior insights.</p>
+<h3>2️⃣ Customer Data Analysis</h3>
+<p>Explored customer segmentation and behavior insights.</p>
 <img src="dashboard2.jpg" class="project-img">
 </div>
 
 <div class="card">
-<h3>Customer Advanced Analysis</h3>
-<p>Advanced KPIs and analytics insights.</p>
+<h3>3️⃣ Customer Advanced Analysis</h3>
+<p>Advanced KPIs and customer analytics for better decisions.</p>
 <img src="dashboardc2.jpg" class="project-img">
 </div>
 
 <div class="card">
-<h3>Stock Market Dashboard</h3>
-<p>Stock trends and performance analysis.</p>
+<h3>4️⃣ Stock Market Dashboard</h3>
+<p>Analyzed stock trends and market performance.</p>
 <img src="dashboard3.jpg" class="project-img">
 </div>
 
 <div class="card">
-<h3>Pizza Sales Dashboard</h3>
-<p>Revenue and product insights.</p>
+<h3>5️⃣ Pizza Sales Dashboard</h3>
+<p>Identified top products and revenue trends.</p>
 <img src="dashboard4.jpg" class="project-img">
 </div>
 
 <div class="card">
-<h3>Pizza Insights Dashboard</h3>
-<p>Customer and sales analysis.</p>
+<h3>6️⃣ Pizza Insights Dashboard</h3>
+<p>Detailed insights into pizza sales and customer behavior.</p>
 <img src="dashboard5.jpg" class="project-img">
 </div>
 
 <div class="card highlight">
-<h3>Booking Intelligence Dashboard</h3>
-
-<p>
-✔ 87K+ bookings analyzed <br>
-✔ 24K+ cancellations studied <br>
-✔ Pricing optimization insights
-</p>
-
+<h3>7️⃣ Booking Intelligence Dashboard</h3>
+<p>Hotel booking analysis with pricing and cancellation insights.</p>
 <img src="hotel_dashboard.jpg" class="project-img">
-
-<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">
-View Project
-</a>
+<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">View Project</a>
 </div>
 
 </div>
@@ -258,7 +238,7 @@ View Project
 
 <script>
 
-/* TYPING EFFECT */
+/* Typing Effect */
 let text="Data Analyst | Power BI | Python | SQL";
 let i=0;
 function type(){

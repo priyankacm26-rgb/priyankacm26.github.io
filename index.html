@@ -11,8 +11,7 @@
 
 <style>
 
-/* ================= GLOBAL ================= */
-
+/* GLOBAL */
 body{
 margin:0;
 font-family:Poppins;
@@ -39,8 +38,7 @@ section{
 padding:50px 0;
 }
 
-/* ================= NAVBAR ================= */
-
+/* NAVBAR */
 nav{
 display:flex;
 justify-content:space-between;
@@ -60,15 +58,9 @@ nav a{
 color:white;
 margin-left:20px;
 text-decoration:none;
-transition:0.3s;
 }
 
-nav a:hover{
-color:#00f5ff;
-}
-
-/* ================= HERO ================= */
-
+/* HERO */
 .hero{
 min-height:75vh;
 display:flex;
@@ -83,27 +75,9 @@ gap:60px;
 flex-wrap:wrap;
 }
 
-/* Profile */
-
 .Profile-wrapper{
-position:relative;
 width:250px;
 height:250px;
-}
-
-.Profile-wrapper::before{
-content:'';
-position:absolute;
-width:100%;
-height:100%;
-border-radius:50%;
-background:linear-gradient(45deg,#00f5ff,#ff00ff);
-animation:rotate 6s linear infinite;
-z-index:-1;
-}
-
-@keyframes rotate{
-100%{transform:rotate(360deg);}
 }
 
 .Profile-img{
@@ -127,17 +101,10 @@ border-radius:30px;
 text-decoration:none;
 color:white;
 display:inline-block;
-margin-top:15px;
-transition:0.3s;
+margin-top:10px;
 }
 
-.btn:hover{
-transform:scale(1.05);
-box-shadow:0 0 20px #ff00ff;
-}
-
-/* ================= TITLES ================= */
-
+/* TITLES */
 .section-title{
 text-align:center;
 margin-bottom:25px;
@@ -149,23 +116,20 @@ background:linear-gradient(90deg,#00f5ff,#ff00ff);
 color:transparent;
 }
 
-/* ================= CARDS ================= */
-
+/* CARDS */
 .card{
 background:rgba(255,255,255,0.05);
 backdrop-filter:blur(12px);
 border-radius:15px;
 padding:20px;
-margin-bottom:20px;
 transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-6px);
+transform:translateY(-8px);
 }
 
-/* ================= GRID ================= */
-
+/* GRID */
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -176,15 +140,9 @@ gap:20px;
 width:100%;
 border-radius:12px;
 margin-top:10px;
-transition:0.4s;
 }
 
-.project-img:hover{
-transform:scale(1.05);
-}
-
-/* ================= SKILLS ================= */
-
+/* SKILLS */
 .skill{
 margin-bottom:18px;
 }
@@ -204,8 +162,7 @@ background:linear-gradient(90deg,#00f5ff,#ff00ff);
 transition:2s ease;
 }
 
-/* ================= TIMELINE ================= */
-
+/* TIMELINE */
 .timeline{
 border-left:2px solid #00f5ff;
 padding-left:25px;
@@ -225,15 +182,14 @@ border-radius:50%;
 position:absolute;
 left:-33px;
 top:5px;
-box-shadow:0 0 10px #00f5ff;
 }
 
 footer{
 text-align:center;
 padding:25px;
-opacity:0.7;
 }
 
+/* RESPONSIVE */
 @media(max-width:768px){
 .hero-wrapper{
 flex-direction:column;
@@ -246,6 +202,7 @@ text-align:center;
 
 <body>
 
+<!-- NAVBAR -->
 <nav class="container">
 <div class="logo">Priyanka</div>
 <div>
@@ -258,7 +215,6 @@ text-align:center;
 </nav>
 
 <!-- HERO -->
-
 <section class="hero container">
 <div class="hero-wrapper">
 
@@ -268,42 +224,30 @@ text-align:center;
 
 <div>
 <h1>Hello I'm <span class="gradient">Priyanka C Meti</span></h1>
-<p><i class="fa-solid fa-chart-line"></i> Data Analyst | SQL | Python | Power BI | Excel</p>
-<a href="priyanka.pdf" class="btn"><i class="fa-solid fa-download"></i> Download Resume</a>
+<p>Data Analyst | SQL | Python | Power BI | Excel</p>
+<a href="priyanka.pdf" class="btn">Download Resume</a>
 </div>
 
 </div>
 </section>
 
 <!-- ABOUT -->
-
 <section id="about" class="container">
 <div class="section-title"><h2>About Me</h2></div>
 <div class="card">
 Passionate Data Analyst skilled in transforming raw datasets into actionable business insights.
-Experienced in dashboard development, KPI tracking, and business intelligence reporting.
 </div>
 </section>
 
 <!-- SKILLS -->
-
 <section id="skills" class="container">
 <div class="section-title"><h2>Technical Skills</h2></div>
 
 <div class="card">
-
-<div class="skill">SQL — 90%
-<div class="bar"><div data-width="90%"></div></div></div>
-
-<div class="skill">Python — 85%
-<div class="bar"><div data-width="85%"></div></div></div>
-
-<div class="skill">Power BI — 88%
-<div class="bar"><div data-width="88%"></div></div></div>
-
-<div class="skill">Excel — 92%
-<div class="bar"><div data-width="92%"></div></div></div>
-
+<div class="skill">SQL<div class="bar"><div data-width="90%"></div></div></div>
+<div class="skill">Python<div class="bar"><div data-width="85%"></div></div></div>
+<div class="skill">Power BI<div class="bar"><div data-width="88%"></div></div></div>
+<div class="skill">Excel<div class="bar"><div data-width="92%"></div></div></div>
 </div>
 </section>
 
@@ -313,120 +257,82 @@ Experienced in dashboard development, KPI tracking, and business intelligence re
 
 <div class="grid">
 
-<!-- 1 -->
 <div class="card">
 <h3>1️⃣ Purchase Pattern Analytics</h3>
-<p>
-Analyzed customer purchasing behavior to identify trends, top products, and sales patterns.
-Helps businesses improve product placement and marketing strategies.
-</p>
+<p>Analyzed customer purchasing behavior and sales trends.</p>
 <a href="#" class="btn">View Project</a>
 <img src="dashboard1.jpg" class="project-img">
 </div>
 
-<!-- 2 -->
 <div class="card">
 <h3>2️⃣ Customer Data Analysis</h3>
-<p>
-Explored customer data to understand demographics, behavior, and segmentation.
-Provided insights for targeted marketing and customer retention.
-</p>
+<p>Explored customer segmentation and behavior insights.</p>
 <a href="#" class="btn">View Project</a>
 <img src="dashboard2.jpg" class="project-img">
 </div>
 
-<!-- 3 -->
 <div class="card">
 <h3>3️⃣ Customer Advanced Analysis</h3>
-<p>
-Advanced analysis on customer datasets including trends, KPIs, and behavioral insights.
-Used to improve decision-making and customer experience strategies.
-</p>
+<p>Advanced KPIs and customer analytics for better decisions.</p>
 <a href="#" class="btn">View Project</a>
 <img src="dashboardc2.jpg" class="project-img">
 </div>
 
-<!-- 4 -->
 <div class="card">
 <h3>4️⃣ Stock Market Dashboard</h3>
-<p>
-Interactive dashboard analyzing stock trends, price movements, and performance metrics.
-Helps track investment patterns and market behavior.
-</p>
+<p>Analyzed stock trends and market performance.</p>
 <a href="#" class="btn">View Project</a>
 <img src="dashboard3.jpg" class="project-img">
 </div>
 
-<!-- 5 -->
 <div class="card">
 <h3>5️⃣ Pizza Sales Dashboard</h3>
-<p>
-Analyzed pizza sales data to identify top-selling products, revenue trends, and peak sales times.
-Supports business growth and inventory planning.
-</p>
+<p>Identified top products and revenue trends.</p>
 <a href="#" class="btn">View Project</a>
 <img src="dashboard4.jpg" class="project-img">
 </div>
 
-<!-- 6 -->
 <div class="card">
 <h3>6️⃣ Pizza Insights Dashboard</h3>
-<p>
-Detailed insights into pizza sales including category performance, order patterns, and revenue analysis.
-Helps optimize menu and marketing strategies.
-</p>
+<p>Detailed insights into pizza sales and customer behavior.</p>
 <a href="#" class="btn">View Project</a>
 <img src="dashboard5.jpg" class="project-img">
 </div>
 
-<!-- 7 -->
 <div class="card">
 <h3>7️⃣ Booking Intelligence Dashboard</h3>
-<p>
-Power BI dashboard analyzing hotel bookings, cancellations, and pricing trends.
-Provides insights on customer behavior, lead time impact, and dynamic pricing strategies.
-</p>
-<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">
-<i class="fa-brands fa-github"></i> View Project
-</a>
+<p>Hotel booking analysis with pricing and cancellation insights.</p>
+<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">View Project</a>
 <img src="hotel_dashboard.jpg" class="project-img">
 </div>
 
 </div>
-</section><!-- EXPERIENCE -->
+</section>
 
+<!-- EXPERIENCE -->
 <section id="experience" class="container">
 <div class="section-title"><h2>Experience</h2></div>
 
 <div class="card">
 <div class="timeline">
-
 <div class="timeline-item">
 <h4>Data Analyst Intern — Rubixe</h4>
-<p>Worked on customer datasets, KPI dashboards & business insights reporting.</p>
 </div>
-
 <div class="timeline-item">
 <h4>Data Analyst Intern — Canaan Ed & Tech</h4>
-<p>Performed SQL analysis, data cleaning & interactive dashboard building.</p>
 </div>
-
 </div>
 </div>
 </section>
 
 <!-- CONTACT -->
-
 <section id="contact" class="container">
 <div class="section-title"><h2>Contact</h2></div>
 
 <div class="card">
-<p><i class="fa-solid fa-envelope"></i> priyankacm26@gmail.com</p>
-<p><i class="fa-solid fa-phone"></i> +91 91483 58436</p>
-<p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/priyanka-meti</p>
-<p><i class="fa-brands fa-github"></i> github.com/priyankacm26-rgb</p>
+<p>Email: priyankacm26@gmail.com</p>
+<p>GitHub: github.com/priyankacm26-rgb</p>
 </div>
-
 </section>
 
 <footer>
@@ -434,14 +340,11 @@ Provides insights on customer behavior, lead time impact, and dynamic pricing st
 </footer>
 
 <script>
-
-/* Skill Animation */
 window.onload=()=>{
 document.querySelectorAll('.bar div').forEach(el=>{
 el.style.width=el.getAttribute('data-width');
 });
 }
-
 </script>
 
 </body>

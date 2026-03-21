@@ -1,3 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priyanka C Meti | Data Analyst</title>
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
+
+<style>
+
+/* GLOBAL */
+body{
+margin:0;
+font-family:Poppins;
+background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
+background-size:400% 400%;
+animation:bgMove 12s ease infinite;
+color:white;
+}
+
+@keyframes bgMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+section{
+padding:50px 0;
+}
+
+/* NAVBAR */
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 0;
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+/* HERO */
+.hero{
+text-align:center;
+padding:80px 0;
+}
+
+.gradient{
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+.btn{
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+padding:10px 20px;
+border-radius:25px;
+color:white;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
+}
+
+/* TITLES */
+.section-title{
+text-align:center;
+margin-bottom:25px;
+}
+
+.section-title h2{
+background:linear-gradient(90deg,#00f5ff,#ff00ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+/* CARDS */
+.card{
+background:rgba(255,255,255,0.05);
+border-radius:15px;
+padding:20px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.project-img{
+width:100%;
+border-radius:12px;
+margin-top:10px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+.grid{
+grid-template-columns:1fr;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="container">
+<div class="logo">Priyanka</div>
+<div>
+<a href="#projects">Projects</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero container">
+<h1>Hello I'm <span class="gradient">Priyanka C Meti</span></h1>
+<p>Data Analyst | SQL | Python | Power BI | Excel</p>
+<a href="priyanka.pdf" class="btn">Download Resume</a>
+</section>
+
+<!-- PROJECTS -->
 <section id="projects" class="container">
 <div class="section-title"><h2>Dashboard Projects</h2></div>
 
@@ -69,7 +215,7 @@ Helps optimize menu and marketing strategies.
 <img src="dashboard5.jpg" class="project-img">
 </div>
 
-<!-- 7 (Your Best Project) -->
+<!-- 7 -->
 <div class="card">
 <h3>7️⃣ Booking Intelligence Dashboard</h3>
 <p>
@@ -84,3 +230,10 @@ View Project
 
 </div>
 </section>
+
+<footer style="text-align:center;padding:20px;">
+© 2026 Priyanka C Meti
+</footer>
+
+</body>
+</html>

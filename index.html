@@ -4,7 +4,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Priyanka C Meti | Data Analyst</title>
+<title>Priyanka | Data Analyst Portfolio</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -15,220 +15,119 @@
 body{
 margin:0;
 font-family:Poppins;
-background:linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#000000);
-background-size:400% 400%;
-animation:bgMove 12s ease infinite;
+background:#0f172a;
 color:white;
 scroll-behavior:smooth;
-}
-
-@keyframes bgMove{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
-}
-
-.container{
-width:90%;
-max-width:1100px;
-margin:auto;
-}
-
-section{
-padding:50px 0;
 }
 
 /* NAVBAR */
 nav{
 display:flex;
 justify-content:space-between;
-align-items:center;
-padding:20px 0;
+padding:20px;
+background:#1e293b;
+position:sticky;
+top:0;
+z-index:100;
 }
 
 .logo{
-font-size:22px;
 font-weight:600;
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
--webkit-background-clip:text;
-color:transparent;
+font-size:22px;
 }
 
-nav a{
+.nav-links{
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
 color:white;
-margin-left:20px;
 text-decoration:none;
-transition:0.3s;
 }
 
-nav a:hover{
-color:#00f5ff;
+.menu-toggle{
+display:none;
+font-size:22px;
+cursor:pointer;
 }
 
 /* HERO */
 .hero{
-min-height:75vh;
-display:flex;
-align-items:center;
-justify-content:center;
-}
-
-.hero-wrapper{
-display:flex;
-align-items:center;
-gap:60px;
-flex-wrap:wrap;
-}
-
-.Profile-wrapper{
-position:relative;
-width:250px;
-height:250px;
-}
-
-.Profile-wrapper::before{
-content:'';
-position:absolute;
-width:100%;
-height:100%;
-border-radius:50%;
-background:linear-gradient(45deg,#00f5ff,#ff00ff);
-animation:rotate 6s linear infinite;
-z-index:-1;
-}
-
-@keyframes rotate{
-100%{transform:rotate(360deg);}
-}
-
-.Profile-img{
-width:230px;
-height:230px;
-border-radius:50%;
-object-fit:cover;
-border:6px solid #1f1b3a;
+text-align:center;
+padding:80px 20px;
 }
 
 .gradient{
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
--webkit-background-clip:text;
-color:transparent;
+color:#38bdf8;
 }
 
 .btn{
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
-padding:12px 25px;
-border-radius:30px;
+background:#38bdf8;
+padding:10px 20px;
+border-radius:20px;
+color:black;
 text-decoration:none;
-color:white;
 display:inline-block;
 margin-top:15px;
-transition:0.3s;
 }
 
-.btn:hover{
-transform:scale(1.05);
-box-shadow:0 0 20px #ff00ff;
-}
-
-/* TITLES */
-.section-title{
-text-align:center;
-margin-bottom:25px;
-}
-
-.section-title h2{
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
--webkit-background-clip:text;
-color:transparent;
-}
-
-/* CARDS */
-.card{
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
-border-radius:15px;
-padding:20px;
-margin-bottom:20px;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-8px) scale(1.02);
-box-shadow:0 0 20px #00f5ff;
-}
-
-/* GRID */
+/* PROJECTS */
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 gap:20px;
+padding:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
 }
 
 .project-img{
 width:100%;
-border-radius:12px;
-margin-top:10px;
-transition:0.4s;
-}
-
-.project-img:hover{
-transform:scale(1.05);
+border-radius:10px;
 }
 
 /* SKILLS */
 .skill{
-margin-bottom:18px;
+margin:10px 0;
 }
 
 .bar{
-height:8px;
-background:#1e293b;
-border-radius:20px;
-overflow:hidden;
-margin-top:6px;
+height:6px;
+background:#334155;
+border-radius:10px;
 }
 
 .bar div{
 height:100%;
+background:#38bdf8;
 width:0;
-background:linear-gradient(90deg,#00f5ff,#ff00ff);
-transition:2s ease;
+transition:2s;
 }
 
-/* TIMELINE */
-.timeline{
-border-left:2px solid #00f5ff;
-padding-left:25px;
-}
-
-.timeline-item{
-margin-bottom:25px;
-position:relative;
-}
-
-.timeline-item::before{
-content:'';
-width:14px;
-height:14px;
-background:#00f5ff;
-border-radius:50%;
-position:absolute;
-left:-33px;
-top:5px;
-box-shadow:0 0 10px #00f5ff;
-}
-
-footer{
-text-align:center;
-padding:25px;
-opacity:0.7;
-}
-
+/* RESPONSIVE */
 @media(max-width:768px){
-.hero-wrapper{
+.nav-links{
+display:none;
 flex-direction:column;
-text-align:center;
+background:#1e293b;
+position:absolute;
+top:60px;
+right:0;
+padding:20px;
+}
+
+.menu-toggle{
+display:block;
 }
 }
 
@@ -237,168 +136,87 @@ text-align:center;
 
 <body>
 
-<nav class="container">
+<nav>
 <div class="logo">Priyanka</div>
-<div>
+
+<div class="menu-toggle" onclick="toggleMenu()">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+<div class="nav-links" id="navLinks">
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
-<a href="#experience">Experience</a>
-<a href="#contact">Contact</a>
 </div>
 </nav>
 
 <!-- HERO -->
-<section class="hero container">
-<div class="hero-wrapper">
-
-<div class="Profile-wrapper">
-<img src="Profile.jpg" class="Profile-img">
-</div>
-
-<div>
-<h1>Hello I'm <span class="gradient">Priyanka C Meti</span></h1>
-<p><i class="fa-solid fa-chart-line"></i> Data Analyst | SQL | Python | Power BI | Excel</p>
-<a href="priyanka.pdf" class="btn"><i class="fa-solid fa-download"></i> Download Resume</a>
-</div>
-
-</div>
+<section class="hero">
+<h1>Hello I'm <span class="gradient">Priyanka</span></h1>
+<h2 id="typing"></h2>
+<a href="priyanka.pdf" class="btn">Download Resume</a>
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="container">
-<div class="section-title"><h2>About Me</h2></div>
-<div class="card">
-Passionate Data Analyst skilled in transforming raw datasets into actionable business insights.
-Experienced in dashboard development, KPI tracking, and business intelligence reporting.
-</div>
+<section id="about" class="hero">
+<p>Data Analyst skilled in Power BI, Python, SQL and dashboard building.</p>
 </section>
 
 <!-- SKILLS -->
-<section id="skills" class="container">
-<div class="section-title"><h2>Technical Skills</h2></div>
+<section id="skills" class="hero">
 
-<div class="card">
-<div class="skill">SQL — 90%
+<div class="skill">SQL
 <div class="bar"><div data-width="90%"></div></div></div>
 
-<div class="skill">Python — 85%
+<div class="skill">Python
 <div class="bar"><div data-width="85%"></div></div></div>
 
-<div class="skill">Power BI — 88%
+<div class="skill">Power BI
 <div class="bar"><div data-width="88%"></div></div></div>
 
-<div class="skill">Excel — 92%
-<div class="bar"><div data-width="92%"></div></div></div>
-</div>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="container">
-<div class="section-title"><h2>Dashboard Projects</h2></div>
-
+<section id="projects">
 <div class="grid">
 
 <div class="card">
-<h3>1️⃣ Purchase Pattern Analytics</h3>
-<img src="dashboard1.jpg" class="project-img">
-</div>
-
-<div class="card">
-<h3>2️⃣ Customer Data Analysis</h3>
-<img src="dashboard2.jpg" class="project-img">
-</div>
-
-<div class="card">
-<h3>3️⃣ Customer Advanced Analysis</h3>
-<img src="dashboardc2.jpg" class="project-img">
-</div>
-
-<div class="card">
-<h3>4️⃣ Stock Market Dashboard</h3>
-<img src="dashboard3.jpg" class="project-img">
-</div>
-
-<div class="card">
-<h3>5️⃣ Pizza Sales Dashboard</h3>
-<img src="dashboard4.jpg" class="project-img">
-</div>
-
-<div class="card">
-<h3>6️⃣ Pizza Insights Dashboard</h3>
-<img src="dashboard5.jpg" class="project-img">
-</div>
-
-<!-- NEW PROJECT -->
-<div class="card">
-<h3>7️⃣ Booking Intelligence Dashboard</h3>
-<p>
-Power BI dashboard analyzing hotel bookings, cancellations, and pricing trends.
-Provides insights on customer behavior, lead time impact, and dynamic pricing strategies.
-</p>
-
-<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" target="_blank" class="btn">
-<i class="fa-brands fa-github"></i> View Project
-</a>
-
+<h3>Booking Intelligence Dashboard</h3>
+<p>Power BI dashboard analyzing hotel bookings, cancellations and pricing trends.</p>
 <img src="hotel_dashboard.jpg" class="project-img">
+<a href="https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git" class="btn">View</a>
 </div>
 
 </div>
 </section>
-
-<!-- EXPERIENCE -->
-<section id="experience" class="container">
-<div class="section-title"><h2>Experience</h2></div>
-
-<div class="card">
-<div class="timeline">
-
-<div class="timeline-item">
-<h4>Data Analyst Intern — Rubixe</h4>
-<p>Worked on customer datasets, KPI dashboards & business insights reporting.</p>
-</div>
-
-<div class="timeline-item">
-<h4>Data Analyst Intern — Canaan Ed & Tech</h4>
-<p>Performed SQL analysis, data cleaning & interactive dashboard building.</p>
-</div>
-
-</div>
-</div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="container">
-<div class="section-title"><h2>Contact</h2></div>
-
-<div class="card">
-<p><i class="fa-solid fa-envelope"></i> priyankacm26@gmail.com</p>
-<p><i class="fa-solid fa-phone"></i> +91 91483 58436</p>
-
-<p>
-<i class="fa-brands fa-linkedin"></i>
-<a href="https://linkedin.com/in/priyanka-meti" target="_blank" style="color:white;"> LinkedIn</a>
-</p>
-
-<p>
-<i class="fa-brands fa-github"></i>
-<a href="https://github.com/priyankacm26-rgb" target="_blank" style="color:white;"> GitHub</a>
-</p>
-
-</div>
-</section>
-
-<footer>
-© 2026 Priyanka C Meti
-</footer>
 
 <script>
+
+/* MENU */
+function toggleMenu(){
+let nav=document.getElementById("navLinks");
+nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+}
+
+/* TYPING EFFECT */
+let text="Data Analyst | Power BI | Python | SQL";
+let i=0;
+function type(){
+if(i<text.length){
+document.getElementById("typing").innerHTML+=text.charAt(i);
+i++;
+setTimeout(type,50);
+}
+}
+type();
+
+/* SKILL ANIMATION */
 window.onload=()=>{
 document.querySelectorAll('.bar div').forEach(el=>{
 el.style.width=el.getAttribute('data-width');
 });
 }
+
 </script>
 
 </body>

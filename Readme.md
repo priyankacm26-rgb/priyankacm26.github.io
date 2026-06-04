@@ -1,101 +1,187 @@
 # 👩‍💻 Priyanka C Meti — Data Analyst Portfolio
 
-Welcome to my personal portfolio showcasing data analytics projects, dashboards, and business insights.
+Welcome to my Data Analytics Portfolio, where I showcase projects focused on business intelligence, data visualization, predictive analytics, and AI-powered data solutions.
 
 ---
 
 ## 🚀 About Me
 
-Aspiring Data Analyst with hands-on experience in transforming raw data into actionable insights.
+Data Analyst skilled in SQL, Python, Power BI, Excel, and Machine Learning, with experience transforming raw data into actionable business insights. Passionate about solving business problems through analytics, dashboard development, automation, and data-driven decision-making.
 
-Skilled in:
-- SQL | Python | Power BI | Excel  
-- Data Cleaning & Exploratory Data Analysis (EDA)  
-- KPI Dashboard Development & Business Reporting  
+### Core Expertise
 
-I focus on solving business problems using data-driven approaches and building impactful dashboards.
+* Data Analysis & Business Intelligence
+* SQL Querying & Database Management
+* Power BI Dashboard Development
+* Data Cleaning & ETL Pipelines
+* Exploratory Data Analysis (EDA)
+* Predictive Analytics & Machine Learning
+* KPI Reporting & Data Visualization
 
 ---
 
 ## 🌐 Live Portfolio
 
-👉 https://priyankacm26.github.io  
+👉 https://priyankacm26.github.io
 
 ---
 
-## 📊 Featured Project
+# ⭐ Featured Projects
 
-### ⭐ Booking Intelligence Dashboard (Hotel Analytics)
+## 📊 Booking Intelligence Dashboard (Hotel Analytics)
 
-🔗 GitHub:  
-https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project.git  
+🔗 GitHub:
+https://github.com/priyankacm26-rgb/Booking-Intelligence-Dashboard-Power-BI-Project
 
-**Project Overview:**  
-Analyzed hotel booking data to understand customer behavior, cancellations, and pricing trends.
+### Project Overview
 
-**Key Highlights:**
-- ✔ 87K+ bookings analyzed  
-- ✔ 24K+ cancellations studied  
-- ✔ Identified key drivers (lead time, customer type)  
-- ✔ Built dynamic pricing insights using ADR  
+Analyzed hotel booking data to uncover customer behavior, cancellation patterns, booking trends, and revenue opportunities.
 
-**Business Impact:**
-- 📈 Improved pricing strategy decisions  
-- 📉 Reduced cancellation risk through insights  
-- 🎯 Enabled targeted retention strategies  
+### Key Highlights
 
----
+* Analyzed 87,000+ booking records
+* Investigated 24,000+ cancellations
+* Built dynamic KPI dashboards
+* Identified major cancellation drivers
+* Analyzed ADR and pricing performance
 
-## 📊 Other Projects
+### Business Impact
 
-### 🔹 Purchase Pattern Analysis
-- Customer transaction analysis using SQL & Python  
-- Identified sales trends and product performance  
+* Improved pricing strategy decisions
+* Reduced cancellation risks through insights
+* Enhanced customer retention opportunities
 
-### 🔹 Customer Data Analysis (Shopping Mall)
-- Power BI dashboards with DAX KPIs  
-- Customer segmentation and location-based insights  
+### Tools
 
-### 🔹 Customer Advanced Analytics
-- KPI dashboards and behavioral insights  
-
-### 🔹 Stock Market Dashboard
-- Stock performance and trend analysis  
-
-### 🔹 Pizza Sales Dashboard
-- Revenue trends and product insights  
-
-### 🔹 Pizza Insights Dashboard
-- Category performance and customer behavior analysis  
+Power BI • SQL • Excel • DAX
 
 ---
 
-## 💼 Internship Experience
+## 🤖 AI Faculty Validation System
 
-- **Data Analyst Intern — Rubixe**  
-- **Data Analyst Intern — Canaan Ed & Tech**
+### Project Overview
 
----
+Developed an AI-powered academic verification platform that validates faculty profiles using automated source matching and confidence scoring.
 
-## 🛠 Technical Skills
+### Features
 
-**Languages & Tools:**  
-SQL | Python | Power BI | Excel  
+* Faculty profile validation
+* Automated source verification
+* Confidence-based recommendations
+* Data quality assessment
+* Large-scale validation workflows
 
-**Databases:**  
-MySQL | PostgreSQL | MongoDB  
+### Tools
 
-**Core Skills:**  
-Data Cleaning | EDA | Dashboarding | Data Visualization  
-
----
-
-## 📫 Connect With Me
-
-- 💼 LinkedIn: https://linkedin.com/in/priyanka-meti  
-- 💻 GitHub: https://github.com/priyankacm26-rgb  
-- 📧 Email: priyankacm26@gmail.com  
+Python • FastAPI • Pandas • Playwright • React
 
 ---
 
-## ⭐ If you like this portfolio, consider giving a star!
+## 📈 Auto Data Analyst AI
+
+### Project Overview
+
+Built an intelligent analytics platform that automatically cleans datasets, generates insights, identifies key features, trains machine learning models, and recommends actions.
+
+### Features
+
+* Automated data cleaning
+* KPI generation
+* Feature importance analysis
+* Correlation analysis
+* Machine learning predictions
+* Downloadable cleaned datasets
+
+### Tools
+
+Python • FastAPI • Scikit-Learn • React
+
+---
+
+# 📊 Additional Analytics Projects
+
+### SQL Movie Database Analysis
+
+* Advanced SQL analysis of movie and director databases
+* Revenue, popularity, and rating insights
+* JOINs, aggregations, filtering, and business reporting
+
+### Customer Purchase Pattern Analysis
+
+* Transaction trend analysis
+* Product performance evaluation
+* Customer behavior insights
+
+### Shopping Mall Customer Analytics
+
+* Customer segmentation dashboards
+* Location-based performance analysis
+* KPI reporting using Power BI
+
+### Stock Market Analytics Dashboard
+
+* Market trend analysis
+* Performance monitoring
+* Interactive reporting
+
+### Pizza Sales Dashboard
+
+* Revenue analysis
+* Product category performance
+* Sales trend monitoring
+
+---
+
+# 💼 Experience
+
+### Data Analyst Intern — Rubixe
+
+* Performed data analysis and reporting activities
+* Created dashboards and business reports
+* Supported data-driven decision-making
+
+### Data Analyst Intern — Canaan Ed & Tech
+
+* Worked on analytics and visualization projects
+* Assisted with business intelligence reporting
+* Developed data insights for operational decisions
+
+---
+
+# 🛠 Technical Skills
+
+### Programming & Analytics
+
+Python • SQL • Excel • DAX
+
+### Business Intelligence
+
+Power BI • Dashboard Development • Reporting
+
+### Databases
+
+MySQL • PostgreSQL • MongoDB
+
+### Data Science
+
+Pandas • NumPy • Scikit-Learn • Machine Learning
+
+### Development
+
+FastAPI • React • Git • GitHub
+
+---
+
+# 📫 Connect With Me
+
+💼 LinkedIn: https://linkedin.com/in/priyanka-meti26
+
+💻 GitHub: https://github.com/priyankacm26-rgb
+
+🧩 LeetCode: https://leetcode.com/u/Priyacm26/
+
+📧 Email: [priyankacm26@gmail.com](mailto:priyankacm26@gmail.com)
+
+---
+
+⭐ If you find my projects useful, feel free to star the repositories and connect with me.
